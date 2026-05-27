@@ -1,0 +1,199 @@
+import React, { createContext, useContext, useState, useEffect } from 'react';
+
+const translations = {
+  ru: {
+    nav: { home: 'Главная', monuments: 'Памятники', map: 'Карта', news: 'Новости', about: 'О нас', contact: 'Связаться' },
+    hero: {
+      title: 'Историческое наследие Каракалпакстана',
+      subtitle: 'Древние крепости, мавзолеи, музеи и священные места Каракалпакстана',
+      cta: 'Исследовать памятники',
+    },
+    stats: {
+      monuments: 'памятников', fortresses: 'древних крепостей', years: 'лет истории',
+      museums: 'музеев', sacred: 'священных комплексов', archaeological: 'археологических объектов',
+    },
+    sections: {
+      popular: 'Популярные памятники', categories: 'Категории памятников',
+      wonders: '7 чудес Каракалпакстана', routes: 'Туристические маршруты',
+      history: 'История Каракалпакстана', latestNews: 'Последние новости',
+      interactiveMap: 'Интерактивная карта',
+    },
+    monument: {
+      search: 'Поиск памятников...', allCategories: 'Все категории',
+      founded: 'Основан', location: 'Местоположение', buildRoute: 'Построить маршрут',
+      similarMonuments: 'Похожие памятники', historicalFacts: 'Исторические факты',
+      culturalSignificance: 'Культурное значение', interestingFacts: 'Интересные факты',
+      description: 'Описание', history: 'История', gallery: 'Галерея',
+    },
+    about: {
+      title: 'О проекте', mission: 'Наша миссия', team: 'Команда', goals: 'Цели',
+      missionText: 'Сайт создан преподавателями Нукусского Государственного технического университета кафедры Социально гуманитарных наук кандидатом исторических наук Есбергеновой Светланы Хожакметовной и Торемуратовой Айсылыу Калбаеаной, для тех кто интересуется традиционно бытовой культурой народов Южного Приаралья',
+    },
+    contact: {
+      title: 'Связаться с нами', name: 'Имя', email: 'Email', message: 'Сообщение', send: 'Отправить',
+    },
+    footer: {
+  rights: 'Все права защищены',
+},
+    common: {
+      readMore: 'Подробнее', viewAll: 'Смотреть все', back: 'Назад', loading: 'Загрузка...',
+      dayMonument: 'Памятник дня',
+    },
+  },
+  en: {
+    nav: { home: 'Home', monuments: 'Monuments', map: 'Map', news: 'News', about: 'About', contact: 'Contact' },
+    hero: {
+      title: 'Historical Heritage of Karakalpakstan',
+      subtitle: 'Ancient fortresses, mausoleums, museums and sacred sites of Karakalpakstan',
+      cta: 'Explore Monuments',
+    },
+    stats: {
+      monuments: 'monuments', fortresses: 'ancient fortresses', years: 'years of history',
+      museums: 'museums', sacred: 'sacred complexes', archaeological: 'archaeological sites',
+    },
+    sections: {
+      popular: 'Popular Monuments', categories: 'Monument Categories',
+      wonders: '7 Wonders of Karakalpakstan', routes: 'Tourist Routes',
+      history: 'History of Karakalpakstan', latestNews: 'Latest News',
+      interactiveMap: 'Interactive Map',
+    },
+    monument: {
+      search: 'Search monuments...', allCategories: 'All categories',
+      founded: 'Founded', location: 'Location', buildRoute: 'Build Route',
+      similarMonuments: 'Similar Monuments', historicalFacts: 'Historical Facts',
+      culturalSignificance: 'Cultural Significance', interestingFacts: 'Interesting Facts',
+      description: 'Description', history: 'History', gallery: 'Gallery',
+    },
+    about: {
+      title: 'About the Project', mission: 'Our Mission', team: 'Team', goals: 'Goals',
+      missionText: 'This site was created by students for educational purposes to promote the cultural heritage of Karakalpakstan.',
+    },
+    contact: {
+      title: 'Contact Us', name: 'Name', email: 'Email', message: 'Message', send: 'Send',
+    },
+    footer: {
+  rights: 'All rights reserved',
+  madeWith: 'For those who feel the soul of the ancient peoples of the Southern Aral region',
+    },
+    common: {
+      readMore: 'Read More', viewAll: 'View All', back: 'Back', loading: 'Loading...',
+      dayMonument: 'Monument of the Day',
+    },
+  },
+  uz: {
+    nav: { home: 'Bosh sahifa', monuments: 'Yodgorliklar', map: 'Xarita', news: 'Yangiliklar', about: 'Biz haqimizda', contact: 'Aloqa' },
+    hero: {
+      title: 'Qoraqalpogʻiston tarixiy merosi',
+      subtitle: 'Qadimiy qalʼalar, maqbaralar, muzeylar va muqaddas joylar',
+      cta: 'Yodgorliklarni kashf eting',
+    },
+    stats: {
+      monuments: 'yodgorliklar', fortresses: 'qadimiy qalʼalar', years: 'yillik tarix',
+      museums: 'muzeylar', sacred: 'muqaddas majmualar', archaeological: 'arxeologik obyektlar',
+    },
+    sections: {
+      popular: 'Mashhur yodgorliklar', categories: 'Yodgorlik turlari',
+      wonders: 'Qoraqalpogʻistonning 7 moʻjizasi', routes: 'Turistik marshrutlar',
+      history: 'Qoraqalpogʻiston tarixi', latestNews: 'Soʻnggi yangiliklar',
+      interactiveMap: 'Interaktiv xarita',
+    },
+    monument: {
+      search: 'Yodgorliklarni qidirish...', allCategories: 'Barcha turkumlar',
+      founded: 'Tashkil etilgan', location: 'Joylashuv', buildRoute: 'Marshrut yaratish',
+      similarMonuments: 'Oʻxshash yodgorliklar', historicalFacts: 'Tarixiy faktlar',
+      culturalSignificance: 'Madaniy ahamiyati', interestingFacts: 'Qiziqarli faktlar',
+      description: 'Tavsif', history: 'Tarix', gallery: 'Galereya',
+    },
+    about: {
+      title: 'Loyiha haqida', mission: 'Bizning vazifamiz', team: 'Jamoa', goals: 'Maqsadlar',
+      missionText: 'Ushbu sayt Qoraqalpogʻiston madaniy merosini ommalashtirishga qaratilgan taʼlimiy maqsadlarda talabalar tomonidan yaratilgan.',
+    },
+    contact: {
+      title: 'Biz bilan bogʻlaning', name: 'Ism', email: 'Email', message: 'Xabar', send: 'Yuborish',
+    },
+    footer: {
+  rights: 'Barcha huquqlar himoyalangan',
+  madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
+},
+    common: {
+      readMore: 'Batafsil', viewAll: 'Hammasini koʻrish', back: 'Orqaga', loading: 'Yuklanmoqda...',
+      dayMonument: 'Kunning yodgorligi',
+    },
+  },
+  qq: {
+    nav: { home: 'Bas bet', monuments: 'Yadgorliklar', map: 'Karta', news: 'Jańalıqlar', about: 'Biz haqqımızda', contact: 'Baylanıs' },
+    hero: {
+      title: 'Qaraqalpaqstannıń tariyxıy mirası',
+      subtitle: 'Gadimgi qalalar, mavzoleyler, muzeyler hám muqaddes orınlar',
+      cta: 'Yadgorliklardı izlew',
+    },
+    stats: {
+      monuments: 'yadgorliklar', fortresses: 'gadimgi qalalar', years: 'jıllıq tariyx',
+      museums: 'muzeyler', sacred: 'muqaddes kompleksler', archaeological: 'arxeologiyalıq obyektler',
+    },
+    sections: {
+      popular: 'Belgili yadgorliklar', categories: 'Yadgorlik kategoriyaları',
+      wonders: 'Qaraqalpaqstannıń 7 mojizası', routes: 'Turistlik marshrutlar',
+      history: 'Qaraqalpaqstan tariyxı', latestNews: 'Soŋǵı jańalıqlar',
+      interactiveMap: 'İnteraktiv karta',
+    },
+    monument: {
+      search: 'Yadgorliklardı izlew...', allCategories: 'Barlıq kategoriyalar',
+      founded: 'Qurılǵan', location: 'Ornalasqan jerí', buildRoute: 'Marshrut jasaw',
+      similarMonuments: 'Uksas yadgorliklar', historicalFacts: 'Tariyxıy faktler',
+      culturalSignificance: 'Mádeniyet áhmiyeti', interestingFacts: 'Qızıqlı faktler',
+      description: 'Sıpatlaw', history: 'Tariyxı', gallery: 'Galereya',
+    },
+    about: {
+      title: 'Proyekt haqqında', mission: 'Bizdiń wazıypamız', team: 'Komanda', goals: 'Maqsetler',
+      missionText: 'Bul sayt Qaraqalpaqstan mádeniyet mırasın keng jaymalawtıruv maqsetinde studentler tárepinen jaratılǵan.',
+    },
+    contact: {
+      title: 'Biz benen baylanısıń', name: 'Atıńız', email: 'Email', message: 'Xabar', send: 'Jiberiw',
+    },
+    footer: {
+  rights: 'Barlıq huqıqlar qorǵalǵan',
+  madeWith: 'Araldıń qubla boyı xalıqlarınıń tariyxı hám mádeniyetin súyiwshiler ushın',
+},
+    common: {
+      readMore: 'Tolıǵıraq', viewAll: 'Barlıǵın kóriw', back: 'Artqa', loading: 'Júklenip atır...',
+      dayMonument: 'Kún yadgorligi',
+    },
+  },
+};
+
+const langLabels = {
+  ru: { flag: '🇷🇺', label: 'Русский' },
+  en: { flag: '🇬🇧', label: 'English' },
+  uz: { flag: '🇺🇿', label: "O'zbekcha" },
+  qq: { flag: 'qq', label: 'Qaraqalpaqsha' },
+};
+
+const I18nContext = createContext();
+
+export function I18nProvider({ children }) {
+  const [lang, setLang] = useState(() => localStorage.getItem('kk_lang') || 'ru');
+
+  useEffect(() => {
+    localStorage.setItem('kk_lang', lang);
+  }, [lang]);
+
+  const t = (path) => {
+    const keys = path.split('.');
+    let result = translations[lang];
+    for (const key of keys) {
+      result = result?.[key];
+    }
+    return result || path;
+  };
+
+  return (
+    <I18nContext.Provider value={{ lang, setLang, t, langLabels, languages: Object.keys(translations) }}>
+      {children}
+    </I18nContext.Provider>
+  );
+}
+
+export function useI18n() {
+  return useContext(I18nContext);
+}
