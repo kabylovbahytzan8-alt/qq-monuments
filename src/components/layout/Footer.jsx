@@ -22,7 +22,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              {t('footer.madeWith')}
+        
             </p>
           </div>
 
