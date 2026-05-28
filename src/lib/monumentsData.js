@@ -243,15 +243,15 @@ export const monuments = [
     },
   },
   {
-    id: 'shilpyk',
-    name: { ru: 'Шильпык', en: 'Shilpyk', uz: 'Shilpiq', qq: 'Shılpıq' },
-    category: 'fortresses', coords: [41.65, 60.45], century: 'IV-III веке до нашей эры',
-    facts: {
-      ru: ['Круглая башня-крепость диаметром около 24 метров, стоящая на высоком обрывистом холме над Амударьёй', 'Предположительно служила зороастрийской дахмой — башней молчания — для ритуального погребения', 'С вершины холма открывается захватывающий вид на пойму Амударьи и окрестные пустынные равнины'],
-      en: ['A circular tower-fortress about 24 meters in diameter, standing on a high cliff hill above the Amu Darya', 'Believed to have served as a Zoroastrian dakhma — a tower of silence — for ritual burial', 'From the top of the hill, a breathtaking view of the Amu Darya floodplain and surrounding desert plains opens up'],
-      uz: ['Amudaryoning baland qirg\'og\'idagi tepalikning ustida turgan taxminan 24 metr diametrli dumaloq minora-qalʼa', 'Zardushtiylik daxmasi — jimlik minorasi — sifatida ritual dafn marosimi uchun xizmat qilgan deb taxmin qilinadi', 'Tepalikning yuqorisidan Amudaryo qirg\'og\'i va atrofdagi cho\'l tekisliklari haqidagi hayratlanarli ko\'rinish ochiladi'],
-      qq: ['Ámiwdárya ústindegi biyik jarqabaqlı tóbeniń ústinde turǵan taxmınan 24 metr diametrli dógelek minara-qala', 'Zardushtıylıq daxması — jimlik minarası — retinde ritual jayrılawǵa xizmet etken dep esaplanadı', 'Tóbeniń ústinen Ámiwdárya jağalawı hám atraptaǵı shól teńizlikleriniń hayran qaldırǵısh kórinisi oshıladı'],
-    },
+   id: 'beketata',
+name: { ru: 'Бекет-Ата', en: 'Beket-Ata', uz: 'Beket ota', qq: 'Beket-Ata' },
+category: 'mausoleums', coords: [44.35, 54.78], century: 'XVIII век',
+facts: {
+  ru: ['Подземная мечеть и мавзолей Бекет-Ата — одно из самых почитаемых святых мест Мангистау', 'Бекет-Ата был известным суфийским просветителем, целителем и духовным наставником казахского народа', 'Комплекс высечен в скале и ежегодно привлекает тысячи паломников и туристов'],
+  en: ['The underground mosque and mausoleum of Beket-Ata is one of the most revered sacred places of Mangystau', 'Beket-Ata was a famous Sufi educator, healer, and spiritual mentor of the Kazakh people', 'The complex is carved into the rock and attracts thousands of pilgrims and tourists every year'],
+  uz: ['Beket ota yerosti masjidi va maqbarasi Mangʻistovdagi eng muqaddas ziyoratgohlardan biridir', 'Beket ota mashhur soʻfiy maʼrifatchi, tabib va qozoq xalqining ruhiy ustozlaridan biri bo‘lgan', 'Majmua qoyaga oʻyib qurilgan bo‘lib, har yili minglab ziyoratchilar va sayyohlarni jalb qiladi'],
+  qq: ['Beket-Ata jer astı meshiti hám maqbarası Mańǵıstawdaǵı eń qásiyetli zıyarat orınlarınıń biri', 'Beket-Ata belgili sopı aǵartıwshı, emshi hám qazaq xalqınıń ruwxıy ustazı bolǵan', 'Kompleks qayaǵa oyıp jasalǵan bolıp, hár jılı mıńlaǵan zıyaratshılar men turistlerdi tartadı'],
+},
   },
   {
     id: 'berkut-kala',
@@ -399,15 +399,15 @@ export const monuments = [
     },
   },
   {
-    id: 'shamun-nabi-complex',
-    name: { ru: 'Мавзолей Шамун-Наби (комплекс)', en: 'Shamun-Nabi Mausoleum Complex', uz: 'Shamun-Nabi maqbarasi', qq: 'Shamun-Nabi maqbarası' },
-    category: 'mausoleums', coords: [42.18, 59.48], century: 'XIV в.',
-    facts: {
-      ru: ['Один из наиболее почитаемых святых мест Каракалпакстана — место паломничества круглый год', 'По преданию, здесь покоится библейский пророк Самуил (Шамун), что придаёт мавзолею особую религиозную значимость', 'Архитектурный комплекс включает мечеть, медресе и старинное кладбище с уникальными надгробиями'],
-      en: ['One of the most revered holy sites in Karakalpakstan — a pilgrimage destination year-round', 'According to legend, the biblical prophet Samuel (Shamun) rests here, giving the mausoleum special religious significance', 'The architectural complex includes a mosque, madrassa, and an ancient cemetery with unique tombstones'],
-      uz: ['Qoraqalpog\'istonning eng hurmatli muqaddas joylaridan biri — yil davomida ziyorat qilinadigan joy', 'Rivoyatga ko\'ra, bu yerda Injildagi Shamʼun payg\'ambar yotadi, bu esa maqbaraga alohida diniy ahamiyat beradi', 'Me\'moriy majmua masjid, madrasa va noyob qabrtoshlar bilan qadimiy qabristonni o\'z ichiga oladi'],
-      qq: ['Qaraqalpaqstannıń eń húrmetli muqaddes orınlarınan biri — jıl boyı zıyarat etiletuǵın jer', 'Rivayatqa kóre, bul jerde Injildegi Shamʼun payǵambar jasırınǵan, bul maqbarańa arnawlı diniy áhmiyettilik beredi', 'Me\'mariy majmua meshit, medrese hám nádiri qabır tasleri menen gadimgi qabırstonlıqtı óz ishine alıwdı'],
-    },
+    id: 'khodjeyli-juma-mosque',
+name: { ru: 'Джума-мечеть Ходжейли', en: 'Khojayli Juma Mosque', uz: 'Xo‘jayli Juma masjidi', qq: 'Xojeli Juma meshiti' },
+category: 'mausoleums', coords: [42.40, 59.45], century: 'XVIII-XIX вв.',
+facts: {
+  ru: ['Одна из старейших пятничных мечетей Каракалпакстана, расположенная в городе Ходжейли', 'Мечеть известна своими традиционными деревянными колоннами и элементами хорезмской архитектуры', 'На протяжении веков служила важным религиозным и образовательным центром региона'],
+  en: ['One of the oldest Friday mosques in Karakalpakstan, located in the city of Khojayli', 'The mosque is known for its traditional wooden columns and elements of Khorezm architecture', 'For centuries, it served as an important religious and educational center of the region'],
+  uz: ['Qoraqalpog‘istondagi eng qadimiy jome masjidlaridan biri bo‘lib, Xo‘jayli shahrida joylashgan', 'Masjid an’anaviy yog‘och ustunlari va xorazm me’morchiligi unsurlari bilan mashhur', 'Asrlar davomida hududning muhim diniy va ma’rifiy markazi bo‘lib xizmat qilgan'],
+  qq: ['Qaraqalpaqstandaǵı eń kóne juma meshitleriniń biri bolıp, Xojeli qalasında jaylasqan', 'Meshit dástúrli aǵash ustınları hám Xorezm me’marlıq elementleri men tanılǵan', 'Ásirler dawamında aymaqtıń áhmiyetli diniy hám bilimlendiriw orayı bolıp xızmet etken'],
+},
   },
   {
     id: 'khoja-ishan',
@@ -757,15 +757,15 @@ export const monuments = [
     },
   },
   {
-    id: 'kavat-kala-kh',
-    name: { ru: 'Кават-Кала', en: 'Kavat-Kala', uz: 'Kavat-Qalʼa', qq: 'Kavat-Qala' },
-    category: 'khorezm', coords: [41.95, 60.73], century: 'XII в.',
-    facts: {
-      ru: ['Средневековая крепость, охранявшая важный ирригационный канал Хорезма', 'Сохранились остатки ворот с подъёмным мостом — редкость для крепостей региона', 'Упоминается в средневековых арабских источниках как важный опорный пункт'],
-      en: ['A medieval fortress that guarded an important irrigation canal of Khorezm', 'Remains of a gate with a drawbridge have survived — rare for fortresses of the region', 'Mentioned in medieval Arabic sources as an important stronghold'],
-      uz: ['Xorazmning muhim sug\'orish kanalini himoya qilgan o\'rta asrlar qalʼasi', 'Ko\'tarib tushuriladigan ko\'prikli darvozaning qoldiqlari saqlanib qolgan — mintaqaning qalʼalari uchun kamdan-kam uchraydi', "O'rta asrlar arab manbalarida muhim tayanch nuqtasi sifatida tilga olinadi"],
-      qq: ['Xorezmniń áhmiyetli suwlandırıw kanalın qorǵaǵan orta ásir qalası', 'Kóteriletın kópirli dárwazdıń qaldıqları saqlanǵan — aymaq qalaları ushın siyrek ushırasadı', 'Orta ásir arab dereklerinde áhmiyetli taylaw noqtası retinde ataladı'],
-    },
+    id: 'kurgancha-kala',
+name: { ru: 'Курганча-кала', en: 'Kurgancha-Kala', uz: 'Qo‘rg‘oncha-Qalʼa', qq: 'Qorǵansha-Qala' },
+category: 'khorezm', coords: [41.76, 60.95], century: 'IV-III вв. до н.э.',
+facts: {
+  ru: ['Древняя крепость Хорезма, входившая в систему оборонительных сооружений региона', 'Археологи обнаружили остатки мощных стен, жилых помещений и хозяйственных построек', 'Крепость располагалась на важном торговом и караванном пути древнего Хорезма'],
+  en: ['An ancient fortress of Khorezm that was part of the region’s defensive system', 'Archaeologists discovered remains of massive walls, residential quarters, and хозяйственные buildings', 'The fortress stood on an important trade and caravan route of ancient Khorezm'],
+  uz: ['Xorazmning qadimiy qalʼalaridan biri bo‘lib, hudud mudofaa tizimining bir qismi hisoblangan', 'Arxeologlar kuchli devorlar, turar joylar va xo‘jalik binolari qoldiqlarini topgan', 'Qalʼa qadimgi Xorazmning muhim savdo va karvon yo‘lida joylashgan'],
+  qq: ['Xorezmniń áyyemgi qalalarınıń biri bolıp, aymaq qorǵanıw sistemasınıń bir bóligi bolǵan', 'Arxeologlar kúshli diywarlar, jasaw jayları hám xojalıq imaratlarınıń qaldıqların tapqan', 'Qala áyyemgi Xorezmniń áhmiyetli sawda hám kerwen jolında jaylasqan'],
+},
   },
   {
     id: 'tok-kala',
@@ -1196,5 +1196,5 @@ export const newsArticles = [
     title: { ru: 'Новый туристический маршрут по Каракалпакстану', en: 'New Tourist Route Across Karakalpakstan', uz: 'Qoraqalpogʻiston boʻylab yangi turistik marshrut', qq: 'Qaraqalpaqstan boyınsha jaŋa turistlik marshrut' },
     excerpt: { ru: 'Разработан уникальный маршрут, охватывающий 15 ключевых памятников региона.', en: 'A unique route covering 15 key monuments of the region has been developed.', uz: 'Mintaqadagi 15 ta asosiy yodgorlikni qamrab olgan noyob marshrut ishlab chiqildi.', qq: 'Aymaqdaǵı 15 tiykarǵı yadgorliktı qamlap alǵan ayırıqsha marshrut islep shıǵıldı.' },
     date: '2026-01-15', category: 'tourism', featured: true,
-  },
+  },а
 ];
