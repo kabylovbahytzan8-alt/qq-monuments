@@ -315,6 +315,12 @@ const monumentImages = {
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0rFNyJ5ubEGJ7PyjiBbsoytz7JYVjwI8Rg&s',
   ],
 },
+'dev-kala': {
+  cover: 'https://silkadv.com/sites/default/files/styles/article-teaser/public/hpim5994-min.jpg?itok=tb7gaXPw',
+  gallery: [
+    'https://silkadv.com/sites/default/files/styles/article-teaser/public/hpim5994-min.jpg?itok=tb7gaXPw',
+  ],
+},
 
   'amudarya-delta': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s',
