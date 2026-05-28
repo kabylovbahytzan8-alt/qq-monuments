@@ -349,7 +349,7 @@ const monumentImages = {
 },
 
 'jigerb-kala': {
-  cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_e8bTEJQLf9WxAGryv4rjNU9pgr8SuTa7Lg&s',
+  cover: 'https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala1.jpg',
   gallery: [
     'https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala1.jpg',
   ],
@@ -358,6 +358,24 @@ const monumentImages = {
   cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_e8bTEJQLf9WxAGryv4rjNU9pgr8SuTa7Lg&s',
   gallery: [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_e8bTEJQLf9WxAGryv4rjNU9pgr8SuTa7Lg&s',
+  ],
+},
+'uzunkyr-kala': {
+  cover: 'https://api.society.uz/media/news/b84e05d6-e6e6-4782-8dcd-360bc62e44c7.large.webp',
+  gallery: [
+    'https://api.society.uz/media/news/b84e05d6-e6e6-4782-8dcd-360bc62e44c7.large.webp',
+  ],
+},
+'dzhanpyk-kala': {
+  cover: 'https://silkadv.com/sites/default/files/Uzbekistan/Pamytniki/Karakalpakiy/Zhanpyk_kala/0_2_hpim6019-min.jpg',
+  gallery: [
+    'https://silkadv.com/sites/default/files/Uzbekistan/Pamytniki/Karakalpakiy/Zhanpyk_kala/0_2_hpim6019-min.jpg',
+  ],
+},
+'ellik-kala': {
+  cover: 'https://storage.kun.uz/source/5/SUqXQcJeQmpizMUMFMWbU-qTHgDHHx1A.jpg',
+  gallery: [
+    'https://storage.kun.uz/source/5/SUqXQcJeQmpizMUMFMWbU-qTHgDHHx1A.jpg',
   ],
 },
   'amudarya-delta': {

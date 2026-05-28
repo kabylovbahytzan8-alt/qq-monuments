@@ -377,26 +377,72 @@ facts: {
     },
   },
   {
-    id: 'jar-kala',
-    name: { ru: 'Джар-Кала', en: 'Jar-Kala', uz: 'Jar-Qalʼa', qq: 'Jar-Qala' },
-    category: 'fortresses', coords: [41.69, 60.72], century: 'III-II в. до н.э.',
-    facts: {
-      ru: ['Расположена на берегу высохшего русла реки — "джара"', 'Небольшая крепость-форпост охраняла переправу через водный путь', 'Раскопки выявили богатую коллекцию наконечников стрел'],
-      en: ['Located on the bank of a dried-up river bed — "jar"', 'A small outpost fortress guarded a crossing over the waterway', 'Excavations revealed a rich collection of arrowheads'],
-      uz: ['Qurib qolgan daryo o\'zani — "jar" qirg\'og\'ida joylashgan', 'Kichik chegara qalʼasi suv yo\'li ustidagi kechuvni qo\'riqlab turgan', 'Qazishmalar o\'q uchlarining boy to\'plamini aniqladi'],
-      qq: ['Quriǵan dárya ózeni — "jar" jağasında ornalasqan', 'Kishi shek qalası suw jolı ústindegi keshiwdi qárewilleген', 'Qazıwlar oq ushlarınıń bay jiynastırmasın anıqladı'],
-    },
+   id: 'dzhanpyk-kala',
+name: {
+  ru: 'Джанпык-кала',
+  en: 'Dzhanpyk-Kala',
+  uz: 'Jampiq-Qalʼa',
+  qq: 'Jánpıq-Qala'
+},
+category: 'fortresses',
+coords: [41.90, 60.95],
+century: 'IV–III вв. до н.э.',
+facts: {
+  ru: [
+    'Древняя крепость эпохи Хорезма, расположенная в пустынной зоне',
+    'Использовалась как оборонительный и сторожевой пункт',
+    'Сохранились остатки стен и башен из сырцового кирпича'
+  ],
+  en: [
+    'An ancient Khorezm fortress located in a desert area',
+    'Used as a defensive and watch post',
+    'Remains of mudbrick walls and towers are preserved'
+  ],
+  uz: [
+    'Qadimgi Xorazm davriga oid cho‘l hududidagi qalʼa',
+    'Mudofaa va kuzatuv punkti sifatida ishlatilgan',
+    'Xom g‘ishtdan qurilgan devor va minoralar qoldiqlari saqlangan'
+  ],
+  qq: [
+    'Qadimgı Xorezm dáwirine tiyisli shól aymaǵındaǵı qala',
+    'Qorǵanıw hám baqılaw punkti retinde paydalanılǵan',
+    'Shik g‘ishtten qurılǵan divar hám minaralar qaldıqları saqlanǵan'
+  ]
+},
   },
   {
-    id: 'kyzylcha-kala',
-    name: { ru: 'Кызылча-Кала', en: 'Kyzylcha-Kala', uz: 'Qizilcha-Qalʼa', qq: 'Qızılsha-Qala' },
-    category: 'fortresses', coords: [41.93, 60.77], century: 'I-II в.',
-    facts: {
-      ru: ['Небольшая квадратная крепость — вероятно, сторожевая башня в системе обороны', 'Стены возведены из крупного сырцового кирпича хорезмийского стандарта', 'Один из наиболее компактных и хорошо читаемых памятников района'],
-      en: ['A small square fortress — probably a watchtower in the defense system', 'Walls are built from large adobe bricks of Khorezm standard', 'One of the most compact and well-defined monuments in the district'],
-      uz: ['Kichik kvadrat qalʼa — ehtimol, mudofaa tizimidagi qorovulxona', 'Devorlar Xorazm standarti bo\'yicha yirik xom g\'ishtdan qurilgan', 'Rayon yodgorliklarining eng ixcham va yaxshi o\'qiladiganlaridan biri'],
-      qq: ['Kishi kvadrat qala — múmkin, qorǵanıs sistemasındaǵı qárewil minara', 'Diywalar Xorezm standarti boyınsha iri shiy kerpiishten qurılǵan', 'Rayon yadgorlıqlarınıń eń ixsham hám jaqsı kórinetınlarınan biri'],
-    },
+    id: 'ellik-kala',
+name: {
+  ru: 'Эллик-кала',
+  en: 'Ellik-Kala',
+  uz: 'Ellikqalʼa',
+  qq: 'Ellikqala'
+},
+category: 'fortresses',
+coords: [41.90, 60.60],
+century: 'IV–III вв. до н.э.',
+facts: {
+  ru: [
+    'Регион, название которого переводится как "Пятьдесят крепостей"',
+    'Здесь расположено множество древних укреплений хорезмийской цивилизации',
+    'Один из крупнейших археологических комплексов Каракалпакстана'
+  ],
+  en: [
+    'The region whose name means "Fifty Fortresses"',
+    'It contains numerous ancient fortifications of the Khorezm civilization',
+    'One of the largest archaeological complexes in Karakalpakstan'
+  ],
+  uz: [
+    'Nomi “Ellik qalʼa” — “Ellikta qalʼa” degan maʼnoni anglatadi',
+    'Bu hududda Xorazm sivilizatsiyasining ko‘plab qadimiy qalʼalari joylashgan',
+    'Qoraqalpog‘istonning eng yirik arxeologik majmualaridan biri'
+  ],
+  qq: [
+    'Ataması “Ellik qala” — “eliw qala” degan maʼnini bildiredi',
+    'Bul aymaqta Xorezm sivilizatsiyasınıń kóptegen qadimgı qalaları bar',
+    'Qaraqalpaqstannıń eń iri arxeologiyalıq kompleksleriniń biri'
+  ]
+},
   },
   {
     id: 'artyk-kala',
