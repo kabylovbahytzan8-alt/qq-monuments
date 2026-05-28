@@ -321,7 +321,32 @@ const monumentImages = {
     'https://silkadv.com/sites/default/files/styles/article-teaser/public/hpim5994-min.jpg?itok=tb7gaXPw',
   ],
 },
+'berkut-kala': {
+  cover: 'https://travel.1zoom.club/uploads/posts/2023-09/1693891799_travel-1zoom-club-p-krepost-berkut-kala-4.jpg',
+  gallery: [
+    'https://travel.1zoom.club/uploads/posts/2023-09/1693891799_travel-1zoom-club-p-krepost-berkut-kala-4.jpg', 'https://travel.1zoom.club/uploads/posts/2023-09/1693891752_travel-1zoom-club-p-krepost-berkut-kala-8.jpg'
+  ],
+},
 
+'kuyk-kala': {
+  cover: 'https://kzvesti.kz/wp-content/uploads/2021/02/1-9.jpg',
+  gallery: [
+    'https://kzvesti.kz/wp-content/uploads/2021/02/1-9.jpg',
+  ],
+},
+'teshik-kala': {
+  cover: 'https://avatars.mds.yandex.net/get-altay/13322921/2a000001938dc5792677b6214b592e5a143c/orig',
+  gallery: [
+    'https://avatars.mds.yandex.net/get-altay/13322921/2a000001938dc5792677b6214b592e5a143c/orig',
+  ],
+},
+
+'aydar-kala': {
+  cover: 'https://cdn.getyourguide.com/img/tour/edc90598b6c240029085b32e6214ef5042c8b3e4c675e935a4873ca64ccced77.jpeg/68.jpg',
+  gallery: [
+    'https://cdn.getyourguide.com/img/tour/edc90598b6c240029085b32e6214ef5042c8b3e4c675e935a4873ca64ccced77.jpeg/68.jpg',
+  ],
+},
   'amudarya-delta': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s',
     gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s', 'https://ayan-turkmenistan.travel/wp-content/uploads/2023/10/amudarya-1920x960.jpg'],
