@@ -399,15 +399,15 @@ facts: {
     },
   },
   {
-    id: 'khodjeyli-juma-mosque',
-name: { ru: 'Джума-мечеть Ходжейли', en: 'Khojayli Juma Mosque', uz: 'Xo‘jayli Juma masjidi', qq: 'Xojeli Juma meshiti' },
-category: 'mausoleums', coords: [42.40, 59.45], century: 'XVIII-XIX вв.',
-facts: {
-  ru: ['Одна из старейших пятничных мечетей Каракалпакстана, расположенная в городе Ходжейли', 'Мечеть известна своими традиционными деревянными колоннами и элементами хорезмской архитектуры', 'На протяжении веков служила важным религиозным и образовательным центром региона'],
-  en: ['One of the oldest Friday mosques in Karakalpakstan, located in the city of Khojayli', 'The mosque is known for its traditional wooden columns and elements of Khorezm architecture', 'For centuries, it served as an important religious and educational center of the region'],
-  uz: ['Qoraqalpog‘istondagi eng qadimiy jome masjidlaridan biri bo‘lib, Xo‘jayli shahrida joylashgan', 'Masjid an’anaviy yog‘och ustunlari va xorazm me’morchiligi unsurlari bilan mashhur', 'Asrlar davomida hududning muhim diniy va ma’rifiy markazi bo‘lib xizmat qilgan'],
-  qq: ['Qaraqalpaqstandaǵı eń kóne juma meshitleriniń biri bolıp, Xojeli qalasında jaylasqan', 'Meshit dástúrli aǵash ustınları hám Xorezm me’marlıq elementleri men tanılǵan', 'Ásirler dawamında aymaqtıń áhmiyetli diniy hám bilimlendiriw orayı bolıp xızmet etken'],
-},
+    id: 'shamun-nabi-complex',
+    name: { ru: 'Мавзолей Шамун-Наби (комплекс)', en: 'Shamun-Nabi Mausoleum Complex', uz: 'Shamun-Nabi maqbarasi', qq: 'Shamun-Nabi maqbarası' },
+    category: 'mausoleums', coords: [42.18, 59.48], century: 'XIV в.',
+    facts: {
+      ru: ['Один из наиболее почитаемых святых мест Каракалпакстана — место паломничества круглый год', 'По преданию, здесь покоится библейский пророк Самуил (Шамун), что придаёт мавзолею особую религиозную значимость', 'Архитектурный комплекс включает мечеть, медресе и старинное кладбище с уникальными надгробиями'],
+      en: ['One of the most revered holy sites in Karakalpakstan — a pilgrimage destination year-round', 'According to legend, the biblical prophet Samuel (Shamun) rests here, giving the mausoleum special religious significance', 'The architectural complex includes a mosque, madrassa, and an ancient cemetery with unique tombstones'],
+      uz: ['Qoraqalpog\'istonning eng hurmatli muqaddas joylaridan biri — yil davomida ziyorat qilinadigan joy', 'Rivoyatga ko\'ra, bu yerda Injildagi Shamʼun payg\'ambar yotadi, bu esa maqbaraga alohida diniy ahamiyat beradi', 'Me\'moriy majmua masjid, madrasa va noyob qabrtoshlar bilan qadimiy qabristonni o\'z ichiga oladi'],
+      qq: ['Qaraqalpaqstannıń eń húrmetli muqaddes orınlarınan biri — jıl boyı zıyarat etiletuǵın jer', 'Rivayatqa kóre, bul jerde Injildegi Shamʼun payǵambar jasırınǵan, bul maqbarańa arnawlı diniy áhmiyettilik beredi', 'Me\'mariy majmua meshit, medrese hám nádiri qabır tasleri menen gadimgi qabırstonlıqtı óz ishine alıwdı'],
+    },
   },
   {
     id: 'khoja-ishan',
