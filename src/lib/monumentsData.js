@@ -875,4 +875,364 @@ export const newsArticles = [
     excerpt: { ru: 'Разработан уникальный маршрут, охватывающий 15 ключевых памятников региона.', en: 'A unique route covering 15 key monuments of the region has been developed.', uz: 'Mintaqadagi 15 ta asosiy yodgorlikni qamrab olgan noyob marshrut ishlab chiqildi.', qq: 'Aymaqdaǵı 15 tiykarǵı yadgorliktı qamlap alǵan ayırıqsha marshrut islep shıǵıldı.' },
     date: '2026-01-15', category: 'tourism', featured: true,
   },
+  {
+  id: 'bereket-kala',
+  name: { ru: 'Беркут-Кала', en: 'Berkut-Kala', uz: 'Berkut-Qalʼa', qq: 'Berkut-Qala' },
+  category: 'fortresses', coords: [41.88, 60.65], century: 'VI-VIII в.',
+  facts: {
+    ru: ['Одна из хорошо сохранившихся крепостей раннесредневекового Хорезма', 'Прямоугольная в плане с мощными башнями по углам и вдоль стен', 'Внутри обнаружены остатки жилых домов и хозяйственных построек'],
+    en: ['One of the well-preserved fortresses of early medieval Khorezm', 'Rectangular in plan with powerful towers at corners and along walls', 'Remains of residential houses and outbuildings were found inside'],
+    uz: ['Erta o\'rta asrlar Xorazmining yaxshi saqlanib qolgan qalʼalaridan biri', 'Burchaklar va devorlar bo\'ylab kuchli minoralari bilan rejada to\'g\'ri burchakli', 'Ichida turar-joy uylari va xo\'jalik binolarining qoldiqlari topilgan'],
+    qq: ['Erte orta ásirler Xorezminiń jaqsı saqlanǵan qalalarınan biri', 'Búrıshlar hám diywalar boyında qúwatlı minaʼları menen jobada tórtbúrısh', 'Ishinde turarjay úyler hám xojalıq qurılıslarınıń qaldıqları tabılǵan'],
+  },
+},
+{
+  id: 'teshik-kala',
+  name: { ru: 'Тешик-Кала', en: 'Teshik-Kala', uz: 'Teshik-Qalʼa', qq: 'Teshik-Qala' },
+  category: 'fortresses', coords: [41.96, 60.60], century: 'V-VIII в.',
+  facts: {
+    ru: ['Название означает «дырявая крепость» — стены пронизаны многочисленными бойницами', 'Уникальная система вентиляции внутри стен свидетельствует о высоком строительном мастерстве', 'Раскопки выявили следы длительного непрерывного обитания'],
+    en: ['The name means "holey fortress" — the walls are pierced with numerous loopholes', 'A unique ventilation system inside the walls testifies to high construction skill', 'Excavations revealed traces of prolonged continuous habitation'],
+    uz: ['Nomi "teshik qalʼa" degan ma\'noni anglatadi — devorlar ko\'plab tuynuklar bilan teshilgan', 'Devorlar ichidagi noyob ventilyatsiya tizimi yuqori qurilish mahoratidan dalolat beradi', 'Qazishmalar uzoq muddatli uzluksiz yashashning izlarini aniqladi'],
+    qq: ['Atı "teshik qala" degen mánisti bildirredi — diywalar kóp sanawlı shaqshalar menen teskilgen', 'Diywalar ishindegi nádiri jeldetiv sisteması joqarı qurılıs mahalından dalálat beredi', 'Qazıwlar uzaq múddetli úzliksiz mekenlestiriwdiń izlerin anıqladı'],
+  },
+},
+{
+  id: 'kuyk-kala',
+  name: { ru: 'Куюк-Кала', en: 'Kuyk-Kala', uz: 'Kuyuk-Qalʼa', qq: 'Kuyuk-Qala' },
+  category: 'fortresses', coords: [41.91, 60.71], century: 'IV-III в. до н.э.',
+  facts: {
+    ru: ['Небольшая прямоугольная крепость с хорошо читаемыми оборонительными рвами', 'Расположена в центре древней ирригационной системы', 'Находки керамики указывают на связи с греко-бактрийской культурой'],
+    en: ['A small rectangular fortress with well-defined defensive moats', 'Located in the center of an ancient irrigation system', 'Pottery finds indicate connections with Greco-Bactrian culture'],
+    uz: ['Yaxshi o\'qiladigan mudofaa xandaqlari bilan kichik to\'g\'ri burchakli qalʼa', 'Qadimiy sug\'orish tizimining markazida joylashgan', 'Kulolchilik topilmalari greko-baktriya madaniyati bilan aloqalarni ko\'rsatadi'],
+    qq: ['Jaqsı kórinetın qorǵaw orlı kishi tórtbúrısh qala', 'Gadimgi suwlandırıw sistemasınıń orayında ornalasqan', 'Kulalshlıq tabılmaları greko-baktriya mádeniyeti menen baylanısların kórsetedi'],
+  },
+},
+{
+  id: 'aydar-kala',
+  name: { ru: 'Айдар-Кала', en: 'Aydar-Kala', uz: 'Aydar-Qalʼa', qq: 'Aydar-Qala' },
+  category: 'fortresses', coords: [41.83, 60.62], century: 'II-I в. до н.э.',
+  facts: {
+    ru: ['Укреплённое поселение на краю древнего орошаемого оазиса', 'Стены сохранились на высоту до 4 метров в ряде мест', 'Обнаружены следы пожара — вероятно, следствие военного разрушения'],
+    en: ['A fortified settlement at the edge of an ancient irrigated oasis', 'Walls have been preserved up to 4 meters high in several places', 'Traces of fire were found — likely a result of military destruction'],
+    uz: ['Qadimiy sug\'oriladigan vohaning chekkasidagi mustahkamlangan aholi punkti', 'Devorlar ba\'zi joylarda 4 metrgacha balandlikda saqlanib qolgan', 'Yong\'in izlari aniqlangan — ehtimol, harbiy vayronagarchilik natijasi'],
+    qq: ['Gadimgi suwlandırılǵan wayxanıń shettindegi bekkemlengen mekenlestiriw', 'Diywalar ayırım jerlerinde 4 metrge shekem biyiklikte saqlanǵan', 'Ot izleri tabılǵan — múmkin, harbiy buzılıstıń nátiyjesı'],
+  },
+},
+{
+  id: 'jigerb-kala',
+  name: { ru: 'Джигербент', en: 'Jigerb-Kala', uz: 'Jigarbend', qq: 'Jigerben' },
+  category: 'fortresses', coords: [41.74, 60.67], century: 'I-III в.',
+  facts: {
+    ru: ['Название буквально означает «печень» — возможно, связано с формой холма, на котором стоит крепость', 'Служила ключевым узлом обороны южного направления хорезмийской системы', 'Обнаружены следы нескольких этапов строительства и перестройки'],
+    en: ['The name literally means "liver" — possibly linked to the shape of the hill on which the fortress stands', 'Served as a key defensive node of the southern direction of the Khorezm system', 'Traces of several stages of construction and reconstruction were found'],
+    uz: ['Nomi so\'zma-so\'z "jigar" degan ma\'noni anglatadi — ehtimol, qalʼa turgan tepalik shakli bilan bog\'liq', 'Xorazm tizimining janubiy yo\'nalishida asosiy mudofaa tuguni bo\'lib xizmat qilgan', 'Bir necha bosqichli qurilish va qayta qurilish izlari aniqlangan'],
+    qq: ['Atı sózbe-sóz "jigar" degen mánisti bildirredi — múmkin, qala turǵan tóbe shaklı menen baylanıslı', 'Xorezm sistemasınıń tústik bagdarında tiykarǵı qorǵanıs túyni wazıypasın atqarǵan', 'Bir neshe basqıshlı qurılıs hám qayta qurılıs izleri tabılǵan'],
+  },
+},
+{
+  id: 'kunyauaz-kala',
+  name: { ru: 'Куня-Уаз', en: 'Kunya-Uaz', uz: 'Koʻhna-Voʻaz', qq: 'Kóhna-Waz' },
+  category: 'fortresses', coords: [42.02, 60.55], century: 'VIII-X в.',
+  facts: {
+    ru: ['Средневековая крепость на месте более раннего хорезмийского поселения', 'Отличается нестандартной овальной планировкой', 'Найдены монеты хорезмшахов, позволившие точно датировать слои'],
+    en: ['A medieval fortress on the site of an earlier Khorezm settlement', 'Distinguished by a non-standard oval layout', 'Coins of the Khorezmshah were found, allowing the layers to be precisely dated'],
+    uz: ['Xorazmning ilgariroq aholi punkti o\'rnidagi o\'rta asrlar qalʼasi', 'Nostandart oval rejalashtirish bilan ajralib turadi', 'Qatlamlarni aniq sanarlash imkonini bergan xorazmshohlar tangalari topilgan'],
+    qq: ['Xorezmniń burınǵı mekenlestiriwi ornındaǵı orta ásir qalası', 'Standart emes oval jobalaması menen ajıraladı', 'Qatlamlardı anıq sanalawǵa imkaniyat bergen xorezmshahlar tıyınları tabılǵan'],
+  },
+},
+{
+  id: 'uzunkyr-kala',
+  name: { ru: 'Узункыр', en: 'Uzunkyr', uz: 'Uzunqir', qq: 'Uzınqır' },
+  category: 'fortresses', coords: [41.77, 60.64], century: 'IV в. до н.э.',
+  facts: {
+    ru: ['Название означает «длинный обрыв» — крепость расположена на вытянутом плато', 'Одна из крупнейших по протяжённости стен — периметр превышает 2 км', 'Предположительно являлась административным центром округа'],
+    en: ['The name means "long cliff" — the fortress is located on an elongated plateau', 'One of the largest in terms of wall length — the perimeter exceeds 2 km', 'Presumably served as the administrative center of the district'],
+    uz: ['Nomi "uzun qirq" degan ma\'noni anglatadi — qalʼa cho\'zilgan platoda joylashgan', 'Devorlar uzunligi bo\'yicha eng yiriklaridan biri — perimetr 2 km dan oshadi', 'Ehtimol, okrugning ma\'muriy markazi bo\'lgan'],
+    qq: ['Atı "uzın jar" degen mánisti bildirredi — qala sozılǵan platoda ornalasqan', 'Diywalar uzınlıǵı boyınsha eń irilérinen biri — perimetr 2 km den artıq', 'Taxmınan okrugniń ádministratsiya orayı bolǵan'],
+  },
+},
+{
+  id: 'jar-kala',
+  name: { ru: 'Джар-Кала', en: 'Jar-Kala', uz: 'Jar-Qalʼa', qq: 'Jar-Qala' },
+  category: 'fortresses', coords: [41.69, 60.72], century: 'III-II в. до н.э.',
+  facts: {
+    ru: ['Расположена на берегу высохшего русла реки — "джара"', 'Небольшая крепость-форпост охраняла переправу через водный путь', 'Раскопки выявили богатую коллекцию наконечников стрел'],
+    en: ['Located on the bank of a dried-up river bed — "jar"', 'A small outpost fortress guarded a crossing over the waterway', 'Excavations revealed a rich collection of arrowheads'],
+    uz: ['Qurib qolgan daryo o\'zani — "jar" qirg\'og\'ida joylashgan', 'Kichik chegara qalʼasi suv yo\'li ustidagi kechuvni qo\'riqlab turgan', 'Qazishmalar o\'q uchlarining boy to\'plamini aniqladi'],
+    qq: ['Quriǵan dárya ózeni — "jar" jağasında ornalasqan', 'Kishi shek qalası suw jolı ústindegi keshiwdi qárewilleген', 'Qazıwlar oq ushlarınıń bay jiynastırmasın anıqladı'],
+  },
+},
+{
+  id: 'kyzylcha-kala',
+  name: { ru: 'Кызылча-Кала', en: 'Kyzylcha-Kala', uz: 'Qizilcha-Qalʼa', qq: 'Qızılsha-Qala' },
+  category: 'fortresses', coords: [41.93, 60.77], century: 'I-II в.',
+  facts: {
+    ru: ['Небольшая квадратная крепость — вероятно, сторожевая башня в системе обороны', 'Стены возведены из крупного сырцового кирпича хорезмийского стандарта', 'Один из наиболее компактных и хорошо читаемых памятников района'],
+    en: ['A small square fortress — probably a watchtower in the defense system', 'Walls are built from large adobe bricks of Khorezm standard', 'One of the most compact and well-defined monuments in the district'],
+    uz: ['Kichik kvadrat qalʼa — ehtimol, mudofaa tizimidagi qorovulxona', 'Devorlar Xorazm standarti bo\'yicha yirik xom g\'ishtdan qurilgan', 'Rayon yodgorliklarining eng ixcham va yaxshi o\'qiladiganlaridan biri'],
+    qq: ['Kishi kvadrat qala — múmkin, qorǵanıs sistemasındaǵı qárewil minara', 'Diywalar Xorezm standarti boyınsha iri shiy kerpiishten qurılǵan', 'Rayon yadgorlıqlarınıń eń ixsham hám jaqsı kórinetınlarınan biri'],
+  },
+},
+{
+  id: 'artyk-kala',
+  name: { ru: 'Артык-Кала', en: 'Artyk-Kala', uz: 'Artiq-Qalʼa', qq: 'Artıq-Qala' },
+  category: 'fortresses', coords: [41.81, 60.58], century: 'II в. до н.э.',
+  facts: {
+    ru: ['Название означает «лишняя» или «дополнительная» крепость — вспомогательный укреплённый пункт', 'Расположена между двумя более крупными крепостями, образуя единую оборонительную линию', 'Обнаружены следы ремесленных мастерских по обработке металла'],
+    en: ['The name means "extra" or "additional" fortress — an auxiliary fortified point', 'Located between two larger fortresses, forming a unified defensive line', 'Traces of craft workshops for metal processing were found'],
+    uz: ['Nomi "ortiqcha" yoki "qo\'shimcha" qalʼa degan ma\'noni anglatadi — yordamchi mustahkamlangan punkt', 'Yagona mudofaa liniyasini hosil qiluvchi ikki yirik qalʼa oʻrtasida joylashgan', 'Metal ishlash bo\'yicha hunarmandchilik ustaxonalarining izlari topilgan'],
+    qq: ['Atı "artıq" yaki "qosımsha" qala degen mánisti bildirredi — járdemshi bekkemlengen punkt', 'Birden qorǵanıs liniyasın payda etiwshi eki iri qala arasında ornalasqan', 'Metal islew boyınsha hunarmentshilik ustaxanalarınıń izleri tabılǵan'],
+  },
+},
+
+// Поселения (settlements)
+{
+  id: 'hazorasp-ancient',
+  name: { ru: 'Хазарасп (древние слои)', en: 'Hazarasp Ancient Layers', uz: 'Xazarasp (qadimiy qatlamlar)', qq: 'Xazarasp (gadimgi qatlamlar)' },
+  category: 'settlements', coords: [41.32, 61.07], century: 'IV в. до н.э.',
+  facts: {
+    ru: ['Один из древнейших непрерывно обитаемых городов Хорезма — от античности до наших дней', 'Название означает «тысяча лошадей» — отсылка к традиции коневодства', 'Обнаружены культурные слои, охватывающие более 2500 лет непрерывного обитания'],
+    en: ['One of the oldest continuously inhabited cities of Khorezm — from antiquity to the present', 'The name means "thousand horses" — a reference to the tradition of horse breeding', 'Cultural layers spanning more than 2500 years of continuous habitation were found'],
+    uz: ['Qadimiyatdan to hozirgi kungacha uzluksiz aholi yashaydigan Xorazmning eng qadimiy shaharlaridan biri', 'Nomi "ming ot" degan ma\'noni anglatadi — chorvachilik an\'anasiga ishora', '2500 yildan ortiq uzluksiz yashashni qamrab oluvchi madaniy qatlamlar aniqlangan'],
+    qq: ['Gadimgilikten házirgi kúnge shekem úzliksiz halıq jasaytın Xorezmniń eń gadimgi qalalarınan biri', 'Atı "mıń at" degen mánisti bildirredi — at baqıw dástúrine isharа', '2500 jıldan artıq úzliksiz mekenlestiriwdi qamlap alǵan mádeniyet qatlamlary tabılǵan'],
+  },
+},
+{
+  id: 'janpyk-kala',
+  name: { ru: 'Джанпык-Кала', en: 'Janpyk-Kala', uz: 'Janpiq-Qalʼa', qq: 'Janpıq-Qala' },
+  category: 'settlements', coords: [42.33, 59.80], century: 'X-XII в.',
+  facts: {
+    ru: ['Средневековое городище в нижнем течении Амударьи', 'В период расцвета являлось центром торговли и ремесленничества', 'Обнаружены остатки городского базара и мастерских по производству керамики'],
+    en: ['A medieval settlement in the lower reaches of the Amu Darya', 'At its peak, it was a center of trade and craftsmanship', 'Remains of a city bazaar and ceramic production workshops were found'],
+    uz: ['Amudaryoning quyi oqimidagi o\'rta asrlar shaharchasi', 'Gullab-yashnash davrida savdo va hunarmandchilik markazi bo\'lgan', 'Shahar bozori va kulolchilik ishlab chiqarish ustaxonalarining qoldiqlari topilgan'],
+    qq: ['Ámiwdáryanıń tómen aǵısındaǵı orta ásir qalashası', 'Gúllengen dáwirde sawda hám hunarmentshilik orayı bolǵan', 'Qala bazarı hám kulalshlıq óndiris ustaxanalarınıń qaldıqları tabılǵan'],
+  },
+},
+{
+  id: 'kerder-settlement',
+  name: { ru: 'Кердер (городище)', en: 'Kerder Settlement', uz: 'Kerder (shaharcha)', qq: 'Kerder (qalashası)' },
+  category: 'settlements', coords: [43.10, 59.30], century: 'VII-XII в.',
+  facts: {
+    ru: ['Крупное средневековое городище в северном Каракалпакстане', 'Центр исторической области Кердер, упоминаемой в арабских источниках', 'Остатки городских стен, мечети и жилых кварталов хорошо прослеживаются в рельефе'],
+    en: ['A large medieval settlement in northern Karakalpakstan', 'Center of the historical region of Kerder, mentioned in Arab sources', 'Remains of city walls, mosque, and residential quarters are well visible in the terrain'],
+    uz: ['Shimoliy Qoraqalpog\'istondagi yirik o\'rta asrlar shaharchasi', 'Arab manbalarida tilga olingan tarixiy Kerder viloyatining markazi', 'Shahar devorlari, masjid va turar-joy kvartallarining qoldiqlari releyfda yaxshi ko\'zga tashlanadi'],
+    qq: ['Tústik Qaraqalpaqstanniń iri orta ásir qalashası', 'Arab dereklerinde atalatın tariyxıy Kerder wilayatınıń orayı', 'Qala diywalları, meshit hám turarjay kvartallarınıń qaldıqları relyefde jaqsı kórinedi'],
+  },
+},
+{
+  id: 'kokcha-settlement',
+  name: { ru: 'Кокча (район поселений)', en: 'Kokcha Settlement Area', uz: 'Koʻkcha (aholi punktlari)', qq: 'Kóksha (mekenlestiriw rayonı)' },
+  category: 'settlements', coords: [41.65, 60.55], century: 'III-I тыс. до н.э.',
+  facts: {
+    ru: ['Район с концентрацией памятников эпохи бронзы и раннего железного века', 'Здесь выявлены следы одних из первых земледельческих поселений в дельте Амударьи', 'Богатые погребальные комплексы указывают на развитое социальное расслоение общества'],
+    en: ['An area with a concentration of Bronze Age and Early Iron Age monuments', 'Traces of some of the earliest agricultural settlements in the Amu Darya delta were found here', 'Rich burial complexes indicate developed social stratification'],
+    uz: ['Bronza va erta temir davri yodgorliklarining konsentratsiyasi bo\'lgan hudud', 'Bu yerda Amudaryo deltasidagi dastlabki dehqonchilik aholi punktlarining izlari aniqlangan', 'Boy dafn majmualari jamiyatning rivojlangan ijtimoiy tabaqalanishini ko\'rsatadi'],
+    qq: ['Bronza hám erte temir dáwiri yadgorlıqlarınıń kontsentratsiyası bolǵan hudud', 'Bul jerde Ámiwdárya deltasındaǵı erte dehqanshılıq mekenlestiriwleriniń izleri anıqlandi', 'Bay dapn majmuaları jámiyettiń rawajlanǵan sociallıq tabaqalasıwın kórsetedi'],
+  },
+},
+
+// Мавзолеи (mausoleums)
+{
+  id: 'karaman-ata',
+  name: { ru: 'Мавзолей Караман-Ата', en: 'Karaman Ata Mausoleum', uz: 'Karamon Ota maqbarasi', qq: 'Qaraman Ata maqbarası' },
+  category: 'mausoleums', coords: [42.60, 57.90], century: 'XIV-XV в.',
+  facts: {
+    ru: ['Расположен в труднодоступных районах плато Устюрт — одно из наиболее удалённых святых мест', 'По преданию, является местом упокоения суфийского святого — покровителя пастухов и кочевников', 'Ежегодно привлекает паломников, совершающих длительный путь по плато'],
+    en: ['Located in hard-to-reach areas of the Ustyurt Plateau — one of the most remote holy sites', 'According to legend, it is the resting place of a Sufi saint — patron of shepherds and nomads', 'Annually attracts pilgrims making a long journey across the plateau'],
+    uz: ['Ustyurt plato qiyinchilik bilan boradigan hududlarida joylashgan — eng uzoq muqaddas joylardan biri', 'Rivoyatga ko\'ra, cho\'ponlar va ko\'chmanchilarning homiysi — so\'fiy avliyoning dafn joyi', 'Har yili plato bo\'ylab uzoq yo\'l bosib keladigan ziyoratchilarni jalb qiladi'],
+    qq: ['Ústirt platosınıń qıyın barilatuǵın hudutlarında ornalasqan — eń alıs muqaddes orınlarınan biri', 'Rivayatqa kóre, shоpanlar hám kóshpelilerdiń qamqorhısı — sufiy ázizdiń dapn orını', 'Jıl sayın platо boyınsha uzaq jol júretuǵın zıyaratshılardı tartadı'],
+  },
+},
+{
+  id: 'juma-ata',
+  name: { ru: 'Мавзолей Джума-Ата', en: 'Juma Ata Mausoleum', uz: 'Juma Ota maqbarasi', qq: 'Juma Ata maqbarası' },
+  category: 'mausoleums', coords: [42.40, 59.20], century: 'XIII-XIV в.',
+  facts: {
+    ru: ['Посвящён местночтимому святому, имя которого связано с пятничной молитвой — Джумой', 'Архитектура мавзолея типична для каракалпакских средневековых погребальных сооружений', 'Место традиционного собрания верующих по пятницам в период религиозных праздников'],
+    en: ['Dedicated to a locally revered saint whose name is associated with Friday prayer — Juma', 'The architecture is typical of Karakalpak medieval funerary structures', 'A place of traditional gathering of believers on Fridays during religious holidays'],
+    uz: ['Nomi juma namozi bilan bog\'liq mahalliy avliyoga bag\'ishlangan', 'Me\'morchilik Qoraqalpoq o\'rta asrlar dafn inshootlari uchun xarakterlidir', 'Diniy bayramlar davrida jumalar kuni mo\'minlarning an\'anaviy yig\'in joyi'],
+    qq: ['Atı juma namazı menen baylanıslı jergilikli ázizge arnalǵan', 'Arxitektura Qaraqalpaq orta ásirler dapn inshawları ushın xarakterli', 'Diniy bayramlar dáwirinde jumada iseniwshilerdiń dástúriy jiynalıw orını'],
+  },
+},
+{
+  id: 'kazybek-biy',
+  name: { ru: 'Мавзолей Казыбек-Бия', en: 'Kazybek Biy Mausoleum', uz: 'Qozibek Biy maqbarasi', qq: 'Qazıbek Biy maqbarası' },
+  category: 'mausoleums', coords: [42.70, 59.10], century: 'XVIII в.',
+  facts: {
+    ru: ['Посвящён известному биям — племенному вождю и судье, почитаемому за мудрость', 'Служит местом разрешения споров — по традиции жители приходят сюда принять клятву', 'Украшен традиционным каракалпакским орнаментом на гипсовой лепнине'],
+    en: ['Dedicated to a famous biy — tribal leader and judge, revered for wisdom', 'Serves as a place for settling disputes — by tradition, locals come here to take oaths', 'Decorated with traditional Karakalpak ornamentation on plaster molding'],
+    uz: ['Donoligi uchun hurmat qozongan mashhur biyga — qabilaviy rahbar va qoziga bag\'ishlangan', 'Nizolarni hal qilish joyi sifatida xizmat qiladi — an\'anaga ko\'ra aholi bu yerga qasam ichgani keladi', 'Gips qolip bezagida an\'anaviy qoraqalpoq naqsh bilan bezatilgan'],
+    qq: ['Danalıǵı ushın húrmet qazanǵan belgili biyge — qabilalıq basshı hám qazıǵa arnalǵan', 'Dawalardı sheshiw orını retinde xızmet etedi — dástúr boyınsha halıq bul jerge ant etiwge keledi', 'Gips qalıplı bezekte dástúriy Qaraqalpaq naqshı menen bezeltilgen'],
+  },
+},
+{
+  id: 'alim-ata',
+  name: { ru: 'Мавзолей Алим-Ата', en: 'Alim Ata Mausoleum', uz: 'Olim Ota maqbarasi', qq: 'Álim Ata maqbarası' },
+  category: 'mausoleums', coords: [42.50, 59.70], century: 'XV в.',
+  facts: {
+    ru: ['Посвящён суфийскому учёному и богослову, оставившему духовные наставления своему народу', 'Купол мавзолея выложен характерной для Хорезма бирюзовой глазурованной плиткой', 'Является местом паломничества студентов и учёных, просящих благословения на учёбу'],
+    en: ['Dedicated to a Sufi scholar and theologian who left spiritual teachings to his people', 'The dome of the mausoleum is faced with turquoise glazed tiles characteristic of Khorezm', 'Is a pilgrimage site for students and scholars seeking a blessing for studies'],
+    uz: ['O\'z xalqiga ma\'naviy ko\'rsatmalar qoldirgan so\'fiy olim va ilohiyotchiga bag\'ishlangan', 'Maqbara gumbazi Xorazm uchun xarakterli zangori sirlangan kafel bilan qoplangan', 'O\'qish uchun baraka so\'ragan talabalar va olimlar ziyoratgohidir'],
+    qq: ['Óziniń halqına ruwxıy kórsetpeler qaldırǵan sufiy alım hám ilahiyatshıǵa arnalǵan', 'Mazar gúmbezi Xorezm ushın xarakterli kók-jashıl júgertilgen keramika menen qaplangan', 'Oqıw ushın bata soraǵan talaba hám alımlar zıyaratgahı'],
+  },
+},
+{
+  id: 'hodja-ilyas',
+  name: { ru: 'Мавзолей Ходжа-Ильяс', en: 'Hodja Ilyas Mausoleum', uz: 'Xoja Iliyos maqbarasi', qq: 'Xoja İlyas maqbarası' },
+  category: 'mausoleums', coords: [42.15, 59.60], century: 'XIV в.',
+  facts: {
+    ru: ['Один из редких мавзолеев Каракалпакстана с сохранившимися оригинальными надписями', 'По местному преданию, здесь покоится потомок пророка — сейид', 'Расположен у берега старого ирригационного канала, который ещё функционирует'],
+    en: ['One of the rare mausoleums of Karakalpakstan with surviving original inscriptions', 'According to local legend, a descendant of the prophet — a sayyid — rests here', 'Located on the bank of an old irrigation canal that is still functioning'],
+    uz: ['Asl yozuvlar saqlanib qolgan Qoraqalpog\'istonning kam sonli maqbaralaridan biri', 'Mahalliy afsonaga ko\'ra, bu yerda payg\'ambarning avlodi — sayyid dafn etilgan', 'Hanuz faoliyat ko\'rsatayotgan qadimiy sug\'orish kanali qirg\'og\'ida joylashgan'],
+    qq: ['Tiykarǵı jazıwlar saqlanǵan Qaraqalpaqstannıń az sanawlı mazarlarınan biri', 'Jergilikli rivayatqa kóre, bul jerde payǵambar urpaqı — seyyid jayrılanǵan', 'Háliy islep turǵan gadimgi suwlandırıw kanalı jağasında ornalasqan'],
+  },
+},
+{
+  id: 'seyt-ahun',
+  name: { ru: 'Мавзолей Сейит-Ахун', en: 'Seyt Ahun Mausoleum', uz: 'Sayyid Ahun maqbarasi', qq: 'Seyyid Ahun maqbarası' },
+  category: 'mausoleums', coords: [42.38, 59.48], century: 'XVI в.',
+  facts: {
+    ru: ['Мавзолей сельского религиозного лидера, известного толкованием Корана', 'Сохранились уникальные деревянные резные двери — образец каракалпакского деревянного зодчества', 'Местные жители считают его защитником от засухи — приходят молиться о дожде'],
+    en: ['Mausoleum of a rural religious leader known for his interpretation of the Quran', 'Unique carved wooden doors have survived — an example of Karakalpak wooden architecture', 'Local residents consider him a protector against drought — they come to pray for rain'],
+    uz: ['Qur\'onni talqin qilish bilan tanilgan qishloq diniy rahbariga tegishli maqbara', 'Noyob o\'yma yog\'och eshiklar saqlanib qolgan — qoraqalpoq yog\'och me\'morchiligining namunasi', 'Mahalliy aholi uni qurg\'oqchilikdan himoyachi deb biladi — yomg\'ir tilab ibodat qilgani keladi'],
+    qq: ['Qurandı tálqın etiw menen belgili qıshloq diniy basshısına tiyisli mazar', 'Nádiri oyma aǵash eshikler saqlanǵan — qaraqalpaq aǵash arxitekturasınıń úlgisi', 'Jergilikli halıq onı qurǵaqshılıqtan qamqor dep biledi — jawın tilewge ibadat etiwge keledi'],
+  },
+},
+
+// Природа (nature)
+{
+  id: 'sarykamysh-lake',
+  name: { ru: 'Сарыкамышское озеро', en: 'Sarykamysh Lake', uz: 'Sariqamish koli', qq: 'Sarıqamıs kóli' },
+  category: 'nature', coords: [41.90, 57.40], century: '',
+  facts: {
+    ru: ['Озеро образовалось из сбросных ирригационных вод — один из парадоксов Приаральского экологического кризиса', 'Сегодня является одним из крупнейших водоёмов региона и важным птичьим заповедником', 'Обитают редкие виды птиц: фламинго, пеликан, колпица'],
+    en: ['The lake formed from irrigation discharge water — one of the paradoxes of the Aral Sea ecological crisis', 'Today it is one of the largest water bodies in the region and an important bird sanctuary', 'Rare bird species inhabit it: flamingo, pelican, spoonbill'],
+    uz: ['Ko\'l sug\'orish tashlama suvlaridan hosil bo\'lgan — Orolbo\'yi ekologik inqirozining paradokslaridan biri', 'Bugungi kunda mintaqadagi eng yirik suv havzalaridan biri va muhim qushlar qo\'riqxonasi', 'Noyob qush turlari yashaydi: qizg\'ish, pelikan, qoshiqtumshuq'],
+    qq: ['Kól suwlandırıw taslaw suwlarınan payda bolǵan — Aral boyı ekologiyalıq krizisiniń paradokslarınan biri', 'Búgin aymaqtaǵı eń iri suw kóllerinen biri hám áhmiyetli qus qorıqhanası', 'Siyrek qus túrleri jasaydı: flamingo, pelikan, qashıq ómzı'],
+  },
+},
+{
+  id: 'ustyurt-chinks',
+  name: { ru: 'Чинки Устюрта', en: 'Ustyurt Chinks', uz: 'Ustyurt chinqlari', qq: 'Ústirt shıńqarları' },
+  category: 'nature', coords: [42.80, 56.80], century: '',
+  facts: {
+    ru: ['Обрывистые края плато Устюрт высотой до 300 метров — одно из самых грандиозных природных явлений региона', 'Геологический разрез чинков обнажает породы от мела до неогена — наглядная книга истории земли', 'Место обитания редкого устюртского муфлона и джейрана'],
+    en: ['The steep edges of the Ustyurt Plateau up to 300 meters high — one of the most grandiose natural phenomena of the region', 'The geological section of the chinks exposes rocks from the Cretaceous to the Neogene — a vivid book of earth history', 'Habitat of the rare Ustyurt mouflon and gazelle'],
+    uz: ['Ustyurt platosining 300 metrgacha balandlikdagi qoyali qirralari — mintaqaning eng grandioz tabiiy hodisalaridan biri', 'Chinqlarning geologik kesmasi Kretaçedan Neogengacha bo\'lgan jinslari ochib beradi — yer tarixining ko\'rgazmali kitobi', 'Noyob Ustyurt mufloni va jayronning yashash joyi'],
+    qq: ['Ústirt platosınıń 300 metrge shekem biyiklikteği jarqabaqlı qıyları — aymaqtıń eń grAndioZ tábiyat qubyılıslarınan biri', 'Chinklerdiń geologiyalıq kessisi Bor dáwirinen Neogenege shekem jınıslardı ashadı — jer tariyxınıń kórmeli kitabı', 'Siyrek Ústirt uflonı hám jayrandıń jasaytın jeri'],
+  },
+},
+{
+  id: 'amudarya-tugai',
+  name: { ru: 'Тугайные леса Амударьи', en: 'Amudarya Tugai Forests', uz: 'Amudaryo toʻqay oʻrmonlari', qq: 'Ámiwdárya tóqay ormanları' },
+  category: 'nature', coords: [41.60, 61.10], century: '',
+  facts: {
+    ru: ['Реликтовые пойменные леса из тополя, лоха и тростника вдоль берегов Амударьи', 'Один из последних крупных массивов тугаев в Центральной Азии — критически важный биотоп', 'Место обитания бухарского оленя, камышового кота и многих редких птиц'],
+    en: ['Relic floodplain forests of poplar, oleaster, and reeds along the banks of the Amu Darya', 'One of the last large areas of tugai in Central Asia — a critically important biotope', 'Habitat of the Bukhara deer, jungle cat, and many rare birds'],
+    uz: ['Amudaryo qirg\'oqlari bo\'ylab terak, jiyda va qamishdan iborat relikt qirg\'oq o\'rmonlari', 'Markaziy Osiyodagi to\'qaylarning so\'nggi yirik massivlaridan biri — muhim biotop', 'Buxoro bugʻusi, qamishzor mushugi va ko\'plab noyob qushlarning yashash joyi'],
+    qq: ['Ámiwdárya jaqaları boyında terек, jiyda hám qamıstan ibarat relikt jağa ormanları', 'Orta Aziyada tóqaylardıń aqırǵı iri massivlerinen biri — áhmiyetli biotop', 'Buxara maralı, qamıshdıq mısıq hám kóp sanawlı siyrek quslar jasaytın jer'],
+  },
+},
+
+// Культура и другое (other/culture)
+{
+  id: 'keltiminar-sites',
+  name: { ru: 'Памятники культуры Кельтеминар', en: 'Keltiminar Culture Sites', uz: 'Kelteminor madaniyati yodgorliklari', qq: 'Kelteminár mádeniyet yadgorlıqları' },
+  category: 'other', coords: [42.20, 60.00], century: 'IV-II тыс. до н.э.',
+  facts: {
+    ru: ['Стоянки охотников, рыболовов и собирателей эпохи неолита и энеолита', 'Культура Кельтеминар — одна из наиболее изученных неолитических культур Средней Азии', 'Характерная расписная керамика и наконечники стрел из кремня — визитная карточка культуры'],
+    en: ['Campsites of hunters, fishermen, and gatherers of the Neolithic and Eneolithic era', 'Keltiminar culture is one of the most studied Neolithic cultures of Central Asia', 'Characteristic painted ceramics and flint arrowheads are the hallmark of the culture'],
+    uz: ['Neolit va eneolit davrining ovchilar, baliqchilar va terimchilarning turar joylari', 'Kelteminor madaniyati — O\'rta Osiyoning eng ko\'p o\'rganilgan neolit madaniyatlaridan biri', 'Xarakterli bo\'yalgan kulolchilik va kremniyli o\'q uchlari madaniyatning belgisidir'],
+    qq: ['Neolit hám eneolitt dáwiriniń awshılar, balıqshılar hám teriwshilerdiń tıyınaq joyleri', 'Kelteminár mádeniyeti — Orta Aziyaniń eń kóp úyrenilgen neolit mádeniyetlerinen biri', 'Xarakterli boyalǵan kulalshlıq hám kremniy oq ushları mádeniyettiń belgisi'],
+  },
+},
+{
+  id: 'tazabagiab-sites',
+  name: { ru: 'Памятники Тазабагьябской культуры', en: 'Tazabagiab Culture Sites', uz: 'Tazabagʻyob madaniyati yodgorliklari', qq: 'Tazabagıyab mádeniyet yadgorlıqları' },
+  category: 'other', coords: [41.80, 60.20], century: 'II тыс. до н.э.',
+  facts: {
+    ru: ['Памятники оседло-скотоводческих племён эпохи поздней бронзы в дельте Амударьи', 'Первые в регионе свидетельства перехода к земледелию и разведению скота', 'Обнаружены жилища-землянки с очагами и загоны для скота'],
+    en: ['Monuments of sedentary-pastoral tribes of the Late Bronze Age in the Amu Darya delta', 'The earliest evidence in the region of the transition to farming and cattle breeding', 'Pit-houses with hearths and cattle enclosures were found'],
+    uz: ['Amudaryo deltasida so\'nggi bronza davrining o\'troq-chorvachilik qabilalari yodgorliklari', 'Mintaqada dehqonchilik va chorvachilikka o\'tishning dastlabki dalillari', 'O\'choqli yer osti uylari va chorva mollari to\'xtatib turiladigan joylar topilgan'],
+    qq: ['Ámiwdárya deltasında sońǵı bronza dáwiriniń otraq-malshılıq qabilaları yadgorlıqları', 'Aymaqta dehqanshılıq hám malshılıqqa ótiwdiń birinshi dálilleri', 'Ojaqlar menen jer ástindegi turarjaylar hám mal aylanbaları tabılǵan'],
+  },
+},
+{
+  id: 'ancient-canals',
+  name: { ru: 'Древние ирригационные каналы Хорезма', en: 'Ancient Khorezm Irrigation Canals', uz: 'Qadimiy Xorazm sug\'orish kanallari', qq: 'Gadimgi Xorezm suwlandırıw kanalları' },
+  category: 'other', coords: [41.85, 60.40], century: 'IV в. до н.э.',
+  facts: {
+    ru: ['Разветвлённая сеть каналов протяжённостью сотни километров орошала оазис Хорезма на протяжении тысячелетий', 'Некоторые магистральные каналы достигали ширины 30–40 метров и использовались вплоть до XIV века', 'Хорошо видны с воздуха как тёмные полосы на светлом фоне пустыни'],
+    en: ['A branching network of canals hundreds of kilometers long irrigated the Khorezm oasis for millennia', 'Some main canals reached 30–40 meters in width and were used until the 14th century', 'Clearly visible from the air as dark stripes on the light background of the desert'],
+    uz: ['Yuzlab kilometr uzunlikdagi tarmoqlangan kanallar tarmog\'i ming yillar davomida Xorazm vohani sug\'organ', 'Ba\'zi asosiy kanallar 30–40 metr kenggacha yetgan va XIV asrgacha ishlatilgan', 'Cho\'l och fonida qoʻngʻir chiziqlar sifatida havоdan yaxshi ko\'rinadi'],
+    qq: ['Júzlergen kilometr uzınlıqtaǵı tarmaqlasqan kanallar tarmaqı mıń jıllar dawamında Xorezm wayxasın suwlandırǵan', 'Ayırım tiykarǵı kanallar 30–40 metr kеńligine jetken hám XIV ásirge shekem paydalanılǵan', 'Shól aq fondá qara jolaqlar retinde hawadan jaqsı kórinedi'],
+  },
+},
+{
+  id: 'kanguy-monuments',
+  name: { ru: 'Памятники Кангюйского периода', en: 'Kanguy Period Monuments', uz: 'Qangʻuy davri yodgorliklari', qq: 'Qańǵıy dáwiri yadgorlıqları' },
+  category: 'other', coords: [42.10, 60.10], century: 'II в. до н.э. — IV в.',
+  facts: {
+    ru: ['Свидетельства Кангюйского государства — одного из малоизученных образований степной Евразии', 'Характерная керамика и украшения помогли выделить кангюйский культурный горизонт в регионе', 'Кангюй упоминается в китайских хрониках как сильное кочевническое государство'],
+    en: ['Evidence of the Kanguy state — one of the little-studied formations of steppe Eurasia', 'Characteristic ceramics and ornaments helped identify the Kanguy cultural horizon in the region', 'Kanguy is mentioned in Chinese chronicles as a powerful nomadic state'],
+    uz: ['Qang\'uy davlatining dalillari — cho\'l Yevrosiyasining kam o\'rganilgan tuzilmalaridan biri', 'Xarakterli kulolchilik va bezaklar mintaqadagi qang\'uy madaniy ufqini ajratishga yordam berdi', 'Qang\'uy xitoy yilnomalarida kuchli ko\'chmanchi davlat sifatida tilga olinadi'],
+    qq: ['Qańǵıy mámleketiniń dálilleri — shól Yevraziyasınıń az úyrenilgen qurılımlarınan biri', 'Xarakterli kulalshlıq hám bezekler aymaqtaǵı qańǵıy mádeniyet gorızontın ajıratıwǵa járdem berdi', 'Qańǵıy Xıtay jılnamaların da qúwatlı kóshpeli mámlekett retinde ataladı'],
+  },
+},
+{
+  id: 'zoroastrian-ossuaries',
+  name: { ru: 'Зороастрийские оссуарии Хорезма', en: 'Khorezm Zoroastrian Ossuaries', uz: 'Xorazm zardushtiy ossuariylari', qq: 'Xorezm zardushtıylıq ossuuriyları' },
+  category: 'other', coords: [41.87, 60.55], century: 'IV-VII в.',
+  facts: {
+    ru: ['Глиняные сосуды-оссуарии для хранения очищенных костей умерших — центральный элемент зороастрийского погребального обряда', 'Хорезмские оссуарии отличаются богатым скульптурным декором с мифологическими сценами', 'Являются важнейшим источником по искусству и религиозным представлениям древнего Хорезма'],
+    en: ['Clay ossuary vessels for storing cleaned bones of the dead — a central element of Zoroastrian burial rite', 'Khorezm ossuaries are distinguished by rich sculptural decor with mythological scenes', 'Are the most important source for the art and religious beliefs of ancient Khorezm'],
+    uz: ['Marhumning tozalangan suyaklarini saqlash uchun loy ossuuriy idishlar — zardushtiylik dafn marosimining markaziy elementi', 'Xorazm ossuuriylari mifologik sahnalar bilan boy haykaltaroshlik bezagi bilan ajralib turadi', 'Qadimiy Xorazmning san\'ati va diniy qarashlari bo\'yicha eng muhim manba hisoblanadi'],
+    qq: ['Marhúmniń tazalanǵan sóyeklerin saqlawǵa arnalǵan gúl ossuuriy ıdıslar — zardushtıylıq dapn ritualınıń oray elementi', 'Xorezm ossuuriyları mifologiyalıq sahnalar menen bay heykeltarashлıq bezeniw menen ajıraladı', 'Gadimgi Xorezm óneri hám diniy kóz-qarasları boyınsha eń áhmiyetli derek'],
+  },
+},
+{
+  id: 'silk-road-ribats',
+  name: { ru: 'Рибаты Шёлкового пути', en: 'Silk Road Ribats', uz: 'Ipak yoʻli ribotlari', qq: 'Jibek jolı ribatları' },
+  category: 'other', coords: [41.70, 60.40], century: 'IX-XII в.',
+  facts: {
+    ru: ['Укреплённые постоялые дворы для торговых и военных караванов вдоль ветвей Шёлкового пути', 'Рибаты выполняли одновременно функции гостиницы, склада и мечети', 'Некоторые выросли в крупные торговые города — свидетельство важности Хорезма на Великом Шёлковом пути'],
+    en: ['Fortified inns for trade and military caravans along the branches of the Silk Road', 'Ribats simultaneously served as hotels, warehouses, and mosques', 'Some grew into large trading cities — evidence of Khorezm\'s importance on the Great Silk Road'],
+    uz: ['Ipak yo\'li tarmoqlari bo\'ylab savdo va harbiy karvonlar uchun mustahkamlangan karvonsaroylar', 'Ribotlar bir vaqtning o\'zida mehmonxona, ombor va masjid vazifasini bajargan', 'Ba\'zilari yirik savdo shaharlariga aylangan — Buyuk Ipak yo\'lida Xorazmning ahamiyatini ko\'rsatuvchi dalil'],
+    qq: ['Jibek jolı tarmaqlary boyında sawda hám harbiy kervanlary ushın bekkemlengen kervansaraylar', 'Ribatlar bir waqıtta meymanhana, ambar hám meshit wazıypasın atqarǵan', 'Ayırımları iri sawda qalaların ósip shıqqan — Ullı Jibek jolında Xorezmniń áhmiyetin kórsetiwshi dálil'],
+  },
+},
+{
+  id: 'fire-altars',
+  name: { ru: 'Огневые алтари древнего Хорезма', en: 'Fire Altars of Ancient Khorezm', uz: 'Qadimiy Xorazm olov qurbongohlari', qq: 'Gadimgi Xorezm ot qurbangedileri' },
+  category: 'other', coords: [41.90, 60.62], century: 'IV в. до н.э. — VII в.',
+  facts: {
+    ru: ['Культовые сооружения для поддержания священного огня — основы зороастрийского богослужения', 'Алтари огня обнаружены в большинстве крупных крепостей и городищ Хорезма', 'Некоторые алтари непрерывно горели сотни лет — их зола достигала высоты нескольких метров'],
+    en: ['Cult structures for maintaining the sacred fire — the basis of Zoroastrian worship', 'Fire altars were found in most major fortresses and settlements of Khorezm', 'Some altars burned continuously for hundreds of years — their ash reached several meters in height'],
+    uz: ['Zardushtiylik ibodat asosi — muqaddas olovni saqlab turish uchun kultlik inshootlar', 'Olov qurbongohlari Xorazmning ko\'pchilik yirik qalʼa va shahar xarobalarida topilgan', 'Ba\'zi qurbongohlar yuzlab yil uzluksiz yongan — ularning kuli bir necha metrgacha balandlikka yetgan'],
+    qq: ['Zardushtıylıq ibadat tiykarı — muqaddes otdı saqlap turıw ushın kultlik inshawlar', 'Ot qurbangedileri Xorezmniń kóp sanawlı iri qalaları hám qalashalarında tabılǵan', 'Ayırım qurbangediler júzlergen jıl úzliksiz janıp turǵan — olardiń kúli bir neshe metrge shekem biyikligine jetken'],
+  },
+},
+{
+  id: 'aral-port-ruins',
+  name: { ru: 'Остатки Аральского порта', en: 'Aral Port Ruins', uz: 'Orol porti qoldiqlari', qq: 'Aral portı qaldıqları' },
+  category: 'other', coords: [43.78, 58.72], century: 'XIX-XX в.',
+  facts: {
+    ru: ['Руины советского рыболовного порта, обнажившиеся по мере отступления Аральского моря', 'В советские годы порт Муйнака ежегодно отправлял десятки тысяч тонн рыбы по всему СССР', 'Сегодня является памятником исчезнувшей цивилизации рыбаков и свидетелем экологической трагедии'],
+    en: ['Ruins of a Soviet fishing port, exposed as the Aral Sea receded', 'In Soviet years, the port of Muynak shipped tens of thousands of tons of fish across the USSR annually', 'Today it is a monument to the vanished civilization of fishermen and a witness to ecological tragedy'],
+    uz: ['Orol dengiziining chekinishi bilan oshkor bo\'lgan sovet baliqchilik portuning xarobalari', 'Sovet yillarida Moʻynoq porti yiliga o\'n minglab tonna baliqni butun SSSR bo\'ylab jo\'natgan', 'Bugungi kunda baliqchilarning yo\'qolgan sivilizatsiyasining yodgorligi va ekologik fojia guvohi'],
+    qq: ['Aral teńiziniń khetiwi menen ashılǵan sovet balıqshılıq portınıń xarabaları', 'Sovet jıllarında Moyınaq portı jıllıq on mıńlaǵan tonna balıqdı pútkil SSRJge jibertken', 'Búgin balıqshılardıń joq bolǵan sivilizatsiyasınıń yadgorlıǵı hám ekologiyalıq fajianıń kúwası'],
+  },
+},
+{
+  id: 'medieval-bazaars',
+  name: { ru: 'Исторические базары Приаралья', en: 'Historical Bazaars of the Aral Region', uz: 'Orolboʻyi tarixiy bozorlari', qq: 'Aral boyı tariyxıy bazarları' },
+  category: 'other', coords: [42.45, 59.50], century: 'X-XIX в.',
+  facts: {
+    ru: ['Торговые площади исторических городов Приаралья, где пересекались пути из Хорезма, Казахстана и Персии', 'В средневековые базары Ходжейли, Кунграда и Чимбая привозили ткани, специи и металлические изделия', 'Часть торговых традиций сохранилась до наших дней в еженедельных базарах каракалпакских городов'],
+    en: ['Trading squares of historical cities of the Aral region, where routes from Khorezm, Kazakhstan, and Persia intersected', 'Medieval bazaars of Khodjeyli, Kungrad, and Chimbay imported fabrics, spices, and metal goods', 'Some trading traditions have survived to the present day in the weekly bazaars of Karakalpak cities'],
+    uz: ['Xorazm, Qozog\'iston va Eron yo\'llari kesishgan Orolbo\'yi tarixiy shaharlarining savdo maydonlari', 'Xo\'jayli, Qo\'ng\'irot va Chimboy o\'rta asr bozorlariga matolar, ziravorlar va metall mahsulotlar keltirilgan', 'Savdo an\'analarining bir qismi qoraqalpoq shaharlarining haftalik bozorlarida bizning kunlargacha yetib kelgan'],
+    qq: ['Xorezm, Qazaqstan hám İran jolları kesisken Aral boyı tariyxıy qalaları sawda maydanları', 'Xojaylı, Qońǵırat hám Shımbaydıń orta ásir bazarlarına matalar, dárewilar hám metal buyımlar keltirilgen', 'Sawda dástúrleriniń bir bólegi qaraqalpaq qalaları háptelik bazarlarında bizdiń kúnlerimizge shekem jetip kelgen'],
+  },
+},
 ];
