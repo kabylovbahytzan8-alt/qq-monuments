@@ -757,14 +757,14 @@ facts: {
     },
   },
   {
-    id: 'kurgancha-kala',
-name: { ru: 'Курганча-кала', en: 'Kurgancha-Kala', uz: 'Qo‘rg‘oncha-Qalʼa', qq: 'Qorǵansha-Qala' },
-category: 'khorezm', coords: [41.76, 60.95], century: 'IV-III вв. до н.э.',
+    id: 'kuldursun-kala',
+name: { ru: 'Кульдурсун-кала', en: 'Kuldursun-Kala', uz: 'Quldursun-Qalʼa', qq: 'Quldursun-Qala' },
+category: 'khorezm', coords: [41.68, 61.09], century: 'IV-III вв. до н.э.',
 facts: {
-  ru: ['Древняя крепость Хорезма, входившая в систему оборонительных сооружений региона', 'Археологи обнаружили остатки мощных стен, жилых помещений и хозяйственных построек', 'Крепость располагалась на важном торговом и караванном пути древнего Хорезма'],
-  en: ['An ancient fortress of Khorezm that was part of the region’s defensive system', 'Archaeologists discovered remains of massive walls, residential quarters, and хозяйственные buildings', 'The fortress stood on an important trade and caravan route of ancient Khorezm'],
-  uz: ['Xorazmning qadimiy qalʼalaridan biri bo‘lib, hudud mudofaa tizimining bir qismi hisoblangan', 'Arxeologlar kuchli devorlar, turar joylar va xo‘jalik binolari qoldiqlarini topgan', 'Qalʼa qadimgi Xorazmning muhim savdo va karvon yo‘lida joylashgan'],
-  qq: ['Xorezmniń áyyemgi qalalarınıń biri bolıp, aymaq qorǵanıw sistemasınıń bir bóligi bolǵan', 'Arxeologlar kúshli diywarlar, jasaw jayları hám xojalıq imaratlarınıń qaldıqların tapqan', 'Qala áyyemgi Xorezmniń áhmiyetli sawda hám kerwen jolında jaylasqan'],
+  ru: ['Одна из крупнейших древних крепостей Хорезма, окружённая мощными оборонительными стенами', 'По легенде, крепость была захвачена из-за предательства дочери правителя', 'С высоты стен открывается панорамный вид на древние оазисы и пустыню Кызылкум'],
+  en: ['One of the largest ancient fortresses of Khorezm, surrounded by massive defensive walls', 'According to legend, the fortress was captured because of the betrayal of the ruler’s daughter', 'From the top of the walls, a panoramic view of ancient oases and the Kyzylkum Desert opens up'],
+  uz: ['Xorazmning eng yirik qadimiy qalʼalaridan biri bo‘lib, kuchli mudofaa devorlari bilan o‘ralgan', 'Afsonaga ko‘ra, qalʼa hukmdor qizining xiyonati sabab bosib olingan', 'Qalʼa devorlaridan qadimiy vohalar va Qizilqum cho‘lining ajoyib manzarasi ko‘rinadi'],
+  qq: ['Xorezmniń eń iri áyyemgi qalalarınıń biri bolıp, kúshli qorǵan diwarlari men qorshalǵan', 'Ańızǵa kóre, qala hákim qızınıń satqınlıǵı sebepli basıp alınǵan', 'Qala diywarlarınıń ústinen áyyemgi oasisler hám Qızılqum shólinıń ájayıp kórinisi ashıladı'],
 },
   },
   {
