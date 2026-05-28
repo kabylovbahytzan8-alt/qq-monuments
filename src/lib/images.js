@@ -300,6 +300,29 @@ const monumentImages = {
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhWAzb5WaCuvu0gYgQFMSoCyKkCkaMPA0ZuA&s',
     ],
   },
+  'beketata': {
+  cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Beket-Ata_%28Oglandy%29.jpg/960px-Beket-Ata_%28Oglandy%29.jpg',
+  gallery: [
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Beket-Ata_%28Oglandy%29.jpg/960px-Beket-Ata_%28Oglandy%29.jpg',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPGEGCZXfYwxrwKdOinVtUUiQz-W-DZ-D09w&s',
+  ],
+},
+
+'kurgancha-kala': {
+  cover: 'https://www.advantour.com/img/uzbekistan/ustyurt/kurgancha-kala1.jpg',
+  gallery: [
+    'https://www.advantour.com/img/uzbekistan/ustyurt/kurgancha-kala1.jpg',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0rFNyJ5ubEGJ7PyjiBbsoytz7JYVjwI8Rg&s',
+  ],
+},
+
+'khodjeyli-juma-mosque': {
+  cover: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Juma_Mosque_20140927_Uzbekistan_0284_Khiva_%2815638472913%29.jpg',
+  gallery: [
+    'https://upload.wikimedia.org/wikipedia/commons/7/75/Juma_Mosque_20140927_Uzbekistan_0284_Khiva_%2815638472913%29.jpg',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6w9Q8fNGEKZ75WIYl8Tux-Hsp23lG1PHoA&s',
+  ],
+},
 
   'amudarya-delta': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s',
