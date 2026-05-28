@@ -728,15 +728,38 @@ facts: {
   },
   },
   {
-    id: 'hodja-ilyas',
-    name: { ru: 'Мавзолей Ходжа-Ильяс', en: 'Hodja Ilyas Mausoleum', uz: 'Xoja Iliyos maqbarasi', qq: 'Xoja İlyas maqbarası' },
-    category: 'mausoleums', coords: [42.15, 59.60], century: 'XIV в.',
-    facts: {
-      ru: ['Один из редких мавзолеев Каракалпакстана с сохранившимися оригинальными надписями', 'По местному преданию, здесь покоится потомок пророка — сейид', 'Расположен у берега старого ирригационного канала, который ещё функционирует'],
-      en: ['One of the rare mausoleums of Karakalpakstan with surviving original inscriptions', 'According to local legend, a descendant of the prophet — a sayyid — rests here', 'Located on the bank of an old irrigation canal that is still functioning'],
-      uz: ['Asl yozuvlar saqlanib qolgan Qoraqalpog\'istonning kam sonli maqbaralaridan biri', 'Mahalliy afsonaga ko\'ra, bu yerda payg\'ambarning avlodi — sayyid dafn etilgan', 'Hanuz faoliyat ko\'rsatayotgan qadimiy sug\'orish kanali qirg\'og\'ida joylashgan'],
-      qq: ['Tiykarǵı jazıwlar saqlanǵan Qaraqalpaqstannıń az sanawlı mazarlarınan biri', 'Jergilikli rivayatqa kóre, bul jerde payǵambar urpaqı — seyyid jayrılanǵan', 'Háliy islep turǵan gadimgi suwlandırıw kanalı jağasında ornalasqan'],
-    },
+  id: 'keshirmes-baba',
+  name: {
+    ru: 'Мавзолей Кеширмес Баба',
+    en: 'Keshirmes Baba Mausoleum',
+    uz: 'Keshirmas bobo maqbarasi',
+    qq: 'Keshirmes Baba maqbarası'
+  },
+  category: 'mausoleums',
+  coords: [42.47, 59.61],
+  century: 'XIV–XV вв.',
+  facts: {
+    ru: [
+      'Один из почитаемых суфийских мавзолеев Каракалпакстана',
+      'Название «Кеширмес» связывают с легендами о справедливом святом, который не прощал ложь и предательство',
+      'Мавзолей расположен рядом с древними поселениями и остатками старых караванных путей'
+    ],
+    en: [
+      'One of the revered Sufi mausoleums of Karakalpakstan',
+      'The name “Keshirmes” is linked to legends about a righteous saint who never forgave lies and betrayal',
+      'The mausoleum is located near ancient settlements and remnants of old caravan routes'
+    ],
+    uz: [
+      'Qoraqalpog‘istondagi e’zozlanadigan so‘fiy maqbaralaridan biri',
+      '“Keshirmas” nomi yolg‘on va xiyonatni kechirmagan avliyo haqidagi afsonalar bilan bog‘liq',
+      'Maqbara qadimiy manzilgohlar va eski karvon yo‘llari qoldiqlari yaqinida joylashgan'
+    ],
+    qq: [
+      'Qaraqalpaqstanda qadirlenetuǵın sufiy mazarlarınıń biri',
+      '«Keshirmes» atawı ótirik pen satqınlıqtı keşirmeytuǵın áwliye haqqındaǵı rivayatlar menen baylanıslı',
+      'Maqbara qadimgi qonıslar hám eski kerwen jolları qaldıqları jaqınında jaylasqan'
+    ]
+  },
   },
   {
     id: 'seyt-ahun',
@@ -918,16 +941,39 @@ facts: {
       qq: ['Atı "Ellik qala" degen mánisti bildiretın rayonda ornalasqan', 'Ellikqala rayonınıń kóp sanawlı qalalarındaǵı qazıwlar dawamında tabılǵan artefaktlardı saqlaydı', 'Xorezmniń jaqın atraptaǵı qalalarına ekskursiyalar ushın baslanǵısh noqtası retinde xızmet etedi'],
     },
   },
-  {
-    id: 'karakalpak-history-museum',
-    name: { ru: 'Каракалпакский государственный музей истории и культуры', en: 'Karakalpak State Museum of History and Culture', uz: 'Qoraqalpog\'iston davlat tarix va madaniyat muzeyi', qq: 'Qaraqalpaqstan mámleketlik tariyх hám mádeniyet muzeyi' },
-    category: 'museums', coords: [42.46, 59.62], century: '1929',
-    facts: {
-      ru: ['Один из старейших музеев региона, основанный ещё в советский период, хранит более 80 000 экспонатов', 'Коллекция охватывает предметы от эпохи палеолита до современности, включая уникальные образцы каракалпакского ювелирного искусства', 'Особую ценность представляют ковры и ювелирные украшения — традиционные символы каракалпакской культуры'],
-      en: ['One of the oldest museums in the region, founded in the Soviet era, holds more than 80,000 exhibits', 'The collection spans artifacts from the Paleolithic era to modern times, including unique examples of Karakalpak jewelry art', 'Of particular value are carpets and jewelry — traditional symbols of Karakalpak culture'],
-      uz: ['Sovet davrida tashkil etilgan mintaqaning eng qadimiy muzeylaridan biri, 80 000 dan ortiq eksponatni saqlaydi', 'Kolleksiya paleolit davridan hozirgi zamonimizgacha bo\'lgan buyumlarni, shu jumladan Qoraqalpoq zargarlik san\'atining noyob namunalarini o\'z ichiga oladi', 'Alohida qimmatga ega bo\'lgan gilam va zargarlik buyumlari — qoraqalpoq madaniyatining an\'anaviy ramzlari'],
-      qq: ['Sovet dáwirinde shólkemlestirligen aymaqdıń eń gadimgi muzeylerinen biri, 80 000 dan artıq ekspozitsiyanı saqlaydı', 'Kolleksiya paleolit dáwirinen házirgi zamange shekem buyımlardı, sonıń ishinde Qaraqalpaq zergerlik óneriniń nádiri nusqaların óz ishine alıwdı', 'Arnawlı qundılıqqa iye gilam hám zerger buyımlar — qaraqalpaq mádeniyet dástúriy ramzları'],
-    },
+    {
+  id: 'shamuratov-house-museum',
+  name: {
+    ru: 'Дом-музей Амета и Айымхана Шамуратовых',
+    en: 'Amet and Ayymkhan Shamuratov House Museum',
+    uz: 'Amet va Ayimxon Shamuratovlar uy-muzeyi',
+    qq: 'Amet hám Ayımxan Shamuratovlar úy-muzeyi'
+  },
+  category: 'museums',
+  coords: [42.46, 59.61],
+  established: '1989',
+  facts: {
+    ru: [
+      'Музей посвящён известным деятелям каракалпакского театра и культуры',
+      'В экспозиции представлены личные вещи, сценические костюмы и архивные фотографии семьи Шамуратовых',
+      'Дом-музей считается важным центром изучения истории каракалпакского искусства XX века'
+    ],
+    en: [
+      'The museum is dedicated to prominent figures of Karakalpak theater and culture',
+      'The exhibition includes personal belongings, stage costumes, and archival photographs of the Shamuratov family',
+      'The house museum is considered an important center for studying the history of 20th-century Karakalpak art'
+    ],
+    uz: [
+      'Muzey qoraqalpoq teatri va madaniyatining mashhur namoyandalariga bag‘ishlangan',
+      'Ekspozitsiyada Shamuratovlar oilasining shaxsiy buyumlari, sahna liboslari va arxiv suratlari namoyish etilgan',
+      'Uy-muzey XX asr qoraqalpoq san’ati tarixini o‘rganishning muhim markazlaridan biri hisoblanadi'
+    ],
+    qq: [
+      'Muzey qaraqalpaq teatrı hám mádeniyatınıń belgili wákillerine arnalǵan',
+      'Ekspoziciyada Shamuratovlar shańaraqınıń jeke buyımları, sahna kiyimleri hám arxiv suretleri kórsetilgen',
+      'Úy-muzey XX ásir qaraqalpaq óneri tariyxın úyreniwdiń áhmiyetli oraylarınıń biri esaplanadı'
+    ]
+  },
   },
 
   // Khorezm fortresses

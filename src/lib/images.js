@@ -458,6 +458,18 @@ const monumentImages = {
       'https://podrobno.uz/upload/rk/068/6ad6dfabf84cadf6169562f580b9dd8b1030.jpg','https://perspectum.info/wp-content/uploads/2023/08/SHamun-Nabi-1024x576.jpg'
     ],
   },
+  'keshirmes-baba': {
+    cover:   'https://images.openai.com/static-rsc-4/BY1lRH_0M9McEMq3xGwYkpx2ml797RW6yJhxrKe5tzNu0POE_gBiyiiUjcHEeh-R7qJXlZHYQrRM8Ygd_EHFaiiLTAIyUr7ZuW_nV-smGkCok0_VRcP8bsSEcKR9CNcpMljbi1BC6lAIXgz4qHhxjsgXxl-ypeKTunJlKtZrOXksGAfHB-X79KmYozTHF7vk?purpose=fullsize',
+    gallery: [
+      'https://images.openai.com/static-rsc-4/BY1lRH_0M9McEMq3xGwYkpx2ml797RW6yJhxrKe5tzNu0POE_gBiyiiUjcHEeh-R7qJXlZHYQrRM8Ygd_EHFaiiLTAIyUr7ZuW_nV-smGkCok0_VRcP8bsSEcKR9CNcpMljbi1BC6lAIXgz4qHhxjsgXxl-ypeKTunJlKtZrOXksGAfHB-X79KmYozTHF7vk?purpose=fullsize',
+    ],
+  },
+  'seyt-ahun': {
+    cover:   'https://ayan-turkmenistan.travel/wp-content/uploads/2023/09/najm_ad-din_al-kubra_mausoleum-1920x960.jpg',
+    gallery: [
+      'https://ayan-turkmenistan.travel/wp-content/uploads/2023/09/najm_ad-din_al-kubra_mausoleum-1920x960.jpg',
+    ],
+  },
   'ajiniyaz-monument': {
     cover:   'https://podrobno.uz/upload/iblock/16a/iav1ovcx1ncsgb65iiju9gqi4tzo8u6u/4234252553.webp',
     gallery: [
@@ -499,7 +511,12 @@ const monumentImages = {
       'https://thumbs.dreamstime.com/b/arch-independence-square-nukus-mustaqillik-maydoni-city-karakalpakstan-region-uzbekistan-227658101.jpg',
     ],
   }, 
-  
+  'shamuratov-house-museum': {
+    cover:   'https://uzor.uz/wp-content/uploads/2020/08/muzey-shomuradovih-640x445.jpg',
+    gallery: [
+      'https://uzor.uz/wp-content/uploads/2020/08/muzey-shomuradovih-640x445.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2LLhc3zk9gCO9Ph7KGvFKetIKtOzXmkeSLg&s'
+    ],
+  }, 
   'jirau-monument': {
     cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrVk-9UQkywcaDzuVjbOL4B-1rm-EVw834w&s',
     gallery: [
@@ -527,7 +544,12 @@ const monumentImages = {
       'https://russian.eurasianet.org/sites/default/files/styles/article/public/2022-11/1-Trilling-6249_0.jpg.jpg?itok=eLUjr9kX',
     ],
   },
-
+'sarykamysh-lake': {
+    cover:   'https://eurasia.travel/wp-content/uploads/2024/08/Sarykamysh-Lake-9-1024x682.jpg',
+    gallery: [
+      'https://eurasia.travel/wp-content/uploads/2024/08/Sarykamysh-Lake-9-1024x682.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrooDY-ZwifUiJCP-z0Vf8ugv4XZhngY3ejw&s'
+    ],
+  },
   'kalalygyr': {
     cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/1753246902459.png',
     gallery: [
