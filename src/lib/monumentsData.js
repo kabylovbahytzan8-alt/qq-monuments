@@ -243,15 +243,15 @@ export const monuments = [
     },
   },
   {
-   id: 'beketata',
-name: { ru: 'Бекет-Ата', en: 'Beket-Ata', uz: 'Beket ota', qq: 'Beket-Ata' },
-category: 'mausoleums', coords: [44.35, 54.78], century: 'XVIII век',
-facts: {
-  ru: ['Подземная мечеть и мавзолей Бекет-Ата — одно из самых почитаемых святых мест Мангистау', 'Бекет-Ата был известным суфийским просветителем, целителем и духовным наставником казахского народа', 'Комплекс высечен в скале и ежегодно привлекает тысячи паломников и туристов'],
-  en: ['The underground mosque and mausoleum of Beket-Ata is one of the most revered sacred places of Mangystau', 'Beket-Ata was a famous Sufi educator, healer, and spiritual mentor of the Kazakh people', 'The complex is carved into the rock and attracts thousands of pilgrims and tourists every year'],
-  uz: ['Beket ota yerosti masjidi va maqbarasi Mangʻistovdagi eng muqaddas ziyoratgohlardan biridir', 'Beket ota mashhur soʻfiy maʼrifatchi, tabib va qozoq xalqining ruhiy ustozlaridan biri bo‘lgan', 'Majmua qoyaga oʻyib qurilgan bo‘lib, har yili minglab ziyoratchilar va sayyohlarni jalb qiladi'],
-  qq: ['Beket-Ata jer astı meshiti hám maqbarası Mańǵıstawdaǵı eń qásiyetli zıyarat orınlarınıń biri', 'Beket-Ata belgili sopı aǵartıwshı, emshi hám qazaq xalqınıń ruwxıy ustazı bolǵan', 'Kompleks qayaǵa oyıp jasalǵan bolıp, hár jılı mıńlaǵan zıyaratshılar men turistlerdi tartadı'],
-},
+    id: 'shilpyk',
+    name: { ru: 'Шильпык', en: 'Shilpyk', uz: 'Shilpiq', qq: 'Shılpıq' },
+    category: 'fortresses', coords: [41.65, 60.45], century: 'IV-III веке до нашей эры',
+    facts: {
+      ru: ['Круглая башня-крепость диаметром около 24 метров, стоящая на высоком обрывистом холме над Амударьёй', 'Предположительно служила зороастрийской дахмой — башней молчания — для ритуального погребения', 'С вершины холма открывается захватывающий вид на пойму Амударьи и окрестные пустынные равнины'],
+      en: ['A circular tower-fortress about 24 meters in diameter, standing on a high cliff hill above the Amu Darya', 'Believed to have served as a Zoroastrian dakhma — a tower of silence — for ritual burial', 'From the top of the hill, a breathtaking view of the Amu Darya floodplain and surrounding desert plains opens up'],
+      uz: ['Amudaryoning baland qirg\'og\'idagi tepalikning ustida turgan taxminan 24 metr diametrli dumaloq minora-qalʼa', 'Zardushtiylik daxmasi — jimlik minorasi — sifatida ritual dafn marosimi uchun xizmat qilgan deb taxmin qilinadi', 'Tepalikning yuqorisidan Amudaryo qirg\'og\'i va atrofdagi cho\'l tekisliklari haqidagi hayratlanarli ko\'rinish ochiladi'],
+      qq: ['Ámiwdárya ústindegi biyik jarqabaqlı tóbeniń ústinde turǵan taxmınan 24 metr diametrli dógelek minara-qala', 'Zardushtıylıq daxması — jimlik minarası — retinde ritual jayrılawǵa xizmet etken dep esaplanadı', 'Tóbeniń ústinen Ámiwdárya jağalawı hám atraptaǵı shól teńizlikleriniń hayran qaldırǵısh kórinisi oshıladı'],
+    },
   },
   {
     id: 'berkut-kala',
@@ -757,15 +757,15 @@ facts: {
     },
   },
   {
-    id: 'kuldursun-kala',
-name: { ru: 'Кульдурсун-кала', en: 'Kuldursun-Kala', uz: 'Quldursun-Qalʼa', qq: 'Quldursun-Qala' },
-category: 'khorezm', coords: [41.68, 61.09], century: 'IV-III вв. до н.э.',
-facts: {
-  ru: ['Одна из крупнейших древних крепостей Хорезма, окружённая мощными оборонительными стенами', 'По легенде, крепость была захвачена из-за предательства дочери правителя', 'С высоты стен открывается панорамный вид на древние оазисы и пустыню Кызылкум'],
-  en: ['One of the largest ancient fortresses of Khorezm, surrounded by massive defensive walls', 'According to legend, the fortress was captured because of the betrayal of the ruler’s daughter', 'From the top of the walls, a panoramic view of ancient oases and the Kyzylkum Desert opens up'],
-  uz: ['Xorazmning eng yirik qadimiy qalʼalaridan biri bo‘lib, kuchli mudofaa devorlari bilan o‘ralgan', 'Afsonaga ko‘ra, qalʼa hukmdor qizining xiyonati sabab bosib olingan', 'Qalʼa devorlaridan qadimiy vohalar va Qizilqum cho‘lining ajoyib manzarasi ko‘rinadi'],
-  qq: ['Xorezmniń eń iri áyyemgi qalalarınıń biri bolıp, kúshli qorǵan diwarlari men qorshalǵan', 'Ańızǵa kóre, qala hákim qızınıń satqınlıǵı sebepli basıp alınǵan', 'Qala diywarlarınıń ústinen áyyemgi oasisler hám Qızılqum shólinıń ájayıp kórinisi ashıladı'],
-},
+    id: 'kavat-kala-kh',
+    name: { ru: 'Кават-Кала', en: 'Kavat-Kala', uz: 'Kavat-Qalʼa', qq: 'Kavat-Qala' },
+    category: 'khorezm', coords: [41.95, 60.73], century: 'XII в.',
+    facts: {
+      ru: ['Средневековая крепость, охранявшая важный ирригационный канал Хорезма', 'Сохранились остатки ворот с подъёмным мостом — редкость для крепостей региона', 'Упоминается в средневековых арабских источниках как важный опорный пункт'],
+      en: ['A medieval fortress that guarded an important irrigation canal of Khorezm', 'Remains of a gate with a drawbridge have survived — rare for fortresses of the region', 'Mentioned in medieval Arabic sources as an important stronghold'],
+      uz: ['Xorazmning muhim sug\'orish kanalini himoya qilgan o\'rta asrlar qalʼasi', 'Ko\'tarib tushuriladigan ko\'prikli darvozaning qoldiqlari saqlanib qolgan — mintaqaning qalʼalari uchun kamdan-kam uchraydi', "O'rta asrlar arab manbalarida muhim tayanch nuqtasi sifatida tilga olinadi"],
+      qq: ['Xorezmniń áhmiyetli suwlandırıw kanalın qorǵaǵan orta ásir qalası', 'Kóteriletın kópirli dárwazdıń qaldıqları saqlanǵan — aymaq qalaları ushın siyrek ushırasadı', 'Orta ásir arab dereklerinde áhmiyetli taylaw noqtası retinde ataladı'],
+    },
   },
   {
     id: 'tok-kala',
@@ -1196,5 +1196,5 @@ export const newsArticles = [
     title: { ru: 'Новый туристический маршрут по Каракалпакстану', en: 'New Tourist Route Across Karakalpakstan', uz: 'Qoraqalpogʻiston boʻylab yangi turistik marshrut', qq: 'Qaraqalpaqstan boyınsha jaŋa turistlik marshrut' },
     excerpt: { ru: 'Разработан уникальный маршрут, охватывающий 15 ключевых памятников региона.', en: 'A unique route covering 15 key monuments of the region has been developed.', uz: 'Mintaqadagi 15 ta asosiy yodgorlikni qamrab olgan noyob marshrut ishlab chiqildi.', qq: 'Aymaqdaǵı 15 tiykarǵı yadgorliktı qamlap alǵan ayırıqsha marshrut islep shıǵıldı.' },
     date: '2026-01-15', category: 'tourism', featured: true,
-  },а
+  },
 ];
