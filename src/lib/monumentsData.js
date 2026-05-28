@@ -9,9 +9,8 @@ export const categories = [
   { id: 'modern', ru: 'Современные памятники', en: 'Modern Monuments', uz: 'Zamonaviy yodgorliklar', qq: 'Házirgi yadgorliklar', icon: 'Trophy' },
   { id: 'other', ru: 'Другие объекты', en: 'Other Sites', uz: 'Boshqa obyektlar', qq: 'Basqa obyektler', icon: 'Compass' },
 ];
-
+ 
 export const monuments = [
-  // Fortresses
   {
     id: 'ayaz-kala',
     name: { ru: 'Аяз-Кала', en: 'Ayaz-Kala', uz: 'Ayoz-Qalʼa', qq: 'Ayaz-Qala' },
@@ -232,7 +231,7 @@ export const monuments = [
       qq: ['«Qırq qız» atı Orta Aziyada keń tarqalǵan amazonka-jańgshilar haqqındaǵı afsana menen baylanıslı', 'Erte orta ásirler dáwirine tiyisli — Qaraqalpaqstan ushın nádiri', 'Qalaniń arxitekturalıq jobası klassikalıq Xorezm úlgilerinan parıqlanadı'],
     },
   },
-
+ 
   // Mausoleums
   {
     id: 'sultan-uvays',
@@ -344,7 +343,7 @@ export const monuments = [
       qq: ['Ústirt platosına tarqalǵan hám orta ásirler kóshpeliler mádeniyeti menen baylanıslı', 'Ayırım zıyaratgahlar sóyeklerdi saqlawǵa arnalǵan zardushtıylıq ossuuriyları — nawsları óz ishine aladı', 'Run jazıwları menen nádiri tas qabır tasları saqlanǵan'],
     },
   },
-
+ 
   // Nukus
   {
     id: 'ajiniyaz-monument',
@@ -456,7 +455,7 @@ export const monuments = [
       qq: ['Mıń jıllar dawamında Xorezm halıqları ushın hayat deregi bolǵan ullı dáryanı ulıwmalandıradı', 'Ámiwdárya gadimgi tekstlerde afsanawiy Oks daryası retinde ataladı', 'Qaraqalpaq halqınıń suw hám tábiyat penen jaqın baylanısın ramzıy ifodalaydi'],
     },
   },
-
+ 
   // Museums
   {
     id: 'savitsky-museum',
@@ -513,7 +512,7 @@ export const monuments = [
       qq: ['Atı "Ellik qala" degen mánisti bildiretın rayonda ornalasqan', 'Ellikqala rayonınıń kóp sanawlı qalalarındaǵı qazıwlar dawamında tabılǵan artefaktlardı saqlaydı', 'Xorezmniń jaqın atraptaǵı qalalarına ekskursiyalar ushın baslanǵısh noqtası retinde xızmet etedi'],
     },
   },
-
+ 
   // Khorezm fortresses
   {
     id: 'kalalygyr',
@@ -559,7 +558,7 @@ export const monuments = [
       qq: ['Xorezm sistemasınıń eń az úyrenilgen qalalarınan biri', 'Qum dóbelerde ornalasqan, bul qazıwlardı sezilarli dárejede qıyınlastıradı', 'Pútkil perimetr boyında 3–4 metrge shekem biyiklikteǵi qorǵaw valları saqlanǵan'],
     },
   },
-
+ 
   // Nature
   {
     id: 'ustyurt-plateau',
@@ -616,7 +615,7 @@ export const monuments = [
       qq: ['Ámiwdárya deltasında saqlanǵan az sanawlı iri suw kóllerinen biri', 'Tábiyat qaraǵandısı bolıp, siyrek pelikan hám kóp sanawlı suw qusları túrlerine meken bolıp tabıladı', 'Aral boyı ekosistemaların tiklew xalıqaralıq baǵdarlamasında qatnasadı'],
     },
   },
-
+ 
   // Settlements
   {
     id: 'khodjeyli',
@@ -673,7 +672,7 @@ export const monuments = [
       qq: ['Mádeniyet orayı retinde tanılǵan tústik Qaraqalpaqstannıń eń gadimgi qalalarınan biri', 'XIX ásirde áhmiyetli bazar hám qaraqalpaq hunarmentshiliginiń orayı bolǵan', 'Bir neshe belgili qaraqalpaq aqınları hám xalıq ustalarınıń watanı'],
     },
   },
-
+ 
   // Modern
   {
     id: 'constitution-monument',
@@ -719,7 +718,7 @@ export const monuments = [
       qq: ['Pútkil halıqtıń hayat derеgin alıp ketken global ekologiyalıq fajia haqqında eslatadı', 'Dúnyanıń jámáátshiligini tábiyiy resurslarga jawaplı qatnasqa shaqıradı', 'Aral apatınıń aqıbetlerin úyrenetuǵın ekologlar hám alımlar zıyaratgahı'],
     },
   },
-
+ 
   // Other
   {
     id: 'caravan-route',
@@ -754,12 +753,97 @@ export const monuments = [
       qq: ['Xorezmniń ónimdar jerlerın qorǵaǵan keń kólemli qorǵanıs sistemasınıń qaldıqları', 'Diywarlardıń ayırım bólimleri bir neshe kilometrden artıq', 'Gadimgi xorezmiylerdiń joqarı dárejedegi harbiy injenerlik ónerinen dalálat beredi'],
     },
   },
+ 
+  // New fortresses
+  {
+    id: 'dev-kala',
+    name: { ru: 'Дев-Кала', en: 'Dev-Kala', uz: 'Dev-Qalʼa', qq: 'Dev-Qala' },
+    category: 'fortresses', coords: [41.72, 60.58], century: 'III-II веке до нашей эры',
+    facts: {
+      ru: ['Название переводится как «крепость дьявола» или «крепость великана» — согласно местным преданиям, её возвели сверхъестественные существа', 'Массивные стены из сырцового кирпича достигают толщины 5–6 метров у основания', 'Вблизи крепости обнаружены следы древних ирригационных каналов и жилых кварталов'],
+      en: ['The name translates as "devil\'s fortress" or "giant\'s fortress" — according to local legends, it was built by supernatural beings', 'The massive adobe brick walls reach 5–6 meters thick at the base', 'Near the fortress, traces of ancient irrigation canals and residential quarters were found'],
+      uz: ['Nomi «shayton qalʼasi» yoki «dev qalʼasi» deb tarjima qilinadi — mahalliy afsonalarga ko\'ra, uni g\'ayritabiiy mavjudodlar qurgan', 'Xom g\'ishtdan qurilgan massiv devorlar asosida 5–6 metr qalinlikka yetadi', 'Qalʼa yaqinida qadimiy sug\'orish kanallari va turar-joy kvartallarining izlari topilgan'],
+      qq: ['Atı «shaytannıń qalası» yaki «devdiń qalası» dep awdarıladı — jergilikli afsanalar boyınsha, onı g\'ayritábiyiy jánliler qurǵan', 'Shiy kerpiishten qurılǵan massiv diywalar tiykarında 5–6 metr qalıńlıqqa jetedi', 'Qala jaqınında gadimgi suwlandırıw kanalları hám turarjay kvartallarınıń izleri tabılǵan'],
+    },
+  },
+  {
+    id: 'shilpyk',
+    name: { ru: 'Шильпык', en: 'Shilpyk', uz: 'Shilpiq', qq: 'Shılpıq' },
+    category: 'fortresses', coords: [41.65, 60.45], century: 'IV-III веке до нашей эры',
+    facts: {
+      ru: ['Круглая башня-крепость диаметром около 24 метров, стоящая на высоком обрывистом холме над Амударьёй', 'Предположительно служила зороастрийской дахмой — башней молчания — для ритуального погребения', 'С вершины холма открывается захватывающий вид на пойму Амударьи и окрестные пустынные равнины'],
+      en: ['A circular tower-fortress about 24 meters in diameter, standing on a high cliff hill above the Amu Darya', 'Believed to have served as a Zoroastrian dakhma — a tower of silence — for ritual burial', 'From the top of the hill, a breathtaking view of the Amu Darya floodplain and surrounding desert plains opens up'],
+      uz: ['Amudaryoning baland qirg\'og\'idagi tepalikning ustida turgan taxminan 24 metr diametrli dumaloq minora-qalʼa', 'Zardushtiylik daxmasi — jimlik minorasi — sifatida ritual dafn marosimi uchun xizmat qilgan deb taxmin qilinadi', 'Tepalikning yuqorisidan Amudaryo qirg\'og\'i va atrofdagi cho\'l tekisliklari haqidagi hayratlanarli ko\'rinish ochiladi'],
+      qq: ['Ámiwdárya ústindegi biyik jarqabaqlı tóbeniń ústinde turǵan taxmınan 24 metr diametrli dógelek minara-qala', 'Zardushtıylıq daxması — jimlik minarası — retinde ritual jayrılawǵa xizmet etken dep esaplanadı', 'Tóbeniń ústinen Ámiwdárya jağalawı hám atraptaǵı shól teńizlikleriniń hayran qaldırǵısh kórinisi oshıladı'],
+    },
+  },
+ 
+  // New mausoleums
+  {
+    id: 'shamun-nabi',
+    name: { ru: 'Мавзолей Шамун-Наби', en: 'Shamun-Nabi Mausoleum', uz: 'Shamun-Nabi maqbarasi', qq: 'Shamun-Nabi maqbarası' },
+    category: 'mausoleums', coords: [42.18, 59.48], century: 'XIV в.',
+    facts: {
+      ru: ['Один из наиболее почитаемых святых мест Каракалпакстана — место паломничества круглый год', 'По преданию, здесь покоится библейский пророк Самуил (Шамун), что придаёт мавзолею особую религиозную значимость', 'Архитектурный комплекс включает мечеть, медресе и старинное кладбище с уникальными надгробиями'],
+      en: ['One of the most revered holy sites in Karakalpakstan — a pilgrimage destination year-round', 'According to legend, the biblical prophet Samuel (Shamun) rests here, giving the mausoleum special religious significance', 'The architectural complex includes a mosque, madrassa, and an ancient cemetery with unique tombstones'],
+      uz: ['Qoraqalpog\'istonning eng hurmatli muqaddas joylaridan biri — yil davomida ziyorat qilinadigan joy', 'Rivoyatga ko\'ra, bu yerda Injildagi Shamʼun payg\'ambar yotadi, bu esa maqbaraga alohida diniy ahamiyat beradi', 'Me\'moriy majmua masjid, madrasa va noyob qabrtoshlar bilan qadimiy qabristonni o\'z ichiga oladi'],
+      qq: ['Qaraqalpaqstannıń eń húrmetli muqaddes orınlarınan biri — jıl boyı zıyarat etiletuǵın jer', 'Rivayatqa kóre, bul jerde Injildegi Shamʼun payǵambar jasırınǵan, bul maqbarańa arnawlı diniy áhmiyettilik beredi', 'Me\'mariy majmua meshit, medrese hám nádiri qabır tasleri menen gadimgi qabırstonlıqtı óz ishine alıwdı'],
+    },
+  },
+  {
+    id: 'mirab-arab',
+    name: { ru: 'Мавзолей Мираб-Араб', en: 'Mirab-Arab Mausoleum', uz: 'Mirab-Arab maqbarasi', qq: 'Mirab-Arab maqbarası' },
+    category: 'mausoleums', coords: [42.28, 59.35], century: 'XVI в.',
+    facts: {
+      ru: ['Изящный купольный мавзолей, посвящённый известному религиозному деятелю — распространителю ислама в Хорезме', 'Построен в традициях хорезмской архитектуры с характерным декором из обожжённого кирпича и полихромных изразцов', 'До сих пор является действующим местом поклонения и религиозного почитания для жителей окрестных сёл'],
+      en: ['An elegant domed mausoleum dedicated to a prominent religious figure — a spreader of Islam in Khorezm', 'Built in the traditions of Khorezm architecture with characteristic decor of fired brick and polychrome tiles', 'Still an active place of worship and religious veneration for residents of surrounding villages'],
+      uz: ['Xorazmda islomni yoygan taniqli din arbobiga bag\'ishlangan nafis gumbazli maqbara', 'Pishirilgan g\'isht va ko\'p rangli koshinlar bilan xarakterli bezak bilan Xorazm me\'morchilik an\'analarida qurilgan', 'Hozir ham atrofdagi qishloq aholisi uchun faol ibodat va diniy ulug\'lash joyi'],
+      qq: ['Xorezmde islamdı tarqatqan belgili din arbabına arnalǵan kelisimli gümbezli maqbara', 'Pısırılǵan kerpish hám kóp túsli koshinler menen xarakterli bezeniw menen Xorezm me\'marshılıq dástúrlerinde qurılǵan', 'Háliy de atraptaǵı awıl halqı ushın ámeliy ibadat hám diniy ulıwlandırıw orını'],
+    },
+  },
+ 
+  // New museums/culture
+  {
+    id: 'karakalpak-history-museum',
+    name: { ru: 'Каракалпакский государственный музей истории и культуры', en: 'Karakalpak State Museum of History and Culture', uz: 'Qoraqalpog\'iston davlat tarix va madaniyat muzeyi', qq: 'Qaraqalpaqstan mámleketlik tariyх hám mádeniyet muzeyi' },
+    category: 'museums', coords: [42.46, 59.62], century: '1929',
+    facts: {
+      ru: ['Один из старейших музеев региона, основанный ещё в советский период, хранит более 80 000 экспонатов', 'Коллекция охватывает предметы от эпохи палеолита до современности, включая уникальные образцы каракалпакского ювелирного искусства', 'Особую ценность представляют ковры и ювелирные украшения — традиционные символы каракалпакской культуры'],
+      en: ['One of the oldest museums in the region, founded in the Soviet era, holds more than 80,000 exhibits', 'The collection spans artifacts from the Paleolithic era to modern times, including unique examples of Karakalpak jewelry art', 'Of particular value are carpets and jewelry — traditional symbols of Karakalpak culture'],
+      uz: ['Sovet davrida tashkil etilgan mintaqaning eng qadimiy muzeylaridan biri, 80 000 dan ortiq eksponatni saqlaydi', 'Kolleksiya paleolit davridan hozirgi zamonimizgacha bo\'lgan buyumlarni, shu jumladan Qoraqalpoq zargarlik san\'atining noyob namunalarini o\'z ichiga oladi', 'Alohida qimmatga ega bo\'lgan gilam va zargarlik buyumlari — qoraqalpoq madaniyatining an\'anaviy ramzlari'],
+      qq: ['Sovet dáwirinde shólkemlestirligen aymaqdıń eń gadimgi muzeylerinen biri, 80 000 dan artıq ekspozitsiyanı saqlaydı', 'Kolleksiya paleolit dáwirinen házirgi zamange shekem buyımlardı, sonıń ishinde Qaraqalpaq zergerlik óneriniń nádiri nusqaların óz ishine alıwdı', 'Arnawlı qundılıqqa iye gilam hám zerger buyımlar — qaraqalpaq mádeniyet dástúriy ramzları'],
+    },
+  },
+  {
+    id: 'berdakh-museum',
+    name: { ru: 'Музей великого поэта Бердаха', en: 'Museum of the Great Poet Berdakh', uz: 'Buyuk shoir Berdax muzeyi', qq: 'Ullı aqın Berdax muzeyi' },
+    category: 'museums', coords: [42.47, 59.62], century: '1970-е',
+    facts: {
+      ru: ['Посвящён Бердаху (1827–1900) — величайшему поэту и мыслителю каракалпакского народа, национальному символу', 'В музее хранятся рукописи его поэм, личные вещи и документы, рассказывающие о его жизни и творчестве', 'Бердах известен своими эпическими поэмами о судьбе каракалпакского народа, его борьбе и духовных поисках'],
+      en: ['Dedicated to Berdakh (1827–1900) — the greatest poet and thinker of the Karakalpak people, a national symbol', 'The museum holds manuscripts of his poems, personal belongings, and documents telling about his life and work', 'Berdakh is known for his epic poems about the fate of the Karakalpak people, their struggles and spiritual searches'],
+      uz: ['Qoraqalpoq xalqining eng buyuk shoiri va mutafakkiri, milliy ramz Berdaxga (1827–1900) bag\'ishlangan', 'Muzeyda uning she\'rlarining qo\'lyozmalari, shaxsiy buyumlari va uning hayoti va ijodi haqida so\'zlovchi hujjatlar saqlanadi', 'Berdax qoraqalpoq xalqining taqdiri, uning kurashi va ma\'naviy izlanishlari haqidagi dostonlari bilan mashhur'],
+      qq: ['Qaraqalpaq halqınıń eń ullı aqını hám mutafikiri, milliy ramz Berdaxqa (1827–1900) arnalǵan', 'Muzeyda onıń óleńleriniń qol jazbaları, shaxsiy buyımları hám onıń hayatı hám dóretiwshiligi haqqında sóyleytın hújjetler saqlanadı', 'Berdax qaraqalpaq halqınıń taqdiyrı, onıń gúresi hám ruwxıy izleniwleri haqqındaǵı dastanları menen mash\'hűr'],
+    },
+  },
+ 
+  // New nature monument
+  {
+    id: 'ustyurt-plateau',
+    name: { ru: 'Плато Устюрт', en: 'Ustyurt Plateau', uz: 'Ustyurt yassi tog\'ligi', qq: 'Ustyurt platosı' },
+    category: 'nature', coords: [43.20, 56.50], century: '', featured: true,
+    facts: {
+      ru: ['Огромное плато площадью около 200 000 кв. км, простирающееся между Аральским морем и Каспием — одно из крупнейших в мире', 'На краях плато находятся грандиозные обрывы (чинки) высотой от 100 до 300 метров — одно из самых впечатляющих природных чудес региона', 'На плато сохранились загадочные «стрелы» — V-образные каменные сооружения, использовавшиеся тысячелетия назад для массовой охоты на сайгаков'],
+      en: ['An enormous plateau of about 200,000 sq km stretching between the Aral Sea and the Caspian — one of the largest in the world', 'At the edges of the plateau there are grand cliffs (chinks) 100 to 300 meters high — one of the most impressive natural wonders of the region', 'On the plateau, mysterious "arrows" have been preserved — V-shaped stone structures used thousands of years ago for mass hunting of saiga antelopes'],
+      uz: ['Orol dengizi va Kaspiy o\'rtasida cho\'zilgan taxminan 200 000 kv km yuzasi bilan ulkan yassitog\'lik — dunyodagi eng kattalaridan biri', 'Yassitog\'likning chekkasida 100 dan 300 metrgacha balandlikdagi muhtasham qoyalar (chinklar) bor — mintaqaning eng hayratlanarli tabiiy mo\'jizalaridan biri', 'Yassitog\'likda sirli "o\'qlar" saqlanib qolgan — ming yillar oldin saygalarga ommaviy ov qilish uchun foydalanilgan V-shaklidagi tosh inshootlar'],
+      qq: ['Aral teńizi hám Kaspiy arasında sozılǵan taxmınan 200 000 kv km maydanı menen úlken plato — dúnyadaǵı eń irilерiniń biri', 'Platoniń shettерinde 100 den 300 metrge shekem biyiklikteği minnetli jarlıqlar (chinkler) bar — aymaqdıń eń hayran qaldırǵısh tábiyat mújiyzelerinen biri', 'Platoda sirli «oqlar» saqlanǵan — mıń jıllar aldın saygalardı toparlap awlawǵa paydalanılǵan V-sheklі tас ınshawlar'],
+    },
+  },
 ];
-
+ 
 export const wonders = [
   'ayaz-kala', 'toprak-kala', 'koi-krylgan-kala', 'chilpyk', 'sultan-uvays', 'mazlumkhan-sulu', 'savitsky-museum'
 ];
-
+ 
 export const newsArticles = [
   {
     id: 'n1',
