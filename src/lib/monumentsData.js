@@ -422,15 +422,38 @@ facts: {
     },
   },
   {
-    id: 'shamun-nabi-complex',
-    name: { ru: 'Мавзолей Шамун-Наби (комплекс)', en: 'Shamun-Nabi Mausoleum Complex', uz: 'Shamun-Nabi maqbarasi', qq: 'Shamun-Nabi maqbarası' },
-    category: 'mausoleums', coords: [42.18, 59.48], century: 'XIV в.',
-    facts: {
-      ru: ['Один из наиболее почитаемых святых мест Каракалпакстана — место паломничества круглый год', 'По преданию, здесь покоится библейский пророк Самуил (Шамун), что придаёт мавзолею особую религиозную значимость', 'Архитектурный комплекс включает мечеть, медресе и старинное кладбище с уникальными надгробиями'],
-      en: ['One of the most revered holy sites in Karakalpakstan — a pilgrimage destination year-round', 'According to legend, the biblical prophet Samuel (Shamun) rests here, giving the mausoleum special religious significance', 'The architectural complex includes a mosque, madrassa, and an ancient cemetery with unique tombstones'],
-      uz: ['Qoraqalpog\'istonning eng hurmatli muqaddas joylaridan biri — yil davomida ziyorat qilinadigan joy', 'Rivoyatga ko\'ra, bu yerda Injildagi Shamʼun payg\'ambar yotadi, bu esa maqbaraga alohida diniy ahamiyat beradi', 'Me\'moriy majmua masjid, madrasa va noyob qabrtoshlar bilan qadimiy qabristonni o\'z ichiga oladi'],
-      qq: ['Qaraqalpaqstannıń eń húrmetli muqaddes orınlarınan biri — jıl boyı zıyarat etiletuǵın jer', 'Rivayatqa kóre, bul jerde Injildegi Shamʼun payǵambar jasırınǵan, bul maqbarańa arnawlı diniy áhmiyettilik beredi', 'Me\'mariy majmua meshit, medrese hám nádiri qabır tasleri menen gadimgi qabırstonlıqtı óz ishine alıwdı'],
-    },
+   id: 'kurgancha-kala',
+name: {
+  ru: 'Курганча-кала',
+  en: 'Kurgancha-Kala',
+  uz: 'Qo‘rg‘oncha qalʼa',
+  qq: 'Qorǵansha qala'
+},
+category: 'fortresses',
+coords: [41.90, 60.80],
+century: 'IV–III вв. до н.э.',
+facts: {
+  ru: [
+    'Древнее городище и крепость эпохи античного Хорезма',
+    'Крепость была окружена мощными оборонительными стенами и башнями',
+    'Археологи обнаружили здесь остатки жилых помещений и хозяйственных построек'
+  ],
+  en: [
+    'An ancient settlement and fortress of the Antique Khorezm period',
+    'The fortress was surrounded by strong defensive walls and towers',
+    'Archaeologists discovered remains of residential and хозяйственных buildings here'
+  ],
+  uz: [
+    'Qadimgi Xorazm davriga oid qadimiy shahar va qalʼa',
+    'Qalʼa mustahkam mudofaa devorlari va minoralar bilan o‘ralgan edi',
+    'Arxeologlar bu yerda turar joy va xo‘jalik binolari qoldiqlarini topgan'
+  ],
+  qq: [
+    'Qadimgi Xorezm dáwirine tiyisli qala hám eski qalʼa',
+    'Qala kúshli qorǵanıs divarları hám minaralar menen qorshalǵan',
+    'Arxeologlar bul jerde turǵın jaylar hám xojalıq imaratlarınıń qaldıqların tapqan'
+  ],
+},
   },
   {
     id: 'khoja-ishan',

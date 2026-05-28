@@ -316,14 +316,6 @@ const monumentImages = {
   ],
 },
 
-'khodjeyli-juma-mosque': {
-  cover: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Juma_Mosque_20140927_Uzbekistan_0284_Khiva_%2815638472913%29.jpg',
-  gallery: [
-    'https://upload.wikimedia.org/wikipedia/commons/7/75/Juma_Mosque_20140927_Uzbekistan_0284_Khiva_%2815638472913%29.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6w9Q8fNGEKZ75WIYl8Tux-Hsp23lG1PHoA&s',
-  ],
-},
-
   'amudarya-delta': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s',
     gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s', 'https://ayan-turkmenistan.travel/wp-content/uploads/2023/10/amudarya-1920x960.jpg'],
