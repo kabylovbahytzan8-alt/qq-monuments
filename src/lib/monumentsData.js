@@ -243,15 +243,38 @@ export const monuments = [
     },
   },
   {
-    id: 'shilpyk',
-    name: { ru: 'Шильпык', en: 'Shilpyk', uz: 'Shilpiq', qq: 'Shılpıq' },
-    category: 'fortresses', coords: [41.65, 60.45], century: 'IV-III веке до нашей эры',
-    facts: {
-      ru: ['Круглая башня-крепость диаметром около 24 метров, стоящая на высоком обрывистом холме над Амударьёй', 'Предположительно служила зороастрийской дахмой — башней молчания — для ритуального погребения', 'С вершины холма открывается захватывающий вид на пойму Амударьи и окрестные пустынные равнины'],
-      en: ['A circular tower-fortress about 24 meters in diameter, standing on a high cliff hill above the Amu Darya', 'Believed to have served as a Zoroastrian dakhma — a tower of silence — for ritual burial', 'From the top of the hill, a breathtaking view of the Amu Darya floodplain and surrounding desert plains opens up'],
-      uz: ['Amudaryoning baland qirg\'og\'idagi tepalikning ustida turgan taxminan 24 metr diametrli dumaloq minora-qalʼa', 'Zardushtiylik daxmasi — jimlik minorasi — sifatida ritual dafn marosimi uchun xizmat qilgan deb taxmin qilinadi', 'Tepalikning yuqorisidan Amudaryo qirg\'og\'i va atrofdagi cho\'l tekisliklari haqidagi hayratlanarli ko\'rinish ochiladi'],
-      qq: ['Ámiwdárya ústindegi biyik jarqabaqlı tóbeniń ústinde turǵan taxmınan 24 metr diametrli dógelek minara-qala', 'Zardushtıylıq daxması — jimlik minarası — retinde ritual jayrılawǵa xizmet etken dep esaplanadı', 'Tóbeniń ústinen Ámiwdárya jağalawı hám atraptaǵı shól teńizlikleriniń hayran qaldırǵısh kórinisi oshıladı'],
-    },
+    id: 'beketata',
+name: {
+  ru: 'Бекет-Ата',
+  en: 'Beket-Ata',
+  uz: 'Beket-ota',
+  qq: 'Beket-Ata'
+},
+category: 'mazars',
+coords: [44.35, 52.08],
+century: 'XVIII век',
+facts: {
+  ru: [
+    'Подземная мечеть и святыня, высеченная в скале',
+    'Бекет-Ата считается одним из самых почитаемых суфийских святых Центральной Азии',
+    'Паломники приезжают сюда со всего региона для молитвы и духовного очищения'
+  ],
+  en: [
+    'An underground mosque and shrine carved into the rock',
+    'Beket-Ata is considered one of the most revered Sufi saints of Central Asia',
+    'Pilgrims come here from across the region for prayer and spiritual purification'
+  ],
+  uz: [
+    'Qoyaga o‘yib qurilgan yer osti masjidi va ziyoratgoh',
+    'Beket-ota Markaziy Osiyodagi eng ulug‘ sufiya avliyolaridan biri hisoblanadi',
+    'Bu yerga ziyoratchilar ibodat va ruhiy poklanish uchun kelishadi'
+  ],
+  qq: [
+    'Qaya ishine oyılǵan jer astı meshiti hám qásiyetli orın',
+    'Beket-Ata Orta Aziyadaǵı eń qádirli sufiy áwliyalarınıń biri esaplanadı',
+    'Bul jerge zıyaratshılar dúǵa hám ruwxıy tazalanıw ushın keledi'
+  ],
+},
   },
   {
     id: 'berkut-kala',
