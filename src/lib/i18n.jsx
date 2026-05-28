@@ -66,7 +66,7 @@ const translations = {
     },
     about: {
       title: 'About the Project', mission: 'Our Mission', team: 'Team', goals: 'Goals',
-      missionText: 'This site was created by students for educational purposes to promote the cultural heritage of Karakalpakstan.',
+      missionText: 'The website was created by the teachers of the Department of Social and Humanitarian Sciences of Nukus State Technical University — Candidate of Historical Sciences Svetlana Khozhakmetovna Esbergenova and Aisylu Kalbaevna Toremuratova — for those who are interested in the traditional everyday culture of the peoples of the Southern Aral Sea region.',
     },
     contact: {
       title: 'Contact Us', name: 'Name', email: 'Email', message: 'Message', send: 'Send',
@@ -106,7 +106,7 @@ const translations = {
     },
     about: {
       title: 'Loyiha haqida', mission: 'Bizning vazifamiz', team: 'Jamoa', goals: 'Maqsadlar',
-      missionText: 'Ushbu sayt Qoraqalpogʻiston madaniy merosini ommalashtirishga qaratilgan taʼlimiy maqsadlarda talabalar tomonidan yaratilgan.',
+      missionText: 'Sayt Nukus Davlat Texnika Universiteti Ijtimoiy-gumanitar fanlar kafedrasi o‘qituvchilari — tarix fanlari nomzodi Svetlana Xojakmetovna Esbergenova hamda Aysilu Kalbaevna Toremuratova tomonidan Janubiy Orolbo‘yi xalqlarining an’anaviy maishiy madaniyatiga qiziquvchilar uchun yaratilgan.',
     },
     contact: {
       title: 'Biz bilan bogʻlaning', name: 'Ism', email: 'Email', message: 'Xabar', send: 'Yuborish',
@@ -146,7 +146,7 @@ const translations = {
     },
     about: {
       title: 'Proyekt haqqında', mission: 'Bizdiń wazıypamız', team: 'Komanda', goals: 'Maqsetler',
-      missionText: 'Bul sayt Qaraqalpaqstan mádeniyet mırasın keng jaymalawtıruv maqsetinde studentler tárepinen jaratılǵan.',
+      missionText: 'Sayt Nókis Mámleketlik Texnika Universitetiniń Sociallıq-gumanitarlıq páńler kafedrası oqıtıwshıları — tariyx ilimleriniń kandidatı Svetlana Xojakmetovna Esbergenova hám Aysıluw Kalbaevna Toremuratova tárepinen Aral mańınıń qubla xalıqlarınıń dástúriy turmıs mádeniyatına qızıǵıwshılar ushın jaratılǵan.',
     },
     contact: {
       title: 'Biz benen baylanısıń', name: 'Atıńız', email: 'Email', message: 'Xabar', send: 'Jiberiw',
