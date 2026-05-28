@@ -445,15 +445,38 @@ facts: {
 },
   },
   {
-    id: 'artyk-kala',
-    name: { ru: 'Артык-Кала', en: 'Artyk-Kala', uz: 'Artiq-Qalʼa', qq: 'Artıq-Qala' },
-    category: 'fortresses', coords: [41.81, 60.58], century: 'II в. до н.э.',
-    facts: {
-      ru: ['Название означает «лишняя» или «дополнительная» крепость — вспомогательный укреплённый пункт', 'Расположена между двумя более крупными крепостями, образуя единую оборонительную линию', 'Обнаружены следы ремесленных мастерских по обработке металла'],
-      en: ['The name means "extra" or "additional" fortress — an auxiliary fortified point', 'Located between two larger fortresses, forming a unified defensive line', 'Traces of craft workshops for metal processing were found'],
-      uz: ['Nomi "ortiqcha" yoki "qo\'shimcha" qalʼa degan ma\'noni anglatadi — yordamchi mustahkamlangan punkt', 'Yagona mudofaa liniyasini hosil qiluvchi ikki yirik qalʼa oʻrtasida joylashgan', 'Metal ishlash bo\'yicha hunarmandchilik ustaxonalarining izlari topilgan'],
-      qq: ['Atı "artıq" yaki "qosımsha" qala degen mánisti bildirredi — járdemshi bekkemlengen punkt', 'Birden qorǵanıs liniyasın payda etiwshi eki iri qala arasında ornalasqan', 'Metal islew boyınsha hunarmentshilik ustaxanalarınıń izleri tabılǵan'],
-    },
+   id: 'kyrk-kyz-kala',
+name: {
+  ru: 'Кырк-Кыз-Кала',
+  en: 'Kyrk-Kyz-Kala',
+  uz: 'Qirq Qiz Qalʼa',
+  qq: 'Qırq Qız-Qala'
+},
+category: 'fortresses',
+coords: [41.95, 60.70],
+century: 'IV–IX вв.',
+facts: {
+  ru: [
+    'Название переводится как «Крепость сорока девушек»',
+    'Одно из самых загадочных укреплений Хорезма с мощными стенами из сырцового кирпича',
+    'Существует множество легенд о женском гарнизоне, защищавшем крепость'
+  ],
+  en: [
+    'The name means "Fortress of Forty Girls"',
+    'One of the most mysterious Khorezm fortresses with strong mudbrick walls',
+    'There are many legends about a female garrison defending the fortress'
+  ],
+  uz: [
+    'Nomi “Qirq qiz qalʼa” — “Qirq qizlar qalʼasi” degan maʼnoni anglatadi',
+    'Xorazmning eng sirli qalʼalaridan biri bo‘lib, xom g‘ishtdan qurilgan mustahkam devorlarga ega',
+    'Qalʼani himoya qilgan ayol jangchilar haqida ko‘plab rivoyatlar mavjud'
+  ],
+  qq: [
+    'Ataması “Qırq qız qala” — “Qırq qızlar qalası” degendi bildiradi',
+    'Xorezmniń eń sirlı qalalarından biri, shiy kerpiştan qurılǵan berik diywallarǵa iye',
+    'Qalǵanı qorǵaǵan áyel áskerler haqqında kóp legenalar bar'
+  ]
+},
   },
 
   // Mausoleums
@@ -635,15 +658,39 @@ facts: {
     },
   },
   {
-    id: 'kazybek-biy',
-    name: { ru: 'Мавзолей Казыбек-Бия', en: 'Kazybek Biy Mausoleum', uz: 'Qozibek Biy maqbarasi', qq: 'Qazıbek Biy maqbarası' },
-    category: 'mausoleums', coords: [42.70, 59.10], century: 'XVIII в.',
-    facts: {
-      ru: ['Посвящён известному биям — племенному вождю и судье, почитаемому за мудрость', 'Служит местом разрешения споров — по традиции жители приходят сюда принять клятву', 'Украшен традиционным каракалпакским орнаментом на гипсовой лепнине'],
-      en: ['Dedicated to a famous biy — tribal leader and judge, revered for wisdom', 'Serves as a place for settling disputes — by tradition, locals come here to take oaths', 'Decorated with traditional Karakalpak ornamentation on plaster molding'],
-      uz: ['Donoligi uchun hurmat qozongan mashhur biyga — qabilaviy rahbar va qoziga bag\'ishlangan', 'Nizolarni hal qilish joyi sifatida xizmat qiladi — an\'anaga ko\'ra aholi bu yerga qasam ichgani keladi', 'Gips qolip bezagida an\'anaviy qoraqalpoq naqsh bilan bezatilgan'],
-      qq: ['Danalıǵı ushın húrmet qazanǵan belgili biyge — qabilalıq basshı hám qazıǵa arnalǵan', 'Dawalardı sheshiw orını retinde xızmet etedi — dástúr boyınsha halıq bul jerge ant etiwge keledi', 'Gips qalıplı bezekte dástúriy Qaraqalpaq naqshı menen bezeltilgen'],
-    },
+  id: 'kalifa-radzhab',
+  name: {
+    ru: 'Мавзолей Халифа Раджаб',
+    en: 'Khalifa Rajab Mausoleum',
+    uz: 'Xalifa Rajab maqbarasi',
+    qq: 'Xalifa Rajab maqbarası'
+  },
+  category: 'mausoleums',
+  coords: [42.44, 59.62],
+  century: 'XII век',
+  location: 'Миздахкан, Каракалпакстан',
+  facts: {
+    ru: [
+      'Средневековый мавзолей, расположенный в некрополе Миздахкан',
+      'Датируется примерно XII веком и относится к раннему исламскому периоду региона',
+      'Сохранились только руины квадратного здания из сырцового кирпича'
+    ],
+    en: [
+      'A medieval mausoleum located in the Mizdakhan necropolis',
+      'Dates back to approximately the 12th century and belongs to the early Islamic period',
+      'Only ruins of a square mudbrick structure have survived'
+    ],
+    uz: [
+      'Mizdaxkan nekropolida joylashgan o‘rta asr maqbarasi',
+      'Taxminan XII asrga tegishli va erta islom davriga kiradi',
+      'Faqat xom g‘ishtdan qurilgan kvadrat inshoot qoldiqlari saqlangan'
+    ],
+    qq: [
+      'Mizdaxkan nekropolında ornalasqan orta ásir maqbarası',
+      'Taxmınan XII ásirge tiyisli hám erte islam dáwirine kiredi',
+      'Tek shiy kerpiştan qurılǵan kvadrat imarat qaldıqları saqlanǵan'
+    ]
+  },
   },
   {
     id: 'alim-ata',

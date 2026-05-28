@@ -378,6 +378,12 @@ const monumentImages = {
     'https://storage.kun.uz/source/5/SUqXQcJeQmpizMUMFMWbU-qTHgDHHx1A.jpg',
   ],
 },
+'kyrk-kyz-kala': {
+  cover: 'https://dwc.kg/wp-content/uploads/2023/08/wf4e63ovldhjdy7g0izlajktf0ycuoyo.webp',
+  gallery: [
+    'https://dwc.kg/wp-content/uploads/2023/08/wf4e63ovldhjdy7g0izlajktf0ycuoyo.webp',
+  ],
+},
   'amudarya-delta': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s',
     gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s', 'https://ayan-turkmenistan.travel/wp-content/uploads/2023/10/amudarya-1920x960.jpg'],
@@ -416,7 +422,30 @@ const monumentImages = {
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiIRAgmpFi1uiAymhc2xc5Ff1ScNRYkO3U2Q&s',
     ],
   },
-
+'mirab-arab': {
+    cover:   'https://nomads-life.com/wp-content/uploads/2024/05/Mir-i-Arab-Madrasa.-Bukhara.jpg',
+    gallery: [
+      'https://nomads-life.com/wp-content/uploads/2024/05/Mir-i-Arab-Madrasa.-Bukhara.jpg',
+    ],
+  },
+  'kalifa-radzhab': {
+    cover:   'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
+    gallery: [
+      'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
+    ],
+  },
+  'juma-ata': {
+    cover:   'https://nomads-life.com/wp-content/uploads/2024/05/The-Juma-Mosque.-Khiva.-Uzbekistan-1024x769.jpg',
+    gallery: [
+      'https://nomads-life.com/wp-content/uploads/2024/05/The-Juma-Mosque.-Khiva.-Uzbekistan-1024x769.jpg','https://www.orexca.com/img/uzbekistan/khiva/juma_mosque.jpg'
+    ],
+  },
+  'kalifa-radzhab': {
+    cover:   'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
+    gallery: [
+      'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
+    ],
+  },
   'ajiniyaz-monument': {
     cover:   'https://podrobno.uz/upload/iblock/16a/iav1ovcx1ncsgb65iiju9gqi4tzo8u6u/4234252553.webp',
     gallery: [
