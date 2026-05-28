@@ -692,16 +692,40 @@ facts: {
     ]
   },
   },
-  {
-    id: 'alim-ata',
-    name: { ru: 'Мавзолей Алим-Ата', en: 'Alim Ata Mausoleum', uz: 'Olim Ota maqbarasi', qq: 'Álim Ata maqbarası' },
-    category: 'mausoleums', coords: [42.50, 59.70], century: 'XV в.',
-    facts: {
-      ru: ['Посвящён суфийскому учёному и богослову, оставившему духовные наставления своему народу', 'Купол мавзолея выложен характерной для Хорезма бирюзовой глазурованной плиткой', 'Является местом паломничества студентов и учёных, просящих благословения на учёбу'],
-      en: ['Dedicated to a Sufi scholar and theologian who left spiritual teachings to his people', 'The dome of the mausoleum is faced with turquoise glazed tiles characteristic of Khorezm', 'Is a pilgrimage site for students and scholars seeking a blessing for studies'],
-      uz: ['O\'z xalqiga ma\'naviy ko\'rsatmalar qoldirgan so\'fiy olim va ilohiyotchiga bag\'ishlangan', 'Maqbara gumbazi Xorazm uchun xarakterli zangori sirlangan kafel bilan qoplangan', 'O\'qish uchun baraka so\'ragan talabalar va olimlar ziyoratgohidir'],
-      qq: ['Óziniń halqına ruwxıy kórsetpeler qaldırǵan sufiy alım hám ilahiyatshıǵa arnalǵan', 'Mazar gúmbezi Xorezm ushın xarakterli kók-jashıl júgertilgen keramika menen qaplangan', 'Oqıw ushın bata soraǵan talaba hám alımlar zıyaratgahı'],
-    },
+    {
+  id: 'shamun-nabi',
+  name: {
+    ru: 'Мавзолей Шамун-Наби',
+    en: 'Shamun-Nabi Mausoleum',
+    uz: 'Shamun-Nabi maqbarasi',
+    qq: 'Shamun-Nabi maqbarası'
+  },
+  category: 'mausoleums',
+  coords: [42.44, 59.62],
+  century: 'XVII–XVIII вв.',
+  location: 'Миздахкан, Каракалпакстан',
+  facts: {
+    ru: [
+      'Один из самых почитаемых мавзолеев Каракалпакстана, расположенный в некрополе Миздахкан',
+      'Связан с легендарной фигурой Шамун-Наби, почитаемой как святой',
+      'Известен своей длинной формой и характерной много-купольной архитектурой'
+    ],
+    en: [
+      'One of the most revered mausoleums in Karakalpakstan, located in the Mizdakhan necropolis',
+      'Associated with the legendary figure Shamun-Nabi, venerated as a saint',
+      'Known for its elongated structure and distinctive multi-dome architecture'
+    ],
+    uz: [
+      'Qoraqalpog‘istondagi eng hurmatli maqbaralardan biri, Mizdaxkan nekropolida joylashgan',
+      'Avliyo sifatida e’zozlanadigan Shamun-Nabi afsonaviy shaxsi bilan bog‘liq',
+      'Uzun shakli va ko‘p gumbazli me’morchiligi bilan mashhur'
+    ],
+    qq: [
+      'Qaraqalpaqstanda eń húrmetli maqbaralardan biri, Mizdaxkan nekropolında ornalasqan',
+      'Avliya retinde qadirlenetin Shamun-Nabi ańızalı shaxsı menen baylanıslı',
+      'Uzın forması hám kóp gúmbezli me’morchiligi menen belgili'
+    ]
+  },
   },
   {
     id: 'hodja-ilyas',

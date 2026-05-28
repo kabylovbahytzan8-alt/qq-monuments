@@ -428,6 +428,12 @@ const monumentImages = {
       'https://nomads-life.com/wp-content/uploads/2024/05/Mir-i-Arab-Madrasa.-Bukhara.jpg',
     ],
   },
+  'karaman-ata': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkiQ0QYT0RwzfF7BUenX9jpFXvi5Wq-e4mLw&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkiQ0QYT0RwzfF7BUenX9jpFXvi5Wq-e4mLw&s','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQukCW4fl-xdFXzRUDK3JdgdfpTUZbpmFc2ow&s'
+    ],
+  },
   'kalifa-radzhab': {
     cover:   'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
     gallery: [
@@ -444,6 +450,12 @@ const monumentImages = {
     cover:   'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
     gallery: [
       'https://xodjeyli.uz/images/content/erejep_qalipe.jpg',
+    ],
+  },
+  'shamun-nabi': {
+    cover:   'https://podrobno.uz/upload/rk/068/6ad6dfabf84cadf6169562f580b9dd8b1030.jpg',
+    gallery: [
+      'https://podrobno.uz/upload/rk/068/6ad6dfabf84cadf6169562f580b9dd8b1030.jpg','https://perspectum.info/wp-content/uploads/2023/08/SHamun-Nabi-1024x576.jpg'
     ],
   },
   'ajiniyaz-monument': {
