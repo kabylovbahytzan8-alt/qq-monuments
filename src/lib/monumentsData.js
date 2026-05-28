@@ -332,15 +332,38 @@ facts: {
     },
   },
   {
-    id: 'kunyauaz-kala',
-    name: { ru: 'Куня-Уаз', en: 'Kunya-Uaz', uz: 'Koʻhna-Voʻaz', qq: 'Kóhna-Waz' },
-    category: 'fortresses', coords: [42.02, 60.55], century: 'VIII-X в.',
-    facts: {
-      ru: ['Средневековая крепость на месте более раннего хорезмийского поселения', 'Отличается нестандартной овальной планировкой', 'Найдены монеты хорезмшахов, позволившие точно датировать слои'],
-      en: ['A medieval fortress on the site of an earlier Khorezm settlement', 'Distinguished by a non-standard oval layout', 'Coins of the Khorezmshah were found, allowing the layers to be precisely dated'],
-      uz: ['Xorazmning ilgariroq aholi punkti o\'rnidagi o\'rta asrlar qalʼasi', 'Nostandart oval rejalashtirish bilan ajralib turadi', 'Qatlamlarni aniq sanarlash imkonini bergan xorazmshohlar tangalari topilgan'],
-      qq: ['Xorezmniń burınǵı mekenlestiriwi ornındaǵı orta ásir qalası', 'Standart emes oval jobalaması menen ajıraladı', 'Qatlamlardı anıq sanalawǵa imkaniyat bergen xorezmshahlar tıyınları tabılǵan'],
-    },
+    id: 'kunya-urgench',
+name: {
+  ru: 'Куня-Ургенч',
+  en: 'Kunya-Urgench',
+  uz: 'Koʻhna Urganch',
+  qq: 'Kóhne Úrgenish'
+},
+category: 'historical_city',
+coords: [42.32, 59.15],
+century: 'XI–XVI вв.',
+facts: {
+  ru: [
+    'Древняя столица Хорезма и один из важнейших центров Великого шелкового пути',
+    'Здесь сохранились мавзолеи, минарет Кутлуг-Тимура и другие памятники средневековой архитектуры',
+    'Включён в список Всемирного наследия ЮНЕСКО'
+  ],
+  en: [
+    'Ancient capital of Khorezm and one of the key centers of the Silk Road',
+    'Home to mausoleums, the Kutlug-Timur minaret, and other medieval monuments',
+    'Listed as a UNESCO World Heritage Site'
+  ],
+  uz: [
+    'Qadimgi Xorazm poytaxti va Buyuk Ipak yoʻlining muhim markazlaridan biri',
+    'Bu yerda maqbaralar, Qutlugʻ Temur minorasi va boshqa o‘rta asr yodgorliklari saqlangan',
+    'YUNESKO Jahon merosi roʻyxatiga kiritilgan'
+  ],
+  qq: [
+    'Qadimgı Xorezm poytaxtı hám Ulıwma Ipek jolınıń eń áhmiyetli ortalıqlarınıń biri',
+    'Bul jerde maqbaralar, Qutlıg Temur minarası hám basqa orta ásir estelikleri saqlanǵan',
+    'YUNESKO dúnyalıq miyrası dizimine kirgizilgen'
+  ]
+},
   },
   {
     id: 'uzunkyr-kala',

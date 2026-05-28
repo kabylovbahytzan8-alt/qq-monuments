@@ -347,6 +347,19 @@ const monumentImages = {
     'https://cdn.getyourguide.com/img/tour/edc90598b6c240029085b32e6214ef5042c8b3e4c675e935a4873ca64ccced77.jpeg/68.jpg',
   ],
 },
+
+'jigerb-kala': {
+  cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_e8bTEJQLf9WxAGryv4rjNU9pgr8SuTa7Lg&s',
+  gallery: [
+    'https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala1.jpg',
+  ],
+},
+'kunya-urgench': {
+  cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_e8bTEJQLf9WxAGryv4rjNU9pgr8SuTa7Lg&s',
+  gallery: [
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_e8bTEJQLf9WxAGryv4rjNU9pgr8SuTa7Lg&s',
+  ],
+},
   'amudarya-delta': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s',
     gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RlALdwWxgaPwx8xT3aSMMfBuMqNJjZwMgw&s', 'https://ayan-turkmenistan.travel/wp-content/uploads/2023/10/amudarya-1920x960.jpg'],
