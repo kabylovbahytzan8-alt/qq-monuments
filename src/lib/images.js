@@ -591,9 +591,9 @@ const monumentImages = {
   },
 
   'kerder-settlement': {
-    cover:   'https://silkadv.com/en/content/gorodishche-hayvan-kala-kerder',
+    cover:   'https://ndpi.uz/wp-content/uploads/2023/06/1.jpg',
     gallery: [
-      'https://silkadv.com/en/content/gorodishche-hayvan-kala-kerder',
+      'https://ndpi.uz/wp-content/uploads/2023/06/1.jpg',
     ],
   },
   'keltiminar-sites': {
@@ -692,9 +692,9 @@ const monumentImages = {
   },
 
   'ellikkala-walls': {
-    cover:   'http://www.capone-online.ru/uzbekistan_photo_urganch_50qala.html',
+    cover:   'https://i0.wp.com/theotherpaths.com/wp-content/uploads/2019/01/P9185985-1.jpg?fit=1200%2C675&ssl=1',
     gallery: [
-      'http://www.capone-online.ru/uzbekistan_photo_urganch_50qala.html',
+      'https://i0.wp.com/theotherpaths.com/wp-content/uploads/2019/01/P9185985-1.jpg?fit=1200%2C675&ssl=1',
     ],
   },
 
