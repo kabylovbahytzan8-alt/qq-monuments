@@ -556,6 +556,19 @@ const monumentImages = {
       'https://uzbekistan.travel/storage/app/media/uploaded-files/1753246902459.png',
     ],
   },
+'ustyurt-chinks': {
+    cover:   'https://silkadv.com/sites/default/files/Uzbekistan/Priroda/Karakalpakstan/Vost_cliff_Ustyrt/0_1_5032_min.jpg',
+    gallery: [
+      'https://silkadv.com/sites/default/files/Uzbekistan/Priroda/Karakalpakstan/Vost_cliff_Ustyrt/0_1_5032_min.jpg',
+    ],
+  },
+
+  'amudarya-tugai': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvH0syBemxPS6q-Q4O4QtlGM4ekfMf8Hucig&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvH0syBemxPS6q-Q4O4QtlGM4ekfMf8Hucig&s',
+    ],
+  },
 
 'kavat-kala-kh': {
     cover:   'https://people-travels.com/images/Nukus/Kavat-Kala-fortress.jpg',
@@ -570,7 +583,73 @@ const monumentImages = {
       'https://silkadv.com/sites/default/files/0_2_59r34.jpg',
     ],
   },
+'hazorasp-ancient': {
+    cover:   'https://people-travels.com/storage/images/sights/design/Khorezm_Khazarasp_Fortress_1.webp',
+    gallery: [
+      'https://people-travels.com/storage/images/sights/design/Khorezm_Khazarasp_Fortress_1.webp',
+    ],
+  },
 
+  'kerder-settlement': {
+    cover:   'https://silkadv.com/en/content/gorodishche-hayvan-kala-kerder',
+    gallery: [
+      'https://silkadv.com/en/content/gorodishche-hayvan-kala-kerder',
+    ],
+  },
+  'keltiminar-sites': {
+    cover:   'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQluWz22pHbyNJbTKMP74W64psk5fCUn9bJIKxxSlKlfFXunZQ-',
+    gallery: [
+      'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQluWz22pHbyNJbTKMP74W64psk5fCUn9bJIKxxSlKlfFXunZQ-',
+    ],
+  },
+  'tazabagiab-sites': {
+    cover:   'https://lh3.googleusercontent.com/proxy/NsOF12HNdVaOklpJ7N4giUtI_XhDv2l9zd0FbprJdLER7nN_23iBlmNQPNpIszqfm7kgLiU7IqrEljKkjhCrjnEvYqZKM-ypiRWAR-r7wYOHqcoJWl5N_miiXRR_oemj1-1clDZ7XbbR06GLB15lpzHsQ6GHwAq70gsN0hIGhQBkzg_dLugP',
+    gallery: [
+      'https://lh3.googleusercontent.com/proxy/NsOF12HNdVaOklpJ7N4giUtI_XhDv2l9zd0FbprJdLER7nN_23iBlmNQPNpIszqfm7kgLiU7IqrEljKkjhCrjnEvYqZKM-ypiRWAR-r7wYOHqcoJWl5N_miiXRR_oemj1-1clDZ7XbbR06GLB15lpzHsQ6GHwAq70gsN0hIGhQBkzg_dLugP',
+    ],
+  },
+  'kanguy-monuments': {
+    cover:   'https://kultobe.com/image/11_1_1.jpg',
+    gallery: [
+      'https://kultobe.com/image/11_1_1.jpg',
+    ],
+  },
+  'zoroastrian-ossuaries': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz-vNs_OuOtfUDJYf8E99W0_Law4quZErDg&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz-vNs_OuOtfUDJYf8E99W0_Law4quZErDg&s',
+    ],
+  },
+  'silk-road-ribats': {
+    cover:   'https://eurasia.travel/wp-content/uploads/2024/08/dayakhatyn-caravanseray-3.jpg',
+    gallery: [
+      'https://eurasia.travel/wp-content/uploads/2024/08/dayakhatyn-caravanseray-3.jpg',
+    ],
+  },
+  'fire-altars': {
+    cover:   'https://explorers.uz/image/cache/data/info/uzbekistan/khorezm_fortress/01_big-1600x1200.jpg',
+    gallery: [
+      'https://explorers.uz/image/cache/data/info/uzbekistan/khorezm_fortress/01_big-1600x1200.jpg',
+    ],
+  },
+  'aral-port-ruins': {
+    cover:   'https://ic.pics.livejournal.com/el_magico/17218424/2562310/2562310_original.jpg',
+    gallery: [
+      'https://ic.pics.livejournal.com/el_magico/17218424/2562310/2562310_original.jpg',
+    ],
+  },
+  'medieval-bazaars': {
+    cover:   'https://kzvesti.kz/wp-content/uploads/2023/07/3-9.jpg',
+    gallery: [
+      'https://kzvesti.kz/wp-content/uploads/2023/07/3-9.jpg',
+    ],
+  },
+  'ancient-canals': {
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/photo_2025-07-23_09-15-10.jpg',
+    gallery: [
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/photo_2025-07-23_09-15-10.jpg',
+    ],
+  },
   'constitution-monument': {
     cover:   'https://joqargikenes.uz/media/slides/2025/04/29/header.jpg',
     gallery: [
@@ -613,9 +692,9 @@ const monumentImages = {
   },
 
   'ellikkala-walls': {
-    cover:   'https://lh6.googleusercontent.com/proxy/JiVDR2kAy-CSfv4ijwH9o2TUAAvKgG1L9Oz9xVviTG5031InaieKT6f-UsFJOdPvPOH2hDBzgAKdaUSHHaa7YmkbQhvnZQqmS1D-gVjL_kdqXfzwCwJSi2fk47M',
+    cover:   'http://www.capone-online.ru/uzbekistan_photo_urganch_50qala.html',
     gallery: [
-      'https://lh6.googleusercontent.com/proxy/JiVDR2kAy-CSfv4ijwH9o2TUAAvKgG1L9Oz9xVviTG5031InaieKT6f-UsFJOdPvPOH2hDBzgAKdaUSHHaa7YmkbQhvnZQqmS1D-gVjL_kdqXfzwCwJSi2fk47M',
+      'http://www.capone-online.ru/uzbekistan_photo_urganch_50qala.html',
     ],
   },
 

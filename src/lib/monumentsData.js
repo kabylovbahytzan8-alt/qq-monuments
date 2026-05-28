@@ -1179,17 +1179,7 @@ facts: {
       qq: ['Gadimgilikten házirgi kúnge shekem úzliksiz halıq jasaytın Xorezmniń eń gadimgi qalalarınan biri', 'Atı "mıń at" degen mánisti bildirredi — at baqıw dástúrine isharа', '2500 jıldan artıq úzliksiz mekenlestiriwdi qamlap alǵan mádeniyet qatlamlary tabılǵan'],
     },
   },
-  {
-    id: 'janpyk-kala',
-    name: { ru: 'Джанпык-Кала', en: 'Janpyk-Kala', uz: 'Janpiq-Qalʼa', qq: 'Janpıq-Qala' },
-    category: 'settlements', coords: [42.33, 59.80], century: 'X-XII в.',
-    facts: {
-      ru: ['Средневековое городище в нижнем течении Амударьи', 'В период расцвета являлось центром торговли и ремесленничества', 'Обнаружены остатки городского базара и мастерских по производству керамики'],
-      en: ['A medieval settlement in the lower reaches of the Amu Darya', 'At its peak, it was a center of trade and craftsmanship', 'Remains of a city bazaar and ceramic production workshops were found'],
-      uz: ['Amudaryoning quyi oqimidagi o\'rta asrlar shaharchasi', 'Gullab-yashnash davrida savdo va hunarmandchilik markazi bo\'lgan', 'Shahar bozori va kulolchilik ishlab chiqarish ustaxonalarining qoldiqlari topilgan'],
-      qq: ['Ámiwdáryanıń tómen aǵısındaǵı orta ásir qalashası', 'Gúllengen dáwirde sawda hám hunarmentshilik orayı bolǵan', 'Qala bazarı hám kulalshlıq óndiris ustaxanalarınıń qaldıqları tabılǵan'],
-    },
-  },
+  
   {
     id: 'kerder-settlement',
     name: { ru: 'Кердер (городище)', en: 'Kerder Settlement', uz: 'Kerder (shaharcha)', qq: 'Kerder (qalashası)' },
@@ -1199,17 +1189,6 @@ facts: {
       en: ['A large medieval settlement in northern Karakalpakstan', 'Center of the historical region of Kerder, mentioned in Arab sources', 'Remains of city walls, mosque, and residential quarters are well visible in the terrain'],
       uz: ['Shimoliy Qoraqalpog\'istondagi yirik o\'rta asrlar shaharchasi', 'Arab manbalarida tilga olingan tarixiy Kerder viloyatining markazi', 'Shahar devorlari, masjid va turar-joy kvartallarining qoldiqlari releyfda yaxshi ko\'zga tashlanadi'],
       qq: ['Tústik Qaraqalpaqstanniń iri orta ásir qalashası', 'Arab dereklerinde atalatın tariyxıy Kerder wilayatınıń orayı', 'Qala diywalları, meshit hám turarjay kvartallarınıń qaldıqları relyefde jaqsı kórinedi'],
-    },
-  },
-  {
-    id: 'kokcha-settlement',
-    name: { ru: 'Кокча (район поселений)', en: 'Kokcha Settlement Area', uz: 'Koʻkcha (aholi punktlari)', qq: 'Kóksha (mekenlestiriw rayonı)' },
-    category: 'settlements', coords: [41.65, 60.55], century: 'III-I тыс. до н.э.',
-    facts: {
-      ru: ['Район с концентрацией памятников эпохи бронзы и раннего железного века', 'Здесь выявлены следы одних из первых земледельческих поселений в дельте Амударьи', 'Богатые погребальные комплексы указывают на развитое социальное расслоение общества'],
-      en: ['An area with a concentration of Bronze Age and Early Iron Age monuments', 'Traces of some of the earliest agricultural settlements in the Amu Darya delta were found here', 'Rich burial complexes indicate developed social stratification'],
-      uz: ['Bronza va erta temir davri yodgorliklarining konsentratsiyasi bo\'lgan hudud', 'Bu yerda Amudaryo deltasidagi dastlabki dehqonchilik aholi punktlarining izlari aniqlangan', 'Boy dafn majmualari jamiyatning rivojlangan ijtimoiy tabaqalanishini ko\'rsatadi'],
-      qq: ['Bronza hám erte temir dáwiri yadgorlıqlarınıń kontsentratsiyası bolǵan hudud', 'Bul jerde Ámiwdárya deltasındaǵı erte dehqanshılıq mekenlestiriwleriniń izleri anıqlandi', 'Bay dapn majmuaları jámiyettiń rawajlanǵan sociallıq tabaqalasıwın kórsetedi'],
     },
   },
 
@@ -1366,7 +1345,7 @@ facts: {
     facts: {
       ru: ['Культовые сооружения для поддержания священного огня — основы зороастрийского богослужения', 'Алтари огня обнаружены в большинстве крупных крепостей и городищ Хорезма', 'Некоторые алтари непрерывно горели сотни лет — их зола достигала высоты нескольких метров'],
       en: ['Cult structures for maintaining the sacred fire — the basis of Zoroastrian worship', 'Fire altars were found in most major fortresses and settlements of Khorezm', 'Some altars burned continuously for hundreds of years — their ash reached several meters in height'],
-      uz: ['Zardushtiylik ibodat asosi — muqaddas olovni saqlab turish uchun kultlik inshootlar', 'Olov qurbongohlari Xorazmning ko\'pchilik yirik qalʼa va shahar xarobalarida topilgan', 'Ba\'zi qurbongohlar yuzlab yil uzluksiz yongan — ularning kuli bir necha metrgacha balandlikka yetgan'],
+      uz: ['Zardushtiylik ibodat asosi — muqaddas olovни saqlаб turish uchун kultlik inshootlar', 'Olov qurbongohlari Xorazmning ko\'pchilik yirik qalʼa va shahar xarobalarida topilgan', 'Ba\'zi qurbongohlar yuzlab yil uzluksiz yongan — ularning kuli bir necha metrgacha balandlikka yetgan'],
       qq: ['Zardushtıylıq ibadat tiykarı — muqaddes otdı saqlap turıw ushın kultlik inshawlar', 'Ot qurbangedileri Xorezmniń kóp sanawlı iri qalaları hám qalashalarında tabılǵan', 'Ayırım qurbangediler júzlergen jıl úzliksiz janıp turǵan — olardiń kúli bir neshe metrge shekem biyikligine jetken'],
     },
   },
