@@ -21,14 +21,13 @@ export default function Footer() {
                 KK<span className="text-primary">Monuments</span>
               </span>
             </div>
-            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-        
-            </p>
           </div>
 
           {/* Nav */}
           <div>
-            <h4 className="text-xs font-mono tracking-widest uppercase text-primary mb-4">Navigation</h4>
+            <h4 className="text-xs font-mono tracking-widest uppercase text-primary mb-4">
+              {t('footer.navigation')}
+            </h4>
             <div className="flex flex-col gap-2">
               {[
                 { to: '/', label: t('nav.home') },
@@ -47,7 +46,9 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-xs font-mono tracking-widest uppercase text-primary mb-4">Contact</h4>
+            <h4 className="text-xs font-mono tracking-widest uppercase text-primary mb-4">
+              {t('footer.contact')}
+            </h4>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary/60" />

@@ -39,8 +39,8 @@ const translations = {
       sentSuccess: 'Сообщение успешно отправлено!',
     },
     footer: {
-      rights: 'Все права защищены',
-    },
+  rights: 'Все права защищены', navigation: 'Навигация', contact: 'Контакты',
+},
     common: {
       readMore: 'Подробнее', viewAll: 'Смотреть все', back: 'Назад', loading: 'Загрузка...',
       dayMonument: 'Памятник дня',
@@ -84,9 +84,10 @@ const translations = {
       sentSuccess: 'Message sent successfully!',
     },
     footer: {
-      rights: 'All rights reserved',
-      madeWith: 'For those who feel the soul of the ancient peoples of the Southern Aral region',
-    },
+  rights: 'All rights reserved',
+  madeWith: 'For those who feel the soul of the ancient peoples of the Southern Aral region',
+  navigation: 'Navigation', contact: 'Contact',
+},
     common: {
       readMore: 'Read More', viewAll: 'View All', back: 'Back', loading: 'Loading...',
       dayMonument: 'Monument of the Day',
@@ -130,8 +131,8 @@ const translations = {
       sentSuccess: 'Xabar muvaffaqiyatli yuborildi!',
     },
     footer: {
-      rights: 'Barcha huquqlar himoyalangan',
-      madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
+  rights: 'Barcha huquqlar himoyalangan',
+  madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
     },
     common: {
       readMore: 'Batafsil', viewAll: 'Hammasini koʻrish', back: 'Orqaga', loading: 'Yuklanmoqda...',
@@ -176,9 +177,10 @@ const translations = {
       sentSuccess: 'Xabar sátti jiberildi!',
     },
     footer: {
-      rights: 'Barlıq huqıqlar qorǵalǵan',
-      madeWith: 'Araldıń qubla boyı xalıqlarınıń tariyxı hám mádeniyetin súyiwshiler ushın',
-    },
+  rights: 'Barlıq huqıqlar qorǵalǵan',
+  madeWith: 'Araldıń qubla boyı xalıqlarınıń tariyxı hám mádeniyetin súyiwshiler uchun',
+  navigation: 'Navigatsiya', contact: 'Baylanıs',
+},
     common: {
       readMore: 'Tolıǵıraq', viewAll: 'Barlıǵın kóriw', back: 'Artqa', loading: 'Júklenip atır...',
       dayMonument: 'Kún yadgorligi',
