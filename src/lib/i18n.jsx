@@ -31,10 +31,16 @@ const translations = {
     },
     contact: {
       title: 'Связаться с нами', name: 'Имя', email: 'Email', message: 'Сообщение', send: 'Отправить',
+      address: 'Адрес', phone: 'Телефон',
+      messagePlaceholder: 'Ваше сообщение...',
+      thankYou: 'Спасибо!', thankYouText: 'Мы свяжемся с вами в ближайшее время.',
+      sendAnother: 'Отправить ещё одно сообщение',
+      fillFields: 'Пожалуйста, заполните все поля',
+      sentSuccess: 'Сообщение успешно отправлено!',
     },
     footer: {
-  rights: 'Все права защищены',
-},
+      rights: 'Все права защищены',
+    },
     common: {
       readMore: 'Подробнее', viewAll: 'Смотреть все', back: 'Назад', loading: 'Загрузка...',
       dayMonument: 'Памятник дня',
@@ -70,10 +76,16 @@ const translations = {
     },
     contact: {
       title: 'Contact Us', name: 'Name', email: 'Email', message: 'Message', send: 'Send',
+      address: 'Address', phone: 'Phone',
+      messagePlaceholder: 'Your message...',
+      thankYou: 'Thank you!', thankYouText: "We'll get back to you soon.",
+      sendAnother: 'Send another message',
+      fillFields: 'Please fill in all fields',
+      sentSuccess: 'Message sent successfully!',
     },
     footer: {
-  rights: 'All rights reserved',
-  madeWith: 'For those who feel the soul of the ancient peoples of the Southern Aral region',
+      rights: 'All rights reserved',
+      madeWith: 'For those who feel the soul of the ancient peoples of the Southern Aral region',
     },
     common: {
       readMore: 'Read More', viewAll: 'View All', back: 'Back', loading: 'Loading...',
@@ -106,15 +118,21 @@ const translations = {
     },
     about: {
       title: 'Loyiha haqida', mission: 'Bizning vazifamiz', team: 'Jamoa', goals: 'Maqsadlar',
-      missionText: 'Sayt Nukus Davlat Texnika Universiteti Ijtimoiy-gumanitar fanlar kafedrasi o‘qituvchilari — tarix fanlari nomzodi Svetlana Xojakmetovna Esbergenova hamda Aysilu Kalbaevna Toremuratova tomonidan Janubiy Orolbo‘yi xalqlarining an’anaviy maishiy madaniyatiga qiziquvchilar uchun yaratilgan.',
+      missionText: 'Sayt Nukus Davlat Texnika Universiteti Ijtimoiy-gumanitar fanlar kafedrasi oqituvchilari — tarix fanlari nomzodi Svetlana Xojakmetovna Esbergenova hamda Aysilu Kalbaevna Toremuratova tomonidan Janubiy Orolboyi xalqlarining ananaviy maishiy madaniyatiga qiziquvchilar uchun yaratilgan.',
     },
     contact: {
       title: 'Biz bilan bogʻlaning', name: 'Ism', email: 'Email', message: 'Xabar', send: 'Yuborish',
+      address: 'Manzil', phone: 'Telefon',
+      messagePlaceholder: 'Xabaringiz...',
+      thankYou: 'Rahmat!', thankYouText: "Tez orada siz bilan bog'lanamiz.",
+      sendAnother: 'Yana xabar yuborish',
+      fillFields: "Iltimos, barcha maydonlarni to'ldiring",
+      sentSuccess: 'Xabar muvaffaqiyatli yuborildi!',
     },
     footer: {
-  rights: 'Barcha huquqlar himoyalangan',
-  madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
-},
+      rights: 'Barcha huquqlar himoyalangan',
+      madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
+    },
     common: {
       readMore: 'Batafsil', viewAll: 'Hammasini koʻrish', back: 'Orqaga', loading: 'Yuklanmoqda...',
       dayMonument: 'Kunning yodgorligi',
@@ -150,11 +168,17 @@ const translations = {
     },
     contact: {
       title: 'Biz benen baylanısıń', name: 'Atıńız', email: 'Email', message: 'Xabar', send: 'Jiberiw',
+      address: 'Mánzil', phone: 'Telefon',
+      messagePlaceholder: 'Xabarıńız...',
+      thankYou: 'Rahmet!', thankYouText: 'Jaqın waqıtta siz benen baylanısamız.',
+      sendAnother: 'Basqa xabar jiberiw',
+      fillFields: 'Barlıq orınlardı tolтırıń',
+      sentSuccess: 'Xabar sátti jiberildi!',
     },
     footer: {
-  rights: 'Barlıq huqıqlar qorǵalǵan',
-  madeWith: 'Araldıń qubla boyı xalıqlarınıń tariyxı hám mádeniyetin súyiwshiler ushın',
-},
+      rights: 'Barlıq huqıqlar qorǵalǵan',
+      madeWith: 'Araldıń qubla boyı xalıqlarınıń tariyxı hám mádeniyetin súyiwshiler ushın',
+    },
     common: {
       readMore: 'Tolıǵıraq', viewAll: 'Barlıǵın kóriw', back: 'Artqa', loading: 'Júklenip atır...',
       dayMonument: 'Kún yadgorligi',
