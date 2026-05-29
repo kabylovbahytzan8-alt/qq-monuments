@@ -133,7 +133,8 @@ const translations = {
     footer: {
   rights: 'Barcha huquqlar himoyalangan',
   madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
-    },
+  navigation: 'Navigatsiya', contact: 'Aloqa',
+},
     common: {
       readMore: 'Batafsil', viewAll: 'Hammasini koʻrish', back: 'Orqaga', loading: 'Yuklanmoqda...',
       dayMonument: 'Kunning yodgorligi',
