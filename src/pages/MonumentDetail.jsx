@@ -7,6 +7,7 @@ import MonumentCard from '@/components/shared/MonumentCard';
 import { motion } from 'framer-motion';
 import { ArrowLeft, MapPin, Calendar, Navigation, Compass, Info, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { getCentury } from '@/lib/utils';
 
 const descriptions = {
   ru: (name) => `${name} — один из замечательных памятников Каракалпакстана, представляющий богатое историческое наследие древней хорезмийской цивилизации. Расположенный в сердце региона, этот объект стал свидетелем многовековой истории и культурной эволюции.`,
@@ -82,8 +83,7 @@ export default function MonumentDetail() {
 
   // Get century label in current language
   const rawCentury = monument.century || '';
-  const getLabelFn = centuryLabels[lang] || centuryLabels.en;
-  const centuryDisplay = getLabelFn(rawCentury);
+ const centuryDisplay = getCentury(rawCentury, lang);
 
   // Get facts from monument data, fallback to empty array
   const monumentFacts = monument.facts?.[lang] || monument.facts?.en || [];
@@ -239,7 +239,7 @@ export default function MonumentDetail() {
                       <img src={getMonumentImage(m.id)} alt={m.name[lang]} className="w-12 h-12 rounded-lg object-cover" />
                       <div>
                         <p className="text-sm font-medium group-hover:text-primary transition-colors">{m.name[lang] || m.name.en}</p>
-                        <p className="text-xs text-muted-foreground font-mono">{getLabelFn(m.century)}</p>
+                        <p className="text-xs text-muted-foreground font-mono">{getCentury(m.century, lang)}</p>
                       </div>
                     </Link>
                   ))}

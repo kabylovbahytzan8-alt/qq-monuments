@@ -4,6 +4,7 @@ import { useI18n } from '@/lib/i18n';
 import { getMonumentImage } from '@/lib/images';
 import { categories } from '@/lib/monumentsData';
 import { MapPin } from 'lucide-react';
+import { getCentury } from '@/lib/utils';
 
 export default function MonumentCard({ monument }) {
   const { lang } = useI18n();
@@ -33,7 +34,7 @@ export default function MonumentCard({ monument }) {
           {monument.name[lang] || monument.name.en}
         </h3>
         <div className="flex items-center justify-between text-xs text-muted-foreground">
-          <span className="font-mono">{monument.century}</span>
+          <span className="font-mono">{getCentury(monument.century, lang)}</span>
           <span className="flex items-center gap-1">
             <MapPin className="w-3 h-3" />
             {cat?.[lang] || cat?.en}
