@@ -9,7 +9,7 @@
   { id: 'modern', ru: 'Современные памятники', en: 'Modern Monuments', uz: 'Zamonaviy yodgorliklar', qq: 'Házirgi yadgorliklar', icon: 'Trophy' },
   { id: 'other', ru: 'Другие объекты', en: 'Other Sites', uz: 'Boshqa obyektlar', qq: 'Basqa obyektler', icon: 'Compass' },
 ];
-
+ 
 export const monuments = [
   {
     id: 'ayaz-kala',
@@ -244,37 +244,38 @@ export const monuments = [
   },
   {
     id: 'beketata',
-name: {
-  ru: 'Бекет-Ата',
-  en: 'Beket-Ata',
-  uz: 'Beket-ota',
-  qq: 'Beket-Ata'
-},
-category: 'mazars',
-coords: [44.35, 52.08],
-century: 'XVIII век',
-facts: {
-  ru: [
-    'Подземная мечеть и святыня, высеченная в скале',
-    'Бекет-Ата считается одним из самых почитаемых суфийских святых Центральной Азии',
-    'Паломники приезжают сюда со всего региона для молитвы и духовного очищения'
-  ],
-  en: [
-    'An underground mosque and shrine carved into the rock',
-    'Beket-Ata is considered one of the most revered Sufi saints of Central Asia',
-    'Pilgrims come here from across the region for prayer and spiritual purification'
-  ],
-  uz: [
-    'Qoyaga o‘yib qurilgan yer osti masjidi va ziyoratgoh',
-    'Beket-ota Markaziy Osiyodagi eng ulug‘ sufiya avliyolaridan biri hisoblanadi',
-    'Bu yerga ziyoratchilar ibodat va ruhiy poklanish uchun kelishadi'
-  ],
-  qq: [
-    'Qaya ishine oyılǵan jer astı meshiti hám qásiyetli orın',
-    'Beket-Ata Orta Aziyadaǵı eń qádirli sufiy áwliyalarınıń biri esaplanadı',
-    'Bul jerge zıyaratshılar dúǵa hám ruwxıy tazalanıw ushın keledi'
-  ],
-},
+    name: {
+      ru: 'Бекет-Ата',
+      en: 'Beket-Ata',
+      uz: 'Beket-ota',
+      qq: 'Beket-Ata'
+    },
+    // FIX: was 'mazars' — category does not exist. Corrected to 'mausoleums'
+    category: 'mausoleums',
+    coords: [44.35, 52.08],
+    century: 'XVIII век',
+    facts: {
+      ru: [
+        'Подземная мечеть и святыня, высеченная в скале',
+        'Бекет-Ата считается одним из самых почитаемых суфийских святых Центральной Азии',
+        'Паломники приезжают сюда со всего региона для молитвы и духовного очищения'
+      ],
+      en: [
+        'An underground mosque and shrine carved into the rock',
+        'Beket-Ata is considered one of the most revered Sufi saints of Central Asia',
+        'Pilgrims come here from across the region for prayer and spiritual purification'
+      ],
+      uz: [
+        'Qoyaga o\'yib qurilgan yer osti masjidi va ziyoratgoh',
+        'Beket-ota Markaziy Osiyodagi eng ulug\' sufiya avliyolaridan biri hisoblanadi',
+        'Bu yerga ziyoratchilar ibodat va ruhiy poklanish uchun kelishadi'
+      ],
+      qq: [
+        'Qaya ishine oyılǵan jer astı meshiti hám qásiyetli orın',
+        'Beket-Ata Orta Aziyadaǵı eń qádirli sufiy áwliyalarınıń biri esaplanadı',
+        'Bul jerge zıyaratshılar dúǵa hám ruwxıy tazalanıw ushın keledi'
+      ],
+    },
   },
   {
     id: 'berkut-kala',
@@ -333,37 +334,38 @@ facts: {
   },
   {
     id: 'kunya-urgench',
-name: {
-  ru: 'Куня-Ургенч',
-  en: 'Kunya-Urgench',
-  uz: 'Koʻhna Urganch',
-  qq: 'Kóhne Úrgenish'
-},
-category: 'historical_city',
-coords: [42.32, 59.15],
-century: 'XI–XVI вв.',
-facts: {
-  ru: [
-    'Древняя столица Хорезма и один из важнейших центров Великого шелкового пути',
-    'Здесь сохранились мавзолеи, минарет Кутлуг-Тимура и другие памятники средневековой архитектуры',
-    'Включён в список Всемирного наследия ЮНЕСКО'
-  ],
-  en: [
-    'Ancient capital of Khorezm and one of the key centers of the Silk Road',
-    'Home to mausoleums, the Kutlug-Timur minaret, and other medieval monuments',
-    'Listed as a UNESCO World Heritage Site'
-  ],
-  uz: [
-    'Qadimgi Xorazm poytaxti va Buyuk Ipak yoʻlining muhim markazlaridan biri',
-    'Bu yerda maqbaralar, Qutlugʻ Temur minorasi va boshqa o‘rta asr yodgorliklari saqlangan',
-    'YUNESKO Jahon merosi roʻyxatiga kiritilgan'
-  ],
-  qq: [
-    'Qadimgı Xorezm poytaxtı hám Ulıwma Ipek jolınıń eń áhmiyetli ortalıqlarınıń biri',
-    'Bul jerde maqbaralar, Qutlıg Temur minarası hám basqa orta ásir estelikleri saqlanǵan',
-    'YUNESKO dúnyalıq miyrası dizimine kirgizilgen'
-  ]
-},
+    name: {
+      ru: 'Куня-Ургенч',
+      en: 'Kunya-Urgench',
+      uz: 'Koʻhna Urganch',
+      qq: 'Kóhne Úrgenish'
+    },
+    // FIX: was 'historical_city' — category does not exist. Corrected to 'settlements'
+    category: 'settlements',
+    coords: [42.32, 59.15],
+    century: 'XI–XVI вв.',
+    facts: {
+      ru: [
+        'Древняя столица Хорезма и один из важнейших центров Великого шёлкового пути',
+        'Здесь сохранились мавзолеи, минарет Кутлуг-Тимура и другие памятники средневековой архитектуры',
+        'Включён в список Всемирного наследия ЮНЕСКО'
+      ],
+      en: [
+        'Ancient capital of Khorezm and one of the key centers of the Silk Road',
+        'Home to mausoleums, the Kutlug-Timur minaret, and other medieval monuments',
+        'Listed as a UNESCO World Heritage Site'
+      ],
+      uz: [
+        'Qadimgi Xorazm poytaxti va Buyuk Ipak yo\'lining muhim markazlaridan biri',
+        'Bu yerda maqbaralar, Qutlug\' Temur minorasi va boshqa o\'rta asr yodgorliklari saqlangan',
+        'YUNESKO Jahon merosi ro\'yxatiga kiritilgan'
+      ],
+      qq: [
+        'Qadimgı Xorezm poytaxtı hám Ulıwma Ipek jolınıń eń áhmiyetli ortalıqlarınıń biri',
+        'Bul jerde maqbaralar, Qutlıg Temur minarası hám basqa orta ásir estelikleri saqlanǵan',
+        'YUNESKO dúnyalıq miyrası dizimine kirgizilgen'
+      ]
+    },
   },
   {
     id: 'uzunkyr-kala',
@@ -377,108 +379,108 @@ facts: {
     },
   },
   {
-   id: 'dzhanpyk-kala',
-name: {
-  ru: 'Джанпык-кала',
-  en: 'Dzhanpyk-Kala',
-  uz: 'Jampiq-Qalʼa',
-  qq: 'Jánpıq-Qala'
-},
-category: 'fortresses',
-coords: [41.90, 60.95],
-century: 'IV–III вв. до н.э.',
-facts: {
-  ru: [
-    'Древняя крепость эпохи Хорезма, расположенная в пустынной зоне',
-    'Использовалась как оборонительный и сторожевой пункт',
-    'Сохранились остатки стен и башен из сырцового кирпича'
-  ],
-  en: [
-    'An ancient Khorezm fortress located in a desert area',
-    'Used as a defensive and watch post',
-    'Remains of mudbrick walls and towers are preserved'
-  ],
-  uz: [
-    'Qadimgi Xorazm davriga oid cho‘l hududidagi qalʼa',
-    'Mudofaa va kuzatuv punkti sifatida ishlatilgan',
-    'Xom g‘ishtdan qurilgan devor va minoralar qoldiqlari saqlangan'
-  ],
-  qq: [
-    'Qadimgı Xorezm dáwirine tiyisli shól aymaǵındaǵı qala',
-    'Qorǵanıw hám baqılaw punkti retinde paydalanılǵan',
-    'Shik g‘ishtten qurılǵan divar hám minaralar qaldıqları saqlanǵan'
-  ]
-},
+    id: 'dzhanpyk-kala',
+    name: {
+      ru: 'Джанпык-кала',
+      en: 'Dzhanpyk-Kala',
+      uz: 'Jampiq-Qalʼa',
+      qq: 'Jánpıq-Qala'
+    },
+    category: 'fortresses',
+    coords: [41.90, 60.95],
+    century: 'IV–III вв. до н.э.',
+    facts: {
+      ru: [
+        'Древняя крепость эпохи Хорезма, расположенная в пустынной зоне',
+        'Использовалась как оборонительный и сторожевой пункт',
+        'Сохранились остатки стен и башен из сырцового кирпича'
+      ],
+      en: [
+        'An ancient Khorezm fortress located in a desert area',
+        'Used as a defensive and watch post',
+        'Remains of mudbrick walls and towers are preserved'
+      ],
+      uz: [
+        'Qadimgi Xorazm davriga oid cho\'l hududidagi qalʼa',
+        'Mudofaa va kuzatuv punkti sifatida ishlatilgan',
+        'Xom g\'ishtdan qurilgan devor va minoralar qoldiqlari saqlangan'
+      ],
+      qq: [
+        'Qadimgı Xorezm dáwirine tiyisli shól aymaǵındaǵı qala',
+        'Qorǵanıw hám baqılaw punkti retinde paydalanılǵan',
+        'Shik g\'ishtten qurılǵan divar hám minaralar qaldıqları saqlanǵan'
+      ]
+    },
   },
   {
     id: 'ellik-kala',
-name: {
-  ru: 'Эллик-кала',
-  en: 'Ellik-Kala',
-  uz: 'Ellikqalʼa',
-  qq: 'Ellikqala'
-},
-category: 'fortresses',
-coords: [41.90, 60.60],
-century: 'IV–III вв. до н.э.',
-facts: {
-  ru: [
-    'Регион, название которого переводится как "Пятьдесят крепостей"',
-    'Здесь расположено множество древних укреплений хорезмийской цивилизации',
-    'Один из крупнейших археологических комплексов Каракалпакстана'
-  ],
-  en: [
-    'The region whose name means "Fifty Fortresses"',
-    'It contains numerous ancient fortifications of the Khorezm civilization',
-    'One of the largest archaeological complexes in Karakalpakstan'
-  ],
-  uz: [
-    'Nomi “Ellik qalʼa” — “Ellikta qalʼa” degan maʼnoni anglatadi',
-    'Bu hududda Xorazm sivilizatsiyasining ko‘plab qadimiy qalʼalari joylashgan',
-    'Qoraqalpog‘istonning eng yirik arxeologik majmualaridan biri'
-  ],
-  qq: [
-    'Ataması “Ellik qala” — “eliw qala” degan maʼnini bildiredi',
-    'Bul aymaqta Xorezm sivilizatsiyasınıń kóptegen qadimgı qalaları bar',
-    'Qaraqalpaqstannıń eń iri arxeologiyalıq kompleksleriniń biri'
-  ]
-},
+    name: {
+      ru: 'Эллик-кала',
+      en: 'Ellik-Kala',
+      uz: 'Ellikqalʼa',
+      qq: 'Ellikqala'
+    },
+    category: 'fortresses',
+    coords: [41.90, 60.60],
+    century: 'IV–III вв. до н.э.',
+    facts: {
+      ru: [
+        'Регион, название которого переводится как "Пятьдесят крепостей"',
+        'Здесь расположено множество древних укреплений хорезмийской цивилизации',
+        'Один из крупнейших археологических комплексов Каракалпакстана'
+      ],
+      en: [
+        'The region whose name means "Fifty Fortresses"',
+        'It contains numerous ancient fortifications of the Khorezm civilization',
+        'One of the largest archaeological complexes in Karakalpakstan'
+      ],
+      uz: [
+        'Nomi "Ellik qalʼa" — "Ellikta qalʼa" degan maʼnoni anglatadi',
+        'Bu hududda Xorazm sivilizatsiyasining ko\'plab qadimiy qalʼalari joylashgan',
+        'Qoraqalpog\'istonning eng yirik arxeologik majmualaridan biri'
+      ],
+      qq: [
+        'Ataması "Ellik qala" — "eliw qala" degan maʼnini bildiredi',
+        'Bul aymaqta Xorezm sivilizatsiyasınıń kóptegen qadimgı qalaları bar',
+        'Qaraqalpaqstannıń eń iri arxeologiyalıq kompleksleriniń biri'
+      ]
+    },
   },
   {
-   id: 'kyrk-kyz-kala',
-name: {
-  ru: 'Кырк-Кыз-Кала',
-  en: 'Kyrk-Kyz-Kala',
-  uz: 'Qirq Qiz Qalʼa',
-  qq: 'Qırq Qız-Qala'
-},
-category: 'fortresses',
-coords: [41.95, 60.70],
-century: 'IV–IX вв.',
-facts: {
-  ru: [
-    'Название переводится как «Крепость сорока девушек»',
-    'Одно из самых загадочных укреплений Хорезма с мощными стенами из сырцового кирпича',
-    'Существует множество легенд о женском гарнизоне, защищавшем крепость'
-  ],
-  en: [
-    'The name means "Fortress of Forty Girls"',
-    'One of the most mysterious Khorezm fortresses with strong mudbrick walls',
-    'There are many legends about a female garrison defending the fortress'
-  ],
-  uz: [
-    'Nomi “Qirq qiz qalʼa” — “Qirq qizlar qalʼasi” degan maʼnoni anglatadi',
-    'Xorazmning eng sirli qalʼalaridan biri bo‘lib, xom g‘ishtdan qurilgan mustahkam devorlarga ega',
-    'Qalʼani himoya qilgan ayol jangchilar haqida ko‘plab rivoyatlar mavjud'
-  ],
-  qq: [
-    'Ataması “Qırq qız qala” — “Qırq qızlar qalası” degendi bildiradi',
-    'Xorezmniń eń sirlı qalalarından biri, shiy kerpiştan qurılǵan berik diywallarǵa iye',
-    'Qalǵanı qorǵaǵan áyel áskerler haqqında kóp legenalar bar'
-  ]
-},
+    id: 'kyrk-kyz-kala',
+    name: {
+      ru: 'Кырк-Кыз-Кала',
+      en: 'Kyrk-Kyz-Kala',
+      uz: 'Qirq Qiz Qalʼa',
+      qq: 'Qırq Qız-Qala'
+    },
+    category: 'fortresses',
+    coords: [41.95, 60.70],
+    century: 'IV–IX вв.',
+    facts: {
+      ru: [
+        'Название переводится как «Крепость сорока девушек»',
+        'Одно из самых загадочных укреплений Хорезма с мощными стенами из сырцового кирпича',
+        'Существует множество легенд о женском гарнизоне, защищавшем крепость'
+      ],
+      en: [
+        'The name means "Fortress of Forty Girls"',
+        'One of the most mysterious Khorezm fortresses with strong mudbrick walls',
+        'There are many legends about a female garrison defending the fortress'
+      ],
+      uz: [
+        'Nomi "Qirq qiz qalʼa" — "Qirq qizlar qalʼasi" degan maʼnoni anglatadi',
+        'Xorazmning eng sirli qalʼalaridan biri bo\'lib, xom g\'ishtdan qurilgan mustahkam devorlarga ega',
+        'Qalʼani himoya qilgan ayol jangchilar haqida ko\'plab rivoyatlar mavjud'
+      ],
+      qq: [
+        'Ataması "Qırq qız qala" — "Qırq qızlar qalası" degendi bildiradi',
+        'Xorezmniń eń sirlı qalalarından biri, shiy kerpiştan qurılǵan berik diywallarǵa iye',
+        'Qalǵanı qorǵaǵan áyel áskerler haqqında kóp legenalar bar'
+      ]
+    },
   },
-
+ 
   // Mausoleums
   {
     id: 'sultan-uvays',
@@ -503,51 +505,6 @@ facts: {
     },
   },
   {
-    id: 'shamun-nabi',
-    name: { ru: 'Мавзолей Шамун-Наби', en: 'Shamun Nabi Mausoleum', uz: 'Shamun Nabiy', qq: 'Shamun Nabiy' },
-    category: 'mausoleums', coords: [42.45, 59.61], century: 'X в.',
-    facts: {
-      ru: ['По преданию, здесь покоится пророк Самсон — место почитается иудеями, христианами и мусульманами', 'Обладает уникальным захоронением длиной около 18 метров — одним из самых длинных в мире', 'Служит местом паломничества для представителей трёх авраамических религий'],
-      en: ['According to legend, the prophet Samson rests here — the site is revered by Jews, Christians, and Muslims', 'Has a unique burial about 18 meters long — one of the longest in the world', 'Serves as a pilgrimage site for followers of three Abrahamic religions'],
-      uz: ['Rivoyatga ko\'ra, bu yerda Shomun payg\'ambar yotadi — joy yahudiylar, nasroniylar va musulmonlar tomonidan hurmat qilinadi', 'Uzunligi taxminan 18 metr bo\'lgan noyob mozorga ega — dunyodagi eng uzunlardan biri', 'Uchta ibrohimiy din vakillariga ziyorat joyi bo\'lib xizmat qiladi'],
-      qq: ['Rivayatqa kóre, bul jerde Shamun payǵambar jayrılanǵan — orın yahudiyler, xristiyanlar hám musulmanlar tárepinen húrmet kóredi', 'Uzınlıǵı taxmınan 18 metr bolǵan nádiri mazar — dúnyadaǵı eń uzınlardan biri', 'Úsh ibrohimiy din ókilleri ushın zıyarat orını retinde xızmet etedi'],
-    },
-  },
-  {
-   id: 'kurgancha-kala',
-name: {
-  ru: 'Курганча-кала',
-  en: 'Kurgancha-Kala',
-  uz: 'Qo‘rg‘oncha qalʼa',
-  qq: 'Qorǵansha qala'
-},
-category: 'fortresses',
-coords: [41.90, 60.80],
-century: 'IV–III вв. до н.э.',
-facts: {
-  ru: [
-    'Древнее городище и крепость эпохи античного Хорезма',
-    'Крепость была окружена мощными оборонительными стенами и башнями',
-    'Археологи обнаружили здесь остатки жилых помещений и хозяйственных построек'
-  ],
-  en: [
-    'An ancient settlement and fortress of the Antique Khorezm period',
-    'The fortress was surrounded by strong defensive walls and towers',
-    'Archaeologists discovered remains of residential and хозяйственных buildings here'
-  ],
-  uz: [
-    'Qadimgi Xorazm davriga oid qadimiy shahar va qalʼa',
-    'Qalʼa mustahkam mudofaa devorlari va minoralar bilan o‘ralgan edi',
-    'Arxeologlar bu yerda turar joy va xo‘jalik binolari qoldiqlarini topgan'
-  ],
-  qq: [
-    'Qadimgi Xorezm dáwirine tiyisli qala hám eski qalʼa',
-    'Qala kúshli qorǵanıs divarları hám minaralar menen qorshalǵan',
-    'Arxeologlar bul jerde turǵın jaylar hám xojalıq imaratlarınıń qaldıqların tapqan'
-  ],
-},
-  },
-  {
     id: 'khoja-ishan',
     name: { ru: 'Мавзолей Ходжа-Ишан-Бобо', en: 'Khoja Ishan Bobo Mausoleum', uz: 'Xoja Eshon Bobo', qq: 'Xoja İshan Baba' },
     category: 'mausoleums', coords: [42.20, 59.50], century: 'XIV в.',
@@ -556,17 +513,6 @@ facts: {
       en: ['Dedicated to a local Sufi teacher who left a deep mark on the spiritual life of the region', 'The mausoleum architecture combines features of the Khorezm and Timurid architectural schools', 'Pilgrims from Uzbekistan and Kazakhstan come here during religious holidays'],
       uz: ['Mintaqaning ruhiy hayotida chuqur iz qoldirgan mahalliy so\'fiy ustoz sharafiga qurilgan', 'Maqbara me\'morchiligi Xorazm va Temuriylar me\'morchilik maktablarining xususiyatlarini birlashtiradi', 'O\'zbekiston va Qozog\'istondan ziyoratchilar diniy bayramlar kunlarida bu yerga keladi'],
       qq: ['Aymaq ruwxıy ómirinde teri iz qaldırǵan jergilikli sufiy ustazdıń xurmetine qurilǵan', 'Mazardıń arxitekturası Xorezm hám Temuriyler arxitektura mektepleriniń xususiyatların biriktiredi', 'Ózbekstan hám Qazaqstannan zıyaratshılar dini bayramlar kúnleri bul jerge keledi'],
-    },
-  },
-  {
-    id: 'keshirmes-baba',
-    name: { ru: 'Мавзолей Кеширмес-Баба', en: 'Keshirmes Baba Mausoleum', uz: 'Keshirmas Boba', qq: 'Keshirmes Baba' },
-    category: 'mausoleums', coords: [42.30, 59.40], century: 'XV в.',
-    facts: {
-      ru: ['Название переводится как «Непрощающий отец» — связано с суровой легендой о праведнике', 'Простая архитектура мавзолея контрастирует с богатым внутренним убранством', 'Местные жители считают это место целебным и приходят сюда молиться об исцелении'],
-      en: ['The name translates as "Unforgiving Father" — linked to a stern legend about a righteous man', 'The simple architecture of the mausoleum contrasts with the rich interior decoration', 'Local residents consider this place healing and come here to pray for recovery'],
-      uz: ['Nomi "kechirmaydigan ota" deb tarjima qilinadi — solih inson haqidagi qattiq afsona bilan bog\'liq', 'Maqbaraning oddiy me\'morchiligi boy ichki bezak bilan zid keladi', 'Mahalliy aholi bu joyni shifobaxsh deb biladi va sog\'ayish uchun ibodat qilgani keladi'],
-      qq: ['Atı "keshirmeytuǵın ata" dep awdarıladı — salıh insan haqqındaǵı qattı afsana menen baylanıslı', 'Mazardıń sadde arxitekturası bay ishki bezek penen zıtlasadı', 'Jergilikli halıq bul jerdı shipalı dep biledi hám sawıǵıw ushın ibadat etiwge keledi'],
     },
   },
   {
@@ -658,108 +604,110 @@ facts: {
     },
   },
   {
-  id: 'kalifa-radzhab',
-  name: {
-    ru: 'Мавзолей Халифа Раджаб',
-    en: 'Khalifa Rajab Mausoleum',
-    uz: 'Xalifa Rajab maqbarasi',
-    qq: 'Xalifa Rajab maqbarası'
+    id: 'kalifa-radzhab',
+    name: {
+      ru: 'Мавзолей Халифа Раджаб',
+      en: 'Khalifa Rajab Mausoleum',
+      uz: 'Xalifa Rajab maqbarasi',
+      qq: 'Xalifa Rajab maqbarası'
+    },
+    category: 'mausoleums',
+    coords: [42.44, 59.62],
+    century: 'XII век',
+    facts: {
+      ru: [
+        'Средневековый мавзолей, расположенный в некрополе Миздахкан',
+        'Датируется примерно XII веком и относится к раннему исламскому периоду региона',
+        'Сохранились только руины квадратного здания из сырцового кирпича'
+      ],
+      en: [
+        'A medieval mausoleum located in the Mizdakhan necropolis',
+        'Dates back to approximately the 12th century and belongs to the early Islamic period',
+        'Only ruins of a square mudbrick structure have survived'
+      ],
+      uz: [
+        'Mizdaxkan nekropolida joylashgan o\'rta asr maqbarasi',
+        'Taxminan XII asrga tegishli va erta islom davriga kiradi',
+        'Faqat xom g\'ishtdan qurilgan kvadrat inshoot qoldiqlari saqlangan'
+      ],
+      qq: [
+        'Mizdaxkan nekropolında ornalasqan orta ásir maqbarası',
+        'Taxmınan XII ásirge tiyisli hám erte islam dáwirine kiredi',
+        'Tek shiy kerpiştan qurılǵan kvadrat imarat qaldıqları saqlanǵan'
+      ]
+    },
   },
-  category: 'mausoleums',
-  coords: [42.44, 59.62],
-  century: 'XII век',
-  location: 'Миздахкан, Каракалпакстан',
-  facts: {
-    ru: [
-      'Средневековый мавзолей, расположенный в некрополе Миздахкан',
-      'Датируется примерно XII веком и относится к раннему исламскому периоду региона',
-      'Сохранились только руины квадратного здания из сырцового кирпича'
-    ],
-    en: [
-      'A medieval mausoleum located in the Mizdakhan necropolis',
-      'Dates back to approximately the 12th century and belongs to the early Islamic period',
-      'Only ruins of a square mudbrick structure have survived'
-    ],
-    uz: [
-      'Mizdaxkan nekropolida joylashgan o‘rta asr maqbarasi',
-      'Taxminan XII asrga tegishli va erta islom davriga kiradi',
-      'Faqat xom g‘ishtdan qurilgan kvadrat inshoot qoldiqlari saqlangan'
-    ],
-    qq: [
-      'Mizdaxkan nekropolında ornalasqan orta ásir maqbarası',
-      'Taxmınan XII ásirge tiyisli hám erte islam dáwirine kiredi',
-      'Tek shiy kerpiştan qurılǵan kvadrat imarat qaldıqları saqlanǵan'
-    ]
-  },
-  },
-    {
-  id: 'shamun-nabi',
-  name: {
-    ru: 'Мавзолей Шамун-Наби',
-    en: 'Shamun-Nabi Mausoleum',
-    uz: 'Shamun-Nabi maqbarasi',
-    qq: 'Shamun-Nabi maqbarası'
-  },
-  category: 'mausoleums',
-  coords: [42.44, 59.62],
-  century: 'XVII–XVIII вв.',
-  location: 'Миздахкан, Каракалпакстан',
-  facts: {
-    ru: [
-      'Один из самых почитаемых мавзолеев Каракалпакстана, расположенный в некрополе Миздахкан',
-      'Связан с легендарной фигурой Шамун-Наби, почитаемой как святой',
-      'Известен своей длинной формой и характерной много-купольной архитектурой'
-    ],
-    en: [
-      'One of the most revered mausoleums in Karakalpakstan, located in the Mizdakhan necropolis',
-      'Associated with the legendary figure Shamun-Nabi, venerated as a saint',
-      'Known for its elongated structure and distinctive multi-dome architecture'
-    ],
-    uz: [
-      'Qoraqalpog‘istondagi eng hurmatli maqbaralardan biri, Mizdaxkan nekropolida joylashgan',
-      'Avliyo sifatida e’zozlanadigan Shamun-Nabi afsonaviy shaxsi bilan bog‘liq',
-      'Uzun shakli va ko‘p gumbazli me’morchiligi bilan mashhur'
-    ],
-    qq: [
-      'Qaraqalpaqstanda eń húrmetli maqbaralardan biri, Mizdaxkan nekropolında ornalasqan',
-      'Avliya retinde qadirlenetin Shamun-Nabi ańızalı shaxsı menen baylanıslı',
-      'Uzın forması hám kóp gúmbezli me’morchiligi menen belgili'
-    ]
-  },
-  },
+  // FIX: Removed duplicate 'shamun-nabi' (first entry, coords [42.45, 59.60], century 'X в.').
+  // Keeping the more detailed second entry below with id 'shamun-nabi'.
   {
-  id: 'keshirmes-baba',
-  name: {
-    ru: 'Мавзолей Кеширмес Баба',
-    en: 'Keshirmes Baba Mausoleum',
-    uz: 'Keshirmas bobo maqbarasi',
-    qq: 'Keshirmes Baba maqbarası'
+    id: 'shamun-nabi',
+    name: {
+      ru: 'Мавзолей Шамун-Наби',
+      en: 'Shamun-Nabi Mausoleum',
+      uz: 'Shamun-Nabi maqbarasi',
+      qq: 'Shamun-Nabi maqbarası'
+    },
+    category: 'mausoleums',
+    coords: [42.44, 59.62],
+    century: 'XVII–XVIII вв.',
+    facts: {
+      ru: [
+        'Один из самых почитаемых мавзолеев Каракалпакстана, расположенный в некрополе Миздахкан',
+        'Связан с легендарной фигурой Шамун-Наби, почитаемой как святой',
+        'Известен своей длинной формой и характерной много-купольной архитектурой — длина усыпальницы достигает около 18 метров'
+      ],
+      en: [
+        'One of the most revered mausoleums in Karakalpakstan, located in the Mizdakhan necropolis',
+        'Associated with the legendary figure Shamun-Nabi, venerated as a saint',
+        'Known for its elongated structure and distinctive multi-dome architecture — the tomb reaches about 18 meters in length'
+      ],
+      uz: [
+        'Qoraqalpog\'istondagi eng hurmatli maqbaralardan biri, Mizdaxkan nekropolida joylashgan',
+        'Avliyo sifatida e\'zozlanadigan Shamun-Nabi afsonaviy shaxsi bilan bog\'liq',
+        'Uzun shakli va ko\'p gumbazli me\'morchiligi bilan mashhur — maqbaraning uzunligi taxminan 18 metrga yetadi'
+      ],
+      qq: [
+        'Qaraqalpaqstanda eń húrmetli maqbaralardan biri, Mizdaxkan nekropolında ornalasqan',
+        'Avliya retinde qadirlenetin Shamun-Nabi ańızalı shaxsı menen baylanıslı',
+        'Uzın forması hám kóp gúmbezli me\'morchiligi menen belgili — maqbaranıń uzınlıǵı taxmınan 18 metrge jetedi'
+      ]
+    },
   },
-  category: 'mausoleums',
-  coords: [42.47, 59.61],
-  century: 'XIV–XV вв.',
-  facts: {
-    ru: [
-      'Один из почитаемых суфийских мавзолеев Каракалпакстана',
-      'Название «Кеширмес» связывают с легендами о справедливом святом, который не прощал ложь и предательство',
-      'Мавзолей расположен рядом с древними поселениями и остатками старых караванных путей'
-    ],
-    en: [
-      'One of the revered Sufi mausoleums of Karakalpakstan',
-      'The name “Keshirmes” is linked to legends about a righteous saint who never forgave lies and betrayal',
-      'The mausoleum is located near ancient settlements and remnants of old caravan routes'
-    ],
-    uz: [
-      'Qoraqalpog‘istondagi e’zozlanadigan so‘fiy maqbaralaridan biri',
-      '“Keshirmas” nomi yolg‘on va xiyonatni kechirmagan avliyo haqidagi afsonalar bilan bog‘liq',
-      'Maqbara qadimiy manzilgohlar va eski karvon yo‘llari qoldiqlari yaqinida joylashgan'
-    ],
-    qq: [
-      'Qaraqalpaqstanda qadirlenetuǵın sufiy mazarlarınıń biri',
-      '«Keshirmes» atawı ótirik pen satqınlıqtı keşirmeytuǵın áwliye haqqındaǵı rivayatlar menen baylanıslı',
-      'Maqbara qadimgi qonıslar hám eski kerwen jolları qaldıqları jaqınında jaylasqan'
-    ]
-  },
+  // FIX: Removed duplicate 'keshirmes-baba' (first entry, coords [42.30, 59.40], century 'XV в.').
+  // Keeping the more detailed second entry below with id 'keshirmes-baba'.
+  {
+    id: 'keshirmes-baba',
+    name: {
+      ru: 'Мавзолей Кеширмес Баба',
+      en: 'Keshirmes Baba Mausoleum',
+      uz: 'Keshirmas bobo maqbarasi',
+      qq: 'Keshirmes Baba maqbarası'
+    },
+    category: 'mausoleums',
+    coords: [42.47, 59.61],
+    century: 'XIV–XV вв.',
+    facts: {
+      ru: [
+        'Один из почитаемых суфийских мавзолеев Каракалпакстана',
+        'Название «Кеширмес» связывают с легендами о справедливом святом, который не прощал ложь и предательство',
+        'Мавзолей расположен рядом с древними поселениями и остатками старых караванных путей'
+      ],
+      en: [
+        'One of the revered Sufi mausoleums of Karakalpakstan',
+        'The name "Keshirmes" is linked to legends about a righteous saint who never forgave lies and betrayal',
+        'The mausoleum is located near ancient settlements and remnants of old caravan routes'
+      ],
+      uz: [
+        'Qoraqalpog\'istondagi e\'zozlanadigan so\'fiy maqbaralaridan biri',
+        '"Keshirmas" nomi yolg\'on va xiyonatni kechirmagan avliyo haqidagi afsonalar bilan bog\'liq',
+        'Maqbara qadimiy manzilgohlar va eski karvon yo\'llari qoldiqlari yaqinida joylashgan'
+      ],
+      qq: [
+        'Qaraqalpaqstanda qadirlenetuǵın sufiy mazarlarınıń biri',
+        '«Keshirmes» atawı ótirik pen satqınlıqtı keşirmeytuǵın áwliye haqqındaǵı rivayatlar menen baylanıslı',
+        'Maqbara qadimgi qonıslar hám eski kerwen jolları qaldıqları jaqınında jaylasqan'
+      ]
+    },
   },
   {
     id: 'seyt-ahun',
@@ -772,7 +720,7 @@ facts: {
       qq: ['Qurandı tálqın etiw menen belgili qıshloq diniy basshısına tiyisli mazar', 'Nádiri oyma aǵash eshikler saqlanǵan — qaraqalpaq aǵash arxitekturasınıń úlgisi', 'Jergilikli halıq onı qurǵaqshılıqtan qamqor dep biledi — jawın tilewge ibadat etiwge keledi'],
     },
   },
-
+ 
   // Nukus
   {
     id: 'ajiniyaz-monument',
@@ -884,7 +832,7 @@ facts: {
       qq: ['Mıń jıllar dawamında Xorezm halıqları ushın hayat deregi bolǵan ullı dáryanı ulıwmalandıradı', 'Ámiwdárya gadimgi tekstlerde afsanawiy Oks daryası retinde ataladı', 'Qaraqalpaq halqınıń suw hám tábiyat penen jaqın baylanısın ramzıy ifodalaydi'],
     },
   },
-
+ 
   // Museums
   {
     id: 'savitsky-museum',
@@ -941,41 +889,41 @@ facts: {
       qq: ['Atı "Ellik qala" degen mánisti bildiretın rayonda ornalasqan', 'Ellikqala rayonınıń kóp sanawlı qalalarındaǵı qazıwlar dawamında tabılǵan artefaktlardı saqlaydı', 'Xorezmniń jaqın atraptaǵı qalalarına ekskursiyalar ushın baslanǵısh noqtası retinde xızmet etedi'],
     },
   },
-    {
-  id: 'shamuratov-house-museum',
-  name: {
-    ru: 'Дом-музей Амета и Айымхана Шамуратовых',
-    en: 'Amet and Ayymkhan Shamuratov House Museum',
-    uz: 'Amet va Ayimxon Shamuratovlar uy-muzeyi',
-    qq: 'Amet hám Ayımxan Shamuratovlar úy-muzeyi'
+  {
+    id: 'shamuratov-house-museum',
+    name: {
+      ru: 'Дом-музей Амета и Айымхана Шамуратовых',
+      en: 'Amet and Ayymkhan Shamuratov House Museum',
+      uz: 'Amet va Ayimxon Shamuratovlar uy-muzeyi',
+      qq: 'Amet hám Ayımxan Shamuratovlar úy-muzeyi'
+    },
+    category: 'museums',
+    coords: [42.46, 59.61],
+    century: '1989',
+    facts: {
+      ru: [
+        'Музей посвящён известным деятелям каракалпакского театра и культуры',
+        'В экспозиции представлены личные вещи, сценические костюмы и архивные фотографии семьи Шамуратовых',
+        'Дом-музей считается важным центром изучения истории каракалпакского искусства XX века'
+      ],
+      en: [
+        'The museum is dedicated to prominent figures of Karakalpak theater and culture',
+        'The exhibition includes personal belongings, stage costumes, and archival photographs of the Shamuratov family',
+        'The house museum is considered an important center for studying the history of 20th-century Karakalpak art'
+      ],
+      uz: [
+        'Muzey qoraqalpoq teatri va madaniyatining mashhur namoyandalariga bag\'ishlangan',
+        'Ekspozitsiyada Shamuratovlar oilasining shaxsiy buyumlari, sahna liboslari va arxiv suratlari namoyish etilgan',
+        'Uy-muzey XX asr qoraqalpoq san\'ati tarixini o\'rganishning muhim markazlaridan biri hisoblanadi'
+      ],
+      qq: [
+        'Muzey qaraqalpaq teatrı hám mádeniyatınıń belgili wákillerine arnalǵan',
+        'Ekspoziciyada Shamuratovlar shańaraqınıń jeke buyımları, sahna kiyimleri hám arxiv suretleri kórsetilgen',
+        'Úy-muzey XX ásir qaraqalpaq óneri tariyxın úyreniwdiń áhmiyetli oraylarınıń biri esaplanadı'
+      ]
+    },
   },
-  category: 'museums',
-  coords: [42.46, 59.61],
-  established: '1989',
-  facts: {
-    ru: [
-      'Музей посвящён известным деятелям каракалпакского театра и культуры',
-      'В экспозиции представлены личные вещи, сценические костюмы и архивные фотографии семьи Шамуратовых',
-      'Дом-музей считается важным центром изучения истории каракалпакского искусства XX века'
-    ],
-    en: [
-      'The museum is dedicated to prominent figures of Karakalpak theater and culture',
-      'The exhibition includes personal belongings, stage costumes, and archival photographs of the Shamuratov family',
-      'The house museum is considered an important center for studying the history of 20th-century Karakalpak art'
-    ],
-    uz: [
-      'Muzey qoraqalpoq teatri va madaniyatining mashhur namoyandalariga bag‘ishlangan',
-      'Ekspozitsiyada Shamuratovlar oilasining shaxsiy buyumlari, sahna liboslari va arxiv suratlari namoyish etilgan',
-      'Uy-muzey XX asr qoraqalpoq san’ati tarixini o‘rganishning muhim markazlaridan biri hisoblanadi'
-    ],
-    qq: [
-      'Muzey qaraqalpaq teatrı hám mádeniyatınıń belgili wákillerine arnalǵan',
-      'Ekspoziciyada Shamuratovlar shańaraqınıń jeke buyımları, sahna kiyimleri hám arxiv suretleri kórsetilgen',
-      'Úy-muzey XX ásir qaraqalpaq óneri tariyxın úyreniwdiń áhmiyetli oraylarınıń biri esaplanadı'
-    ]
-  },
-  },
-
+ 
   // Khorezm fortresses
   {
     id: 'kalalygyr',
@@ -1021,7 +969,7 @@ facts: {
       qq: ['Xorezm sistemasınıń eń az úyrenilgen qalalarınan biri', 'Qum dóbelerde ornalasqan, bul qazıwlardı sezilarli dárejede qıyınlastıradı', 'Pútkil perimetr boyında 3–4 metrge shekem biyiklikteǵi qorǵaw valları saqlanǵan'],
     },
   },
-
+ 
   // Nature
   {
     id: 'ustyurt-plateau',
@@ -1111,7 +1059,7 @@ facts: {
       qq: ['Ámiwdárya jaqaları boyında terек, jiyda hám qamıstan ibarat relikt jağa ormanları', 'Orta Aziyada tóqaylardıń aqırǵı iri massivlerinen biri — áhmiyetli biotop', 'Buxara maralı, qamıshdıq mısıq hám kóp sanawlı siyrek quslar jasaytın jer'],
     },
   },
-
+ 
   // Settlements
   {
     id: 'khodjeyli',
@@ -1179,7 +1127,6 @@ facts: {
       qq: ['Gadimgilikten házirgi kúnge shekem úzliksiz halıq jasaytın Xorezmniń eń gadimgi qalalarınan biri', 'Atı "mıń at" degen mánisti bildirredi — at baqıw dástúrine isharа', '2500 jıldan artıq úzliksiz mekenlestiriwdi qamlap alǵan mádeniyet qatlamlary tabılǵan'],
     },
   },
-  
   {
     id: 'kerder-settlement',
     name: { ru: 'Кердер (городище)', en: 'Kerder Settlement', uz: 'Kerder (shaharcha)', qq: 'Kerder (qalashası)' },
@@ -1191,7 +1138,7 @@ facts: {
       qq: ['Tústik Qaraqalpaqstanniń iri orta ásir qalashası', 'Arab dereklerinde atalatın tariyxıy Kerder wilayatınıń orayı', 'Qala diywalları, meshit hám turarjay kvartallarınıń qaldıqları relyefde jaqsı kórinedi'],
     },
   },
-
+ 
   // Modern
   {
     id: 'constitution-monument',
@@ -1237,7 +1184,7 @@ facts: {
       qq: ['Pútkil halıqtıń hayat derеgin alıp ketken global ekologiyalıq fajia haqqında eslatadı', 'Dúnyanıń jámáátshiligini tábiyiy resurslarga jawaplı qatnasqa shaqıradı', 'Aral apatınıń aqıbetlerin úyrenetuǵın ekologlar hám alımlar zıyaratgahı'],
     },
   },
-
+ 
   // Other
   {
     id: 'caravan-route',
@@ -1345,7 +1292,7 @@ facts: {
     facts: {
       ru: ['Культовые сооружения для поддержания священного огня — основы зороастрийского богослужения', 'Алтари огня обнаружены в большинстве крупных крепостей и городищ Хорезма', 'Некоторые алтари непрерывно горели сотни лет — их зола достигала высоты нескольких метров'],
       en: ['Cult structures for maintaining the sacred fire — the basis of Zoroastrian worship', 'Fire altars were found in most major fortresses and settlements of Khorezm', 'Some altars burned continuously for hundreds of years — their ash reached several meters in height'],
-      uz: ['Zardushtiylik ibodat asosi — muqaddas olovни saqlаб turish uchун kultlik inshootlar', 'Olov qurbongohlari Xorazmning ko\'pchilik yirik qalʼa va shahar xarobalarida topilgan', 'Ba\'zi qurbongohlar yuzlab yil uzluksiz yongan — ularning kuli bir necha metrgacha balandlikka yetgan'],
+      uz: ['Zardushtiylik ibodat asosi — muqaddas olovні saqlаб turish uchун kultlik inshootlar', 'Olov qurbongohlari Xorazmning ko\'pchilik yirik qalʼa va shahar xarobalarida topilgan', 'Ba\'zi qurbongohlar yuzlab yil uzluksiz yongan — ularning kuli bir necha metrgacha balandlikka yetgan'],
       qq: ['Zardushtıylıq ibadat tiykarı — muqaddes otdı saqlap turıw ushın kultlik inshawlar', 'Ot qurbangedileri Xorezmniń kóp sanawlı iri qalaları hám qalashalarında tabılǵan', 'Ayırım qurbangediler júzlergen jıl úzliksiz janıp turǵan — olardiń kúli bir neshe metrge shekem biyikligine jetken'],
     },
   },
@@ -1371,12 +1318,48 @@ facts: {
       qq: ['Xorezm, Qazaqstan hám İran jolları kesisken Aral boyı tariyxıy qalaları sawda maydanları', 'Xojaylı, Qońǵırat hám Shımbaydıń orta ásir bazarlarına matalar, dárewilar hám metal buyımlar keltirilgen', 'Sawda dástúrleriniń bir bólegi qaraqalpaq qalaları háptelik bazarlarında bizdiń kúnlerimizge shekem jetip kelgen'],
     },
   },
+ 
+  // Additional monuments
+  {
+    id: 'kurgancha-kala',
+    name: {
+      ru: 'Курганча-кала',
+      en: 'Kurgancha-Kala',
+      uz: 'Qo\'rg\'oncha qalʼa',
+      qq: 'Qorǵansha qala'
+    },
+    category: 'fortresses',
+    coords: [41.90, 60.80],
+    century: 'IV–III вв. до н.э.',
+    facts: {
+      ru: [
+        'Древнее городище и крепость эпохи античного Хорезма',
+        'Крепость была окружена мощными оборонительными стенами и башнями',
+        'Археологи обнаружили здесь остатки жилых помещений и хозяйственных построек'
+      ],
+      en: [
+        'An ancient settlement and fortress of the Antique Khorezm period',
+        'The fortress was surrounded by strong defensive walls and towers',
+        'Archaeologists discovered remains of residential and farm buildings here'
+      ],
+      uz: [
+        'Qadimgi Xorazm davriga oid qadimiy shahar va qalʼa',
+        'Qalʼa mustahkam mudofaa devorlari va minoralar bilan o\'ralgan edi',
+        'Arxeologlar bu yerda turar joy va xo\'jalik binolari qoldiqlarini topgan'
+      ],
+      qq: [
+        'Qadimgi Xorezm dáwirine tiyisli qala hám eski qalʼa',
+        'Qala kúshli qorǵanıs divarları hám minaralar menen qorshalǵan',
+        'Arxeologlar bul jerde turǵın jaylar hám xojalıq imaratlarınıń qaldıqların tapqan'
+      ],
+    },
+  },
 ];
-
+ 
 export const wonders = [
   'ayaz-kala', 'toprak-kala', 'koi-krylgan-kala', 'chilpyk', 'sultan-uvays', 'mazlumkhan-sulu', 'savitsky-museum'
 ];
-
+ 
 export const newsArticles = [
   {
     id: 'n1',
